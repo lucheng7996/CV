@@ -254,6 +254,10 @@ proxies:
   - { name: hy2香港1, server: hk1.jindoucn.life, port: 9986, sni: hk1.jindoucn.life, up: 3000, down: 3000, skip-cert-verify: true, type: hysteria2, password: a26e2bf4-84e8-41d0-8a45-a8db0bd9362d }
   - { name: hy2香港5, server: hk5.jindoucn.life, port: 9986, sni: hk5.jindoucn.life, up: 3000, down: 3000, skip-cert-verify: true, type: hysteria2, password: a26e2bf4-84e8-41d0-8a45-a8db0bd9362d }
   - { name: hy2香港6, server: hk6.jindoucn.life, port: 9988, sni: hk6.jindoucn.life, up: 3000, down: 3000, skip-cert-verify: true, type: hysteria2, password: a26e2bf4-84e8-41d0-8a45-a8db0bd9362d }
+  - { name: hy2美国1, server: mg.jindoucn.life, port: 9988, sni: mg.jindoucn.life, up: 1000, down: 2000, skip-cert-verify: true, type: hysteria2, password: a26e2bf4-84e8-41d0-8a45-a8db0bd9362d }
+  - { name: hy2美国2, server: us1.jindoucn.life, port: 9986, sni: us1.jindoucn.life, up: 1000, down: 2000, skip-cert-verify: true, type: hysteria2, password: a26e2bf4-84e8-41d0-8a45-a8db0bd9362d }
+  - { name: hy2美国3, server: us3.jindoucn.life, port: 9986, sni: us3.jindoucn.life, up: 1000, down: 2000, skip-cert-verify: true, type: hysteria2, password: a26e2bf4-84e8-41d0-8a45-a8db0bd9362d }
+  - { name: hy2美国4, server: us4.jindoucn.life, port: 9986, sni: us4.jindoucn.life, up: 1000, down: 2000, skip-cert-verify: true, type: hysteria2, password: a26e2bf4-84e8-41d0-8a45-a8db0bd9362d }  
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -757,7 +761,10 @@ proxy-groups:
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - DIRECT
+      - hy2美国1
+      - hy2美国2
+      - hy2美国3
+      - hy2美国4
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
