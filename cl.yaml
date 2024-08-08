@@ -252,6 +252,8 @@ proxies:
   - {name: ICN🐲™️【请勿测速】 24, server: 118.131.41.202, port: 16072, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}}
   - { name: hy2香港2, server: hk2.jindoucn.life, port: 9988, sni: hk2.jindoucn.life, up: 1000, down: 2000, skip-cert-verify: true, type: hysteria2, password: a26e2bf4-84e8-41d0-8a45-a8db0bd9362d }
   - { name: hy2香港1, server: hk1.jindoucn.life, port: 9986, sni: hk1.jindoucn.life, up: 3000, down: 3000, skip-cert-verify: true, type: hysteria2, password: a26e2bf4-84e8-41d0-8a45-a8db0bd9362d }
+  - { name: hy2香港5, server: hk5.jindoucn.life, port: 9986, sni: hk5.jindoucn.life, up: 3000, down: 3000, skip-cert-verify: true, type: hysteria2, password: a26e2bf4-84e8-41d0-8a45-a8db0bd9362d }
+  - { name: hy2香港6, server: hk6.jindoucn.life, port: 9988, sni: hk6.jindoucn.life, up: 3000, down: 3000, skip-cert-verify: true, type: hysteria2, password: a26e2bf4-84e8-41d0-8a45-a8db0bd9362d }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -744,8 +746,10 @@ proxy-groups:
       - 🇭🇰 HKG🐲™️【请勿测速】 40
       - 🇭🇰 HKG🐲™️【请勿测速】 41
       - 🇭🇰 HKG🐲™️【请勿测速】 42
-      - hy2香港2
       - hy2香港1
+      - hy2香港2
+      - hy2香港5
+      - hy2香港6      
   - name: 🇯🇵 日本节点
     type: select
     proxies:
