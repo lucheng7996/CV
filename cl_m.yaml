@@ -83,11 +83,11 @@ dns:
 tcp-concurrent: true
 use-hosts: true
 hosts:
-  cache.ott.ystenlive.itv.cmvideo.cn: pixman.io.ystenlive.dnsany.com
-  cache.ott.bestlive.itv.cmvideo.cn: pixman.io.bestlive.dnsany.com
-  cache.ott.wasulive.itv.cmvideo.cn: pixman.io.wasulive.dnsany.com
-  cache.ott.fifalive.itv.cmvideo.cn: pixman.io.fifalive.dnsany.com
-  cache.ott.hnbblive.itv.cmvideo.cn: pixman.io.hnbblive.dnsany.com
+  cache.ott.ystenlive.itv.cmvideo.cn: 39.134.16.115
+  cache.ott.bestlive.itv.cmvideo.cn: 39.136.198.120
+  cache.ott.wasulive.itv.cmvideo.cn: 39.136.198.120
+  cache.ott.fifalive.itv.cmvideo.cn: 39.134.16.115
+  cache.ott.hnbblive.itv.cmvideo.cn: 39.136.198.118
   
 proxies:
   - {name: ™️【请勿测速】, server: "", port: 443, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}}
