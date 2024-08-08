@@ -258,9 +258,9 @@ proxies:
   - { name: hy2美国2, server: us1.jindoucn.life, port: 9986, sni: us1.jindoucn.life, up: 1000, down: 2000, skip-cert-verify: true, type: hysteria2, password: a26e2bf4-84e8-41d0-8a45-a8db0bd9362d }
   - { name: hy2美国3, server: us3.jindoucn.life, port: 9986, sni: us3.jindoucn.life, up: 1000, down: 2000, skip-cert-verify: true, type: hysteria2, password: a26e2bf4-84e8-41d0-8a45-a8db0bd9362d }
   - { name: hy2美国4, server: us4.jindoucn.life, port: 9986, sni: us4.jindoucn.life, up: 1000, down: 2000, skip-cert-verify: true, type: hysteria2, password: a26e2bf4-84e8-41d0-8a45-a8db0bd9362d }
-  - { name: 免费节点01-新加坡, type: ss, server: free-relay.t01.themars.top, port: 49900, cipher: chacha20-ietf-poly1305, password: 37c6c24b-40a8-4b4f-bc12-70f3818af7ed, udp: true }
-  - { name: 免费节点02-新加坡, type: ss, server: free-relay.t01.themars.top, port: 49901, cipher: chacha20-ietf-poly1305, password: 37c6c24b-40a8-4b4f-bc12-70f3818af7ed, udp: true }
-  - { name: 免费节点03-美国, type: ss, server: free-relay.t01.themars.top, port: 49902, cipher: chacha20-ietf-poly1305, password: 37c6c24b-40a8-4b4f-bc12-70f3818af7ed, udp: true }
+  - { name: 免费节点01, type: ss, server: free-relay.t01.themars.top, port: 49900, cipher: chacha20-ietf-poly1305, password: 37c6c24b-40a8-4b4f-bc12-70f3818af7ed, udp: true }
+  - { name: 免费节点02, type: ss, server: free-relay.t01.themars.top, port: 49901, cipher: chacha20-ietf-poly1305, password: 37c6c24b-40a8-4b4f-bc12-70f3818af7ed, udp: true }
+  - { name: 免费节点03, type: ss, server: free-relay.t01.themars.top, port: 49902, cipher: chacha20-ietf-poly1305, password: 37c6c24b-40a8-4b4f-bc12-70f3818af7ed, udp: true }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
