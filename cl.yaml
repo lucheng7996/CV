@@ -846,6 +846,7 @@ proxy-groups:
       - 免费节点01
       - 免费节点02
       - 免费节点03
+      - 香港 002
   - name: 🇯🇵 日本节点
     type: select
     proxies:
