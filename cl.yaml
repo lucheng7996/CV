@@ -346,7 +346,7 @@ proxies:
   - { name: 免费节点01, type: ss, server: free-relay.t01.themars.top, port: 49900, cipher: chacha20-ietf-poly1305, password: 37c6c24b-40a8-4b4f-bc12-70f3818af7ed, udp: true }
   - { name: 免费节点02, type: ss, server: free-relay.t01.themars.top, port: 49901, cipher: chacha20-ietf-poly1305, password: 37c6c24b-40a8-4b4f-bc12-70f3818af7ed, udp: true }
   - { name: 免费节点03, type: ss, server: free-relay.t01.themars.top, port: 49902, cipher: chacha20-ietf-poly1305, password: 37c6c24b-40a8-4b4f-bc12-70f3818af7ed, udp: true }
-  - {name: 香港 002, type: vmess, network: ws, server: 103.212.98.234, port: 443, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, servername: www.59795160.xyz, skip-cert-verify: false, tls: true, tfo: false, alterId: 64, cipher: auto, client-fingerprint: chrome,  ws-opts: {headers: {Host: www.59795160.xyz}, {path: /path/011410073331}}
+  
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -846,7 +846,6 @@ proxy-groups:
       - 免费节点01
       - 免费节点02
       - 免费节点03
-      - 香港 002
   - name: 🇯🇵 日本节点
     type: select
     proxies:
