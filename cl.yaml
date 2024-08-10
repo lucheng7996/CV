@@ -874,6 +874,19 @@ proxy-groups:
     proxies:
       - DIRECT
 rules:
+    # 国内
+  - DOMAIN-SUFFIX,dnsany.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cmvideo.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,chinamobile.com,🎯 全球直连
+  - DOMAIN-SUFFIX,mobaibox.com,🎯 全球直连
+  - DOMAIN-SUFFIX,gitv.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,cctv.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,yangshipin.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,gcable.cn,🎯 全球直连
+  - IP-CIDR,183.206.0.0/15,🎯 全球直连,no-resolve
+  - IP-CIDR,223.5.5.5/32,🎯 全球直连,no-resolve
+  - IP-CIDR,27.36.0.0/14,🎯 全球直连,no-resolve
+  - IP-CIDR,183.238.66.0/24,🎯 全球直连,no-resolve  
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
@@ -3325,6 +3338,18 @@ rules:
   - DOMAIN-SUFFIX,yt.be,🌍 国外媒体
   - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
   - DOMAIN,music.youtube.com,🌍 国外媒体
+  # 台湾
+  - DOMAIN-SUFFIX,cdn.hinet.net,🚀 节点选择
+  # 海外
+  - DOMAIN-SUFFIX,livednow.com,🚀 节点选择
+  - DOMAIN-SUFFIX,orz-7.com,🚀 节点选择
+  - DOMAIN-SUFFIX,4gtv.tv,🚀 节点选择
+  - DOMAIN-SUFFIX,hinet.net,🚀 节点选择
+  - DOMAIN-SUFFIX,ofiii.com,🚀 节点选择
+  - DOMAIN-SUFFIX,googlevideo.com,🚀 节点选择
+  - DOMAIN-SUFFIX,youtube.com,🚀 节点选择
+  - DOMAIN-SUFFIX,mytvsuper.com,🚀 节点选择
+  - DOMAIN-SUFFIX,thetvapp.to,🚀 节点选择  
   - DOMAIN-SUFFIX,1password.com,🚀 节点选择
   - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
   - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
