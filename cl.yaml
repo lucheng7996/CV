@@ -74,6 +74,7 @@ dns:
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
+  fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
   fallback-filter:
     geoip: false
     ipcidr:
@@ -347,6 +348,19 @@ proxies:
   - { name: 免费节点02, type: ss, server: free-relay.t01.themars.top, port: 49901, cipher: chacha20-ietf-poly1305, password: 37c6c24b-40a8-4b4f-bc12-70f3818af7ed, udp: true }
   - { name: 免费节点03, type: ss, server: free-relay.t01.themars.top, port: 49902, cipher: chacha20-ietf-poly1305, password: 37c6c24b-40a8-4b4f-bc12-70f3818af7ed, udp: true }
   
+  - { name: '🇭🇰香港 00', type: vmess, server: 8.217.251.62, port: 2087, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: jbbw.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: jbbw.changding.tech } }, ws-path: /changding, ws-headers: { Host: jbbw.changding.tech } }
+  - { name: '🇭🇰香港 01', type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: hk-hy.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: hk-hy.changding.tech } }, ws-path: /changding, ws-headers: { Host: hk-hy.changding.tech } }
+  - { name: '🇭🇰香港 02', type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: hk-hy02.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: hk-hy02.changding.tech } }, ws-path: /changding, ws-headers: { Host: hk-hy02.changding.tech } }
+  - { name: '🇭🇰香港 03', type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: dci-hk.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: dci-hk.changding.tech } }, ws-path: /changding, ws-headers: { Host: dci-hk.changding.tech } }
+  - { name: '🇭🇰香港 04', type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: hkt.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: hkt.changding.tech } }, ws-path: /changding, ws-headers: { Host: hkt.changding.tech } }
+  - { name: '🇰🇷韩国 01', type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: chunchuan.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: chunchuan.changding.tech } }, ws-path: /changding, ws-headers: { Host: chunchuan.changding.tech } }
+  - { name: '🇰🇷韩国 02', type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: sr2.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: sr2.changding.tech } }, ws-path: /changding, ws-headers: { Host: sr2.changding.tech } }
+  - { name: '🇰🇷韩国 03', type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: sr.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: sr.changding.tech } }, ws-path: /changding, ws-headers: { Host: sr.changding.tech } }
+  - { name: 🇺🇸芝加哥, type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: zjg.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: zjg.changding.tech } }, ws-path: /changding, ws-headers: { Host: zjg.changding.tech } }
+  - { name: 🇦🇺澳大利亚, type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: xn.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: xn.changding.tech } }, ws-path: /changding, ws-headers: { Host: xn.changding.tech } }
+  - { name: 🇦🇪迪拜, type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: db.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: db.changding.tech } }, ws-path: /changding, ws-headers: { Host: db.changding.tech } }
+  - { name: 🇦🇪阿布扎比, type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: abzb.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: abzb.changding.tech } }, ws-path: /changding, ws-headers: { Host: abzb.changding.tech } }
+  - { name: 🇺🇸V6, type: vmess, server: 8.217.251.62, port: 2087, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: jbbw.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: jbbw.changding.tech } }, ws-path: /changding, ws-headers: { Host: jbbw.changding.tech } }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -607,6 +621,26 @@ proxy-groups:
       - NRT🐲™️【请勿测速】 23
       - ICN🐲™️【请勿测速】 23
       - ICN🐲™️【请勿测速】 24
+      - hy2香港1
+      - hy2香港2
+      - hy2香港5
+      - hy2香港6
+      - 免费节点01
+      - 免费节点02
+      - 免费节点03
+      - 🇭🇰香港 00
+      - 🇭🇰香港 01
+      - 🇭🇰香港 02
+      - 🇭🇰香港 03
+      - 🇭🇰香港 04
+      - 🇰🇷韩国 01
+      - 🇰🇷韩国 02
+      - 🇰🇷韩国 03
+      - 🇦🇺澳大利亚
+      - 🇺🇸芝加哥
+      - 🇦🇪迪拜
+      - 🇦🇪阿布扎比
+      - 🇺🇸V6
   - name: 📲 电报消息
     type: select
     proxies:
@@ -846,6 +880,19 @@ proxy-groups:
       - 免费节点01
       - 免费节点02
       - 免费节点03
+      - 🇭🇰香港 00
+      - 🇭🇰香港 01
+      - 🇭🇰香港 02
+      - 🇭🇰香港 03
+      - 🇭🇰香港 04
+      - 🇰🇷韩国 01
+      - 🇰🇷韩国 02
+      - 🇰🇷韩国 03
+      - 🇦🇺澳大利亚
+      - 🇺🇸芝加哥
+      - 🇦🇪迪拜
+      - 🇦🇪阿布扎比
+      - 🇺🇸V6
   - name: 🇯🇵 日本节点
     type: select
     proxies:
