@@ -930,6 +930,10 @@ rules:
   - DOMAIN-SUFFIX,cctv.cn,🎯 全球直连
   - DOMAIN-SUFFIX,yangshipin.cn,🎯 全球直连
   - DOMAIN-SUFFIX,gcable.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,live.hkdvb.com,🎯 全球直连
+  - DOMAIN-SUFFIX,live.goodiptv.club,🎯 全球直连
+  - DOMAIN-SUFFIX,live.aptvapp.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tv.iill.top,🎯 全球直连
   - IP-CIDR,183.206.0.0/15,🎯 全球直连,no-resolve
   - IP-CIDR,223.5.5.5/32,🎯 全球直连,no-resolve
   - IP-CIDR,27.36.0.0/14,🎯 全球直连,no-resolve
