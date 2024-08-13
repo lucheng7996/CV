@@ -361,6 +361,13 @@ proxies:
   - { name: 🇦🇪迪拜, type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: db.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: db.changding.tech } }, ws-path: /changding, ws-headers: { Host: db.changding.tech } }
   - { name: 🇦🇪阿布扎比, type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: abzb.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: abzb.changding.tech } }, ws-path: /changding, ws-headers: { Host: abzb.changding.tech } }
   - { name: 🇺🇸V6, type: vmess, server: 8.217.251.62, port: 2087, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: jbbw.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: jbbw.changding.tech } }, ws-path: /changding, ws-headers: { Host: jbbw.changding.tech } }
+
+  - {name: 🇭🇰香港 05, server: cn1.cdn.xfltd-cdn.top, port: 12003, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰香港 06, server: cn1.cdn.xfltd-cdn.top, port: 12005, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰香港 07, server: cn1.cdn.xfltd-cdn.top, port: 12002, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰香港 08, server: cn1.cdn.xfltd-cdn.top, port: 12001, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰香港 09, server: cn1.cdn.xfltd-cdn.top, port: 12004, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
+  
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -641,6 +648,11 @@ proxy-groups:
       - 🇦🇪迪拜
       - 🇦🇪阿布扎比
       - 🇺🇸V6
+      - 🇭🇰香港 05
+      - 🇭🇰香港 06
+      - 🇭🇰香港 07
+      - 🇭🇰香港 08
+      - 🇭🇰香港 09
   - name: 📲 电报消息
     type: select
     proxies:
@@ -893,6 +905,11 @@ proxy-groups:
       - 🇦🇪迪拜
       - 🇦🇪阿布扎比
       - 🇺🇸V6
+      - 🇭🇰香港 05
+      - 🇭🇰香港 06
+      - 🇭🇰香港 07
+      - 🇭🇰香港 08
+      - 🇭🇰香港 09
   - name: 🇯🇵 日本节点
     type: select
     proxies:
