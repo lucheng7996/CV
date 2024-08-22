@@ -380,6 +380,9 @@ proxies:
   - {name: JP日本高速4中转, server: mr.moonriver.sbs, port: 31065, udp: true, skip-cert-verify: true, sni: www.bing.com, type: hysteria2, password: fd708cf7-8dcc-4aea-84a1-8936ffe01699}
   - {name: 日本中转高速5, type: ss, server: z600.moonriver.sbs, port: 65350, cipher: 2022-blake3-aes-256-gcm, password: 'ZjU3MTQyZjhiMTU0Zjk5NmM1YjBiZWU0YjJlYzk1ODQ=:ZmQ3MDhjZjctOGRjYy00YWVhLTg0YTEtODkzNmZmZTA=', udp: true}
   - {name: 日本中转高速7, type: ss, server: z600.moonriver.sbs, port: 65348, cipher: 2022-blake3-aes-256-gcm, password: 'ZjU3MTQyZjhiMTU0Zjk5NmM1YjBiZWU0YjJlYzk1ODQ=:ZmQ3MDhjZjctOGRjYy00YWVhLTg0YTEtODkzNmZmZTA=', udp: true}
+
+  - {"name":"9 vless-🇸🇬","type":"vless","server":"8.210.55.134","port":2052,"udp":true,"uuid":"5603909e-cb20-4f4f-a4c7-07a666f83394","tls":false,"servername":"vless1.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless1.xiaomayi0804.workers.dev"}}}
+  - {"name":"14 vless-🇨🇳","type":"vless","server":"proxy.xxxxxxxx.tk","port":2052,"udp":true,"uuid":"5603909e-cb20-4f4f-a4c7-07a666f83394","tls":false,"servername":"vless1.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless1.xiaomayi0804.workers.dev"}}}
   
 proxy-groups:
   - name: 🚀 节点选择
@@ -677,6 +680,8 @@ proxy-groups:
       - JP日本高速4中转
       - 日本中转高速5
       - 日本中转高速7
+      - 9 vless-🇸🇬
+      - 14 vless-🇨🇳
   - name: 📲 电报消息
     type: select
     proxies:
@@ -944,7 +949,9 @@ proxy-groups:
       - 香港中转高速2
       - JP日本高速4中转
       - 日本中转高速5
-      - 日本中转高速7
+      - 日本中转高速7      
+      - 9 vless-🇸🇬
+      - 14 vless-🇨🇳
   - name: 🇯🇵 日本节点
     type: select
     proxies:
