@@ -11,7 +11,7 @@ dns:
   ipv6: true
   default-nameserver:
     - 223.5.5.5
-    - 119.29.29.29
+    - 114.114.114.114
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
@@ -384,6 +384,13 @@ proxies:
   - {"name":"9 vless-🇸🇬","type":"vless","server":"8.210.55.134","port":2052,"udp":true,"uuid":"5603909e-cb20-4f4f-a4c7-07a666f83394","tls":false,"servername":"vless1.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless1.xiaomayi0804.workers.dev"}}}
   - {"name":"14 vless-🇨🇳","type":"vless","server":"proxy.xxxxxxxx.tk","port":2052,"udp":true,"uuid":"5603909e-cb20-4f4f-a4c7-07a666f83394","tls":false,"servername":"vless1.xiaomayi0804.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"vless1.xiaomayi0804.workers.dev"}}}
   
+  - {"name":"印尼_T 2","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12061,"udp":true,"password":"776a2f80-e0de-4c5e-be52-42aa3dafea7d","sni":"cdn.alibaba.com","skip-cert-verify":true}
+  - {"name":"日本_T 0","type":"ss","server":"13.231.37.25","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"日本_T 9","type":"trojan","server":"cn2.cdn.xfltd-cdn.top","port":12035,"udp":true,"password":"3698a3e7-2877-4ded-a665-d81ee3cfd449","sni":"cdn.alibaba.com","skip-cert-verify":true}
+  - {"name":"香港_T 20","type":"vmess","server":"dzgz.tcity8.monster","port":35220,"cipher":"auto","uuid":"53522a77-c55f-44c8-9b44-a7619b20d54f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"香港_T 19","type":"vmess","server":"dzgz.tcity8.monster","port":35224,"cipher":"auto","uuid":"53522a77-c55f-44c8-9b44-a7619b20d54f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"香港_T 18","type":"vmess","server":"jzgz.tcity8.monster","port":22235,"cipher":"auto","uuid":"53522a77-c55f-44c8-9b44-a7619b20d54f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -682,6 +689,12 @@ proxy-groups:
       - 日本中转高速7
       - 9 vless-🇸🇬
       - 14 vless-🇨🇳
+      - 印尼_T 2
+      - 日本_T 0
+      - 日本_T 9
+      - 香港_T 18
+      - 香港_T 19
+      - 香港_T 20
   - name: 📲 电报消息
     type: select
     proxies:
@@ -952,6 +965,12 @@ proxy-groups:
       - 日本中转高速7      
       - 9 vless-🇸🇬
       - 14 vless-🇨🇳
+      - 印尼_T 2
+      - 日本_T 0
+      - 日本_T 9
+      - 香港_T 18
+      - 香港_T 19
+      - 香港_T 20
   - name: 🇯🇵 日本节点
     type: select
     proxies:
