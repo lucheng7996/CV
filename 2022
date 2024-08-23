@@ -1,0 +1,676 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+
+dns:
+  enabled: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  default-nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    - swscan.apple.com
+    - mesu.apple.com
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - +.music.163.com
+    - '*.126.net'
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - '*.kuwo.cn'
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - +.y.qq.com
+    - +.music.tc.qq.com
+    - aqqmusic.tc.qq.com
+    - +.stream.qqmusic.qq.com
+    - '*.xiami.com'
+    - +.music.migu.cn
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - +.xboxlive.com
+    - localhost.ptlogin2.qq.com
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - '*.mcdn.bilivideo.cn'
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+
+tcp-concurrent: true
+use-hosts: true
+hosts:
+  cache.ott.ystenlive.itv.cmvideo.cn: pixman.io.ystenlive.dnsany.com
+  cache.ott.bestlive.itv.cmvideo.cn: pixman.io.bestlive.dnsany.com
+  cache.ott.wasulive.itv.cmvideo.cn: pixman.io.wasulive.dnsany.com
+  cache.ott.fifalive.itv.cmvideo.cn: pixman.io.fifalive.dnsany.com
+  cache.ott.hnbblive.itv.cmvideo.cn: pixman.io.hnbblive.dnsany.com
+  
+proxies:
+    - { name: '[vmess]剩余流量：49.05 GB', type: vmess, server: 205.185.121.160, port: 14000, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: us.niubi.site } }, ws-path: /, ws-headers: { Host: us.niubi.site } }
+    - { name: '[vmess]距离下次重置剩余：27 天', type: vmess, server: 205.185.121.160, port: 14000, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: us.niubi.site } }, ws-path: /, ws-headers: { Host: us.niubi.site } }
+    - { name: '[vmess]套餐到期：2024-09-19', type: vmess, server: 205.185.121.160, port: 14000, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: us.niubi.site } }, ws-path: /, ws-headers: { Host: us.niubi.site } }
+    - { name: '[vmess]官网地址：www.牛.org', type: vmess, server: 205.185.121.160, port: 14000, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: us.niubi.site } }, ws-path: /, ws-headers: { Host: us.niubi.site } }
+    - { name: '[Hy2]美国-01', server: 205.185.121.160, port: 22110, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]美国-02', server: 205.185.121.160, port: 22111, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]美国-03', server: 205.185.121.160, port: 22112, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]美国1', server: 192.3.176.62, port: 11000, sni: www.bing.com, up: 1000, down: 1000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]美国2', server: 172.245.251.12, port: 11000, sni: www.bing.com, up: 1000, down: 1000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]美国3', server: 107.174.52.143, port: 11000, sni: www.bing.com, up: 1000, down: 1000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]美国4', server: 205.185.121.160, port: 11000, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]美国5', server: 107.174.34.111, port: 11011, sni: www.bing.com, up: 1000, down: 1000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]美国6', server: 107.175.185.55, port: 11000, sni: www.bing.com, up: 1000, down: 1000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]美国备用节点', server: 103.79.79.88, port: 11000, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]香港01', server: hkbp.niubi.site, port: 11000, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]香港02', server: hkbp2.niubi.site, port: 11000, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]香港03', server: hkbp3.niubi.site, port: 11000, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]香港04', server: 82.152.162.250, port: 11000, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]香港05', server: 45.207.218.136, port: 11000, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]香港06', server: 157.254.21.103, port: 11000, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]台湾1', server: 85.237.206.15, port: 11000, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]台湾2', server: 141.11.42.195, port: 11000, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]泰国', server: 203.159.94.179, port: 20408, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]韩国1', server: krudp.niubi.site, port: 11100, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]韩国01', server: hkudp.niubi.site, port: 21116, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]韩国02', server: hkudp.niubi.site, port: 21117, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]韩国03', server: hkudp.niubi.site, port: 21118, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]新加坡1', server: 217.142.190.72, port: 11100, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]新加坡02', server: hkudp.niubi.site, port: 21111, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]新加坡03', server: hkudp.niubi.site, port: 21112, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]新加坡04', server: hkudp.niubi.site, port: 21113, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]日本1', server: 150.230.59.32, port: 11000, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]日本01', server: hkudp.niubi.site, port: 21114, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]日本02', server: hkudp.niubi.site, port: 21115, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]巴西1', server: 205.185.121.160, port: 21110, sni: www.bing.com, up: 4000, down: 4000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]巴西2', server: 205.185.121.160, port: 21111, sni: www.bing.com, up: 4000, down: 4000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]巴西3', server: 205.185.121.160, port: 21112, sni: www.bing.com, up: 4000, down: 4000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]法国', server: 89.168.54.143, port: 11000, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]法国2', server: 205.185.121.160, port: 23110, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]德国1', server: 107.174.52.143, port: 11001, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]德国2', server: 109.71.253.46, port: 20200, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]俄罗斯', server: 109.107.189.22, port: 20730, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]白俄罗斯', server: 95.128.71.102, port: 20310, sni: www.bing.com, up: 10000, down: 10000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[Hy2]西班牙', server: 158.179.214.1, port: 11000, sni: www.bing.com, up: 4000, down: 4000, skip-cert-verify: true, type: hysteria2, password: ffa9668e-d104-406b-ad25-8e94293ac545 }
+    - { name: '[vmess]美国-1', type: vmess, server: yx.niubi.site, port: 2052, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: us.niubi.site } }, ws-path: /, ws-headers: { Host: us.niubi.site } }
+    - { name: '[vmess]美国-2', type: vmess, server: yx2.niubi.site, port: 2052, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: us2.niubi.site } }, ws-path: /, ws-headers: { Host: us2.niubi.site } }
+    - { name: '[vmess]美国-3', type: vmess, server: yx.niubi.site, port: 2052, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: us3.niubi.site } }, ws-path: /, ws-headers: { Host: us3.niubi.site } }
+    - { name: '[vmess]美国-4', type: vmess, server: yx2.niubi.site, port: 2052, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: us4.niubi.site } }, ws-path: /, ws-headers: { Host: us4.niubi.site } }
+    - { name: '[vmess]美国-5', type: vmess, server: yx.niubi.site, port: 2052, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: us5.niubi.site } }, ws-path: /, ws-headers: { Host: us5.niubi.site } }
+    - { name: '[vmess]美国-6', type: vmess, server: yx2.niubi.site, port: 2052, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: us6.niubi.site } }, ws-path: /, ws-headers: { Host: us6.niubi.site } }
+    - { name: '[vmess]日本-1', type: vmess, server: yx.niubi.site, port: 2052, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: jp.niubi.site } }, ws-path: /, ws-headers: { Host: jp.niubi.site } }
+    - { name: '[vmess]日本-2', type: vmess, server: yx2.niubi.site, port: 2052, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: jp2.niubi.site } }, ws-path: /, ws-headers: { Host: jp2.niubi.site } }
+    - { name: '[vmess]香港-1', type: vmess, server: yx.niubi.site, port: 2052, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: hk.niubi.site } }, ws-path: /, ws-headers: { Host: hk.niubi.site } }
+    - { name: '[vmess]香港-2', type: vmess, server: yx2.niubi.site, port: 2052, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: hk2.niubi.site } }, ws-path: /, ws-headers: { Host: hk2.niubi.site } }
+    - { name: '[vmess]台湾-1', type: vmess, server: yx.niubi.site, port: 2052, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: tw.niubi.site } }, ws-path: /, ws-headers: { Host: tw.niubi.site } }
+    - { name: '[vmess]台湾-2', type: vmess, server: yx2.niubi.site, port: 2052, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: tw2.niubi.site } }, ws-path: /, ws-headers: { Host: tw2.niubi.site } }
+    - { name: '[vmess]韩国-1', type: vmess, server: yx.niubi.site, port: 2052, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: kr.niubi.site } }, ws-path: /, ws-headers: { Host: kr.niubi.site } }
+    - { name: '[vmess]韩国-2', type: vmess, server: yx2.niubi.site, port: 2052, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: kr2.niubi.site } }, ws-path: /, ws-headers: { Host: kr2.niubi.site } }
+    - { name: '[vmess]新加坡-1', type: vmess, server: yx.niubi.site, port: 2052, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: sg.niubi.site } }, ws-path: /, ws-headers: { Host: sg.niubi.site } }
+    - { name: '[vmess]新加坡-2', type: vmess, server: yx2.niubi.site, port: 2052, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: sg3.niubi.site } }, ws-path: /, ws-headers: { Host: sg3.niubi.site } }
+    - { name: '[vmess]新加坡-3', type: vmess, server: yx.niubi.site, port: 2052, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: sg4.niubi.site } }, ws-path: /, ws-headers: { Host: sg4.niubi.site } }
+    - { name: '[vmess]巴西-1', type: vmess, server: yx.niubi.site, port: 2052, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: br.niubi.site } }, ws-path: /, ws-headers: { Host: br.niubi.site } }
+    - { name: '[vmess]巴西-2', type: vmess, server: yx2.niubi.site, port: 2052, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: br2.niubi.site } }, ws-path: /, ws-headers: { Host: br2.niubi.site } }
+    - { name: '[vmess]巴西-3', type: vmess, server: yx.niubi.site, port: 2052, uuid: ffa9668e-d104-406b-ad25-8e94293ac545, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /, headers: { Host: br3.niubi.site } }, ws-path: /, ws-headers: { Host: br3.niubi.site } }
+proxy-groups:
+    - { name: 水牛云, type: select, proxies: [自动选择, 故障转移, '[vmess]剩余流量：49.05 GB', '[vmess]距离下次重置剩余：27 天', '[vmess]套餐到期：2024-09-19', '[vmess]官网地址：www.牛.org', '[Hy2]美国-01', '[Hy2]美国-02', '[Hy2]美国-03', '[Hy2]美国1', '[Hy2]美国2', '[Hy2]美国3', '[Hy2]美国4', '[Hy2]美国5', '[Hy2]美国6', '[Hy2]美国备用节点', '[Hy2]香港01', '[Hy2]香港02', '[Hy2]香港03', '[Hy2]香港04', '[Hy2]香港05', '[Hy2]香港06', '[Hy2]台湾1', '[Hy2]台湾2', '[Hy2]泰国', '[Hy2]韩国1', '[Hy2]韩国01', '[Hy2]韩国02', '[Hy2]韩国03', '[Hy2]新加坡1', '[Hy2]新加坡02', '[Hy2]新加坡03', '[Hy2]新加坡04', '[Hy2]日本1', '[Hy2]日本01', '[Hy2]日本02', '[Hy2]巴西1', '[Hy2]巴西2', '[Hy2]巴西3', '[Hy2]法国', '[Hy2]法国2', '[Hy2]德国1', '[Hy2]德国2', '[Hy2]俄罗斯', '[Hy2]白俄罗斯', '[Hy2]西班牙', '[vmess]美国-1', '[vmess]美国-2', '[vmess]美国-3', '[vmess]美国-4', '[vmess]美国-5', '[vmess]美国-6', '[vmess]日本-1', '[vmess]日本-2', '[vmess]香港-1', '[vmess]香港-2', '[vmess]台湾-1', '[vmess]台湾-2', '[vmess]韩国-1', '[vmess]韩国-2', '[vmess]新加坡-1', '[vmess]新加坡-2', '[vmess]新加坡-3', '[vmess]巴西-1', '[vmess]巴西-2', '[vmess]巴西-3'] }
+    - { name: 自动选择, type: url-test, proxies: ['[vmess]剩余流量：49.05 GB', '[vmess]距离下次重置剩余：27 天', '[vmess]套餐到期：2024-09-19', '[vmess]官网地址：www.牛.org', '[Hy2]美国-01', '[Hy2]美国-02', '[Hy2]美国-03', '[Hy2]美国1', '[Hy2]美国2', '[Hy2]美国3', '[Hy2]美国4', '[Hy2]美国5', '[Hy2]美国6', '[Hy2]美国备用节点', '[Hy2]香港01', '[Hy2]香港02', '[Hy2]香港03', '[Hy2]香港04', '[Hy2]香港05', '[Hy2]香港06', '[Hy2]台湾1', '[Hy2]台湾2', '[Hy2]泰国', '[Hy2]韩国1', '[Hy2]韩国01', '[Hy2]韩国02', '[Hy2]韩国03', '[Hy2]新加坡1', '[Hy2]新加坡02', '[Hy2]新加坡03', '[Hy2]新加坡04', '[Hy2]日本1', '[Hy2]日本01', '[Hy2]日本02', '[Hy2]巴西1', '[Hy2]巴西2', '[Hy2]巴西3', '[Hy2]法国', '[Hy2]法国2', '[Hy2]德国1', '[Hy2]德国2', '[Hy2]俄罗斯', '[Hy2]白俄罗斯', '[Hy2]西班牙', '[vmess]美国-1', '[vmess]美国-2', '[vmess]美国-3', '[vmess]美国-4', '[vmess]美国-5', '[vmess]美国-6', '[vmess]日本-1', '[vmess]日本-2', '[vmess]香港-1', '[vmess]香港-2', '[vmess]台湾-1', '[vmess]台湾-2', '[vmess]韩国-1', '[vmess]韩国-2', '[vmess]新加坡-1', '[vmess]新加坡-2', '[vmess]新加坡-3', '[vmess]巴西-1', '[vmess]巴西-2', '[vmess]巴西-3'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
+    - { name: 故障转移, type: fallback, proxies: ['[vmess]剩余流量：49.05 GB', '[vmess]距离下次重置剩余：27 天', '[vmess]套餐到期：2024-09-19', '[vmess]官网地址：www.牛.org', '[Hy2]美国-01', '[Hy2]美国-02', '[Hy2]美国-03', '[Hy2]美国1', '[Hy2]美国2', '[Hy2]美国3', '[Hy2]美国4', '[Hy2]美国5', '[Hy2]美国6', '[Hy2]美国备用节点', '[Hy2]香港01', '[Hy2]香港02', '[Hy2]香港03', '[Hy2]香港04', '[Hy2]香港05', '[Hy2]香港06', '[Hy2]台湾1', '[Hy2]台湾2', '[Hy2]泰国', '[Hy2]韩国1', '[Hy2]韩国01', '[Hy2]韩国02', '[Hy2]韩国03', '[Hy2]新加坡1', '[Hy2]新加坡02', '[Hy2]新加坡03', '[Hy2]新加坡04', '[Hy2]日本1', '[Hy2]日本01', '[Hy2]日本02', '[Hy2]巴西1', '[Hy2]巴西2', '[Hy2]巴西3', '[Hy2]法国', '[Hy2]法国2', '[Hy2]德国1', '[Hy2]德国2', '[Hy2]俄罗斯', '[Hy2]白俄罗斯', '[Hy2]西班牙', '[vmess]美国-1', '[vmess]美国-2', '[vmess]美国-3', '[vmess]美国-4', '[vmess]美国-5', '[vmess]美国-6', '[vmess]日本-1', '[vmess]日本-2', '[vmess]香港-1', '[vmess]香港-2', '[vmess]台湾-1', '[vmess]台湾-2', '[vmess]韩国-1', '[vmess]韩国-2', '[vmess]新加坡-1', '[vmess]新加坡-2', '[vmess]新加坡-3', '[vmess]巴西-1', '[vmess]巴西-2', '[vmess]巴西-3'], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
+rules:
+    - 'DOMAIN,abc.nnpy.org,DIRECT'
+    - 'DOMAIN-SUFFIX,services.googleapis.cn,水牛云'
+    - 'DOMAIN-SUFFIX,xn--ngstr-lra8j.com,水牛云'
+    - 'DOMAIN,safebrowsing.urlsec.qq.com,DIRECT'
+    - 'DOMAIN,safebrowsing.googleapis.com,DIRECT'
+    - 'DOMAIN,developer.apple.com,水牛云'
+    - 'DOMAIN-SUFFIX,digicert.com,水牛云'
+    - 'DOMAIN,ocsp.apple.com,水牛云'
+    - 'DOMAIN,ocsp.comodoca.com,水牛云'
+    - 'DOMAIN,ocsp.usertrust.com,水牛云'
+    - 'DOMAIN,ocsp.sectigo.com,水牛云'
+    - 'DOMAIN,ocsp.verisign.net,水牛云'
+    - 'DOMAIN-SUFFIX,apple-dns.net,水牛云'
+    - 'DOMAIN,testflight.apple.com,水牛云'
+    - 'DOMAIN,sandbox.itunes.apple.com,水牛云'
+    - 'DOMAIN,itunes.apple.com,水牛云'
+    - 'DOMAIN-SUFFIX,apps.apple.com,水牛云'
+    - 'DOMAIN-SUFFIX,blobstore.apple.com,水牛云'
+    - 'DOMAIN,cvws.icloud-content.com,水牛云'
+    - 'DOMAIN-SUFFIX,mzstatic.com,DIRECT'
+    - 'DOMAIN-SUFFIX,itunes.apple.com,DIRECT'
+    - 'DOMAIN-SUFFIX,icloud.com,DIRECT'
+    - 'DOMAIN-SUFFIX,icloud-content.com,DIRECT'
+    - 'DOMAIN-SUFFIX,me.com,DIRECT'
+    - 'DOMAIN-SUFFIX,aaplimg.com,DIRECT'
+    - 'DOMAIN-SUFFIX,cdn20.com,DIRECT'
+    - 'DOMAIN-SUFFIX,cdn-apple.com,DIRECT'
+    - 'DOMAIN-SUFFIX,akadns.net,DIRECT'
+    - 'DOMAIN-SUFFIX,akamaiedge.net,DIRECT'
+    - 'DOMAIN-SUFFIX,edgekey.net,DIRECT'
+    - 'DOMAIN-SUFFIX,mwcloudcdn.com,DIRECT'
+    - 'DOMAIN-SUFFIX,mwcname.com,DIRECT'
+    - 'DOMAIN-SUFFIX,apple.com,DIRECT'
+    - 'DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT'
+    - 'DOMAIN-SUFFIX,apple-mapkit.com,DIRECT'
+    - 'DOMAIN-SUFFIX,126.com,DIRECT'
+    - 'DOMAIN-SUFFIX,126.net,DIRECT'
+    - 'DOMAIN-SUFFIX,127.net,DIRECT'
+    - 'DOMAIN-SUFFIX,163.com,DIRECT'
+    - 'DOMAIN-SUFFIX,360buyimg.com,DIRECT'
+    - 'DOMAIN-SUFFIX,36kr.com,DIRECT'
+    - 'DOMAIN-SUFFIX,acfun.tv,DIRECT'
+    - 'DOMAIN-SUFFIX,air-matters.com,DIRECT'
+    - 'DOMAIN-SUFFIX,aixifan.com,DIRECT'
+    - 'DOMAIN-KEYWORD,alicdn,DIRECT'
+    - 'DOMAIN-KEYWORD,alipay,DIRECT'
+    - 'DOMAIN-KEYWORD,taobao,DIRECT'
+    - 'DOMAIN-SUFFIX,amap.com,DIRECT'
+    - 'DOMAIN-SUFFIX,autonavi.com,DIRECT'
+    - 'DOMAIN-KEYWORD,baidu,DIRECT'
+    - 'DOMAIN-SUFFIX,bdimg.com,DIRECT'
+    - 'DOMAIN-SUFFIX,bdstatic.com,DIRECT'
+    - 'DOMAIN-SUFFIX,bilibili.com,DIRECT'
+    - 'DOMAIN-SUFFIX,bilivideo.com,DIRECT'
+    - 'DOMAIN-SUFFIX,caiyunapp.com,DIRECT'
+    - 'DOMAIN-SUFFIX,clouddn.com,DIRECT'
+    - 'DOMAIN-SUFFIX,cnbeta.com,DIRECT'
+    - 'DOMAIN-SUFFIX,cnbetacdn.com,DIRECT'
+    - 'DOMAIN-SUFFIX,cootekservice.com,DIRECT'
+    - 'DOMAIN-SUFFIX,csdn.net,DIRECT'
+    - 'DOMAIN-SUFFIX,ctrip.com,DIRECT'
+    - 'DOMAIN-SUFFIX,dgtle.com,DIRECT'
+    - 'DOMAIN-SUFFIX,dianping.com,DIRECT'
+    - 'DOMAIN-SUFFIX,douban.com,DIRECT'
+    - 'DOMAIN-SUFFIX,doubanio.com,DIRECT'
+    - 'DOMAIN-SUFFIX,duokan.com,DIRECT'
+    - 'DOMAIN-SUFFIX,easou.com,DIRECT'
+    - 'DOMAIN-SUFFIX,ele.me,DIRECT'
+    - 'DOMAIN-SUFFIX,feng.com,DIRECT'
+    - 'DOMAIN-SUFFIX,fir.im,DIRECT'
+    - 'DOMAIN-SUFFIX,frdic.com,DIRECT'
+    - 'DOMAIN-SUFFIX,g-cores.com,DIRECT'
+    - 'DOMAIN-SUFFIX,godic.net,DIRECT'
+    - 'DOMAIN-SUFFIX,gtimg.com,DIRECT'
+    - 'DOMAIN,cdn.hockeyapp.net,DIRECT'
+    - 'DOMAIN-SUFFIX,hongxiu.com,DIRECT'
+    - 'DOMAIN-SUFFIX,hxcdn.net,DIRECT'
+    - 'DOMAIN-SUFFIX,iciba.com,DIRECT'
+    - 'DOMAIN-SUFFIX,ifeng.com,DIRECT'
+    - 'DOMAIN-SUFFIX,ifengimg.com,DIRECT'
+    - 'DOMAIN-SUFFIX,ipip.net,DIRECT'
+    - 'DOMAIN-SUFFIX,iqiyi.com,DIRECT'
+    - 'DOMAIN-SUFFIX,jd.com,DIRECT'
+    - 'DOMAIN-SUFFIX,jianshu.com,DIRECT'
+    - 'DOMAIN-SUFFIX,knewone.com,DIRECT'
+    - 'DOMAIN-SUFFIX,le.com,DIRECT'
+    - 'DOMAIN-SUFFIX,lecloud.com,DIRECT'
+    - 'DOMAIN-SUFFIX,lemicp.com,DIRECT'
+    - 'DOMAIN-SUFFIX,licdn.com,DIRECT'
+    - 'DOMAIN-SUFFIX,luoo.net,DIRECT'
+    - 'DOMAIN-SUFFIX,meituan.com,DIRECT'
+    - 'DOMAIN-SUFFIX,meituan.net,DIRECT'
+    - 'DOMAIN-SUFFIX,mi.com,DIRECT'
+    - 'DOMAIN-SUFFIX,miaopai.com,DIRECT'
+    - 'DOMAIN-SUFFIX,microsoft.com,DIRECT'
+    - 'DOMAIN-SUFFIX,microsoftonline.com,DIRECT'
+    - 'DOMAIN-SUFFIX,miui.com,DIRECT'
+    - 'DOMAIN-SUFFIX,miwifi.com,DIRECT'
+    - 'DOMAIN-SUFFIX,mob.com,DIRECT'
+    - 'DOMAIN-SUFFIX,netease.com,DIRECT'
+    - 'DOMAIN-SUFFIX,office.com,DIRECT'
+    - 'DOMAIN-SUFFIX,office365.com,DIRECT'
+    - 'DOMAIN-KEYWORD,officecdn,DIRECT'
+    - 'DOMAIN-SUFFIX,oschina.net,DIRECT'
+    - 'DOMAIN-SUFFIX,ppsimg.com,DIRECT'
+    - 'DOMAIN-SUFFIX,pstatp.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qcloud.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qdaily.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qdmm.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qhimg.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qhres.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qidian.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qihucdn.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qiniu.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qiniucdn.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qiyipic.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qq.com,DIRECT'
+    - 'DOMAIN-SUFFIX,qqurl.com,DIRECT'
+    - 'DOMAIN-SUFFIX,rarbg.to,DIRECT'
+    - 'DOMAIN-SUFFIX,ruguoapp.com,DIRECT'
+    - 'DOMAIN-SUFFIX,segmentfault.com,DIRECT'
+    - 'DOMAIN-SUFFIX,sinaapp.com,DIRECT'
+    - 'DOMAIN-SUFFIX,smzdm.com,DIRECT'
+    - 'DOMAIN-SUFFIX,snapdrop.net,DIRECT'
+    - 'DOMAIN-SUFFIX,sogou.com,DIRECT'
+    - 'DOMAIN-SUFFIX,sogoucdn.com,DIRECT'
+    - 'DOMAIN-SUFFIX,sohu.com,DIRECT'
+    - 'DOMAIN-SUFFIX,soku.com,DIRECT'
+    - 'DOMAIN-SUFFIX,speedtest.net,DIRECT'
+    - 'DOMAIN-SUFFIX,sspai.com,DIRECT'
+    - 'DOMAIN-SUFFIX,suning.com,DIRECT'
+    - 'DOMAIN-SUFFIX,taobao.com,DIRECT'
+    - 'DOMAIN-SUFFIX,tencent.com,DIRECT'
+    - 'DOMAIN-SUFFIX,tenpay.com,DIRECT'
+    - 'DOMAIN-SUFFIX,tianyancha.com,DIRECT'
+    - 'DOMAIN-SUFFIX,tmall.com,DIRECT'
+    - 'DOMAIN-SUFFIX,tudou.com,DIRECT'
+    - 'DOMAIN-SUFFIX,umetrip.com,DIRECT'
+    - 'DOMAIN-SUFFIX,upaiyun.com,DIRECT'
+    - 'DOMAIN-SUFFIX,upyun.com,DIRECT'
+    - 'DOMAIN-SUFFIX,veryzhun.com,DIRECT'
+    - 'DOMAIN-SUFFIX,weather.com,DIRECT'
+    - 'DOMAIN-SUFFIX,weibo.com,DIRECT'
+    - 'DOMAIN-SUFFIX,xiami.com,DIRECT'
+    - 'DOMAIN-SUFFIX,xiami.net,DIRECT'
+    - 'DOMAIN-SUFFIX,xiaomicp.com,DIRECT'
+    - 'DOMAIN-SUFFIX,ximalaya.com,DIRECT'
+    - 'DOMAIN-SUFFIX,xmcdn.com,DIRECT'
+    - 'DOMAIN-SUFFIX,xunlei.com,DIRECT'
+    - 'DOMAIN-SUFFIX,yhd.com,DIRECT'
+    - 'DOMAIN-SUFFIX,yihaodianimg.com,DIRECT'
+    - 'DOMAIN-SUFFIX,yinxiang.com,DIRECT'
+    - 'DOMAIN-SUFFIX,ykimg.com,DIRECT'
+    - 'DOMAIN-SUFFIX,youdao.com,DIRECT'
+    - 'DOMAIN-SUFFIX,youku.com,DIRECT'
+    - 'DOMAIN-SUFFIX,zealer.com,DIRECT'
+    - 'DOMAIN-SUFFIX,zhihu.com,DIRECT'
+    - 'DOMAIN-SUFFIX,zhimg.com,DIRECT'
+    - 'DOMAIN-SUFFIX,zimuzu.tv,DIRECT'
+    - 'DOMAIN-SUFFIX,zoho.com,DIRECT'
+    - 'DOMAIN-KEYWORD,amazon,水牛云'
+    - 'DOMAIN-KEYWORD,google,水牛云'
+    - 'DOMAIN-KEYWORD,gmail,水牛云'
+    - 'DOMAIN-KEYWORD,youtube,水牛云'
+    - 'DOMAIN-KEYWORD,facebook,水牛云'
+    - 'DOMAIN-SUFFIX,fb.me,水牛云'
+    - 'DOMAIN-SUFFIX,fbcdn.net,水牛云'
+    - 'DOMAIN-KEYWORD,twitter,水牛云'
+    - 'DOMAIN-KEYWORD,instagram,水牛云'
+    - 'DOMAIN-KEYWORD,dropbox,水牛云'
+    - 'DOMAIN-SUFFIX,twimg.com,水牛云'
+    - 'DOMAIN-KEYWORD,blogspot,水牛云'
+    - 'DOMAIN-SUFFIX,youtu.be,水牛云'
+    - 'DOMAIN-KEYWORD,whatsapp,水牛云'
+    - 'DOMAIN-KEYWORD,admarvel,REJECT'
+    - 'DOMAIN-KEYWORD,admaster,REJECT'
+    - 'DOMAIN-KEYWORD,adsage,REJECT'
+    - 'DOMAIN-KEYWORD,adsmogo,REJECT'
+    - 'DOMAIN-KEYWORD,adsrvmedia,REJECT'
+    - 'DOMAIN-KEYWORD,adwords,REJECT'
+    - 'DOMAIN-KEYWORD,adservice,REJECT'
+    - 'DOMAIN-SUFFIX,appsflyer.com,REJECT'
+    - 'DOMAIN-KEYWORD,domob,REJECT'
+    - 'DOMAIN-SUFFIX,doubleclick.net,REJECT'
+    - 'DOMAIN-KEYWORD,duomeng,REJECT'
+    - 'DOMAIN-KEYWORD,dwtrack,REJECT'
+    - 'DOMAIN-KEYWORD,guanggao,REJECT'
+    - 'DOMAIN-KEYWORD,lianmeng,REJECT'
+    - 'DOMAIN-SUFFIX,mmstat.com,REJECT'
+    - 'DOMAIN-KEYWORD,mopub,REJECT'
+    - 'DOMAIN-KEYWORD,omgmta,REJECT'
+    - 'DOMAIN-KEYWORD,openx,REJECT'
+    - 'DOMAIN-KEYWORD,partnerad,REJECT'
+    - 'DOMAIN-KEYWORD,pingfore,REJECT'
+    - 'DOMAIN-KEYWORD,supersonicads,REJECT'
+    - 'DOMAIN-KEYWORD,uedas,REJECT'
+    - 'DOMAIN-KEYWORD,umeng,REJECT'
+    - 'DOMAIN-KEYWORD,usage,REJECT'
+    - 'DOMAIN-SUFFIX,vungle.com,REJECT'
+    - 'DOMAIN-KEYWORD,wlmonitor,REJECT'
+    - 'DOMAIN-KEYWORD,zjtoolbar,REJECT'
+    - 'DOMAIN-SUFFIX,9to5mac.com,水牛云'
+    - 'DOMAIN-SUFFIX,abpchina.org,水牛云'
+    - 'DOMAIN-SUFFIX,adblockplus.org,水牛云'
+    - 'DOMAIN-SUFFIX,adobe.com,水牛云'
+    - 'DOMAIN-SUFFIX,akamaized.net,水牛云'
+    - 'DOMAIN-SUFFIX,alfredapp.com,水牛云'
+    - 'DOMAIN-SUFFIX,amplitude.com,水牛云'
+    - 'DOMAIN-SUFFIX,ampproject.org,水牛云'
+    - 'DOMAIN-SUFFIX,android.com,水牛云'
+    - 'DOMAIN-SUFFIX,angularjs.org,水牛云'
+    - 'DOMAIN-SUFFIX,aolcdn.com,水牛云'
+    - 'DOMAIN-SUFFIX,apkpure.com,水牛云'
+    - 'DOMAIN-SUFFIX,appledaily.com,水牛云'
+    - 'DOMAIN-SUFFIX,appshopper.com,水牛云'
+    - 'DOMAIN-SUFFIX,appspot.com,水牛云'
+    - 'DOMAIN-SUFFIX,arcgis.com,水牛云'
+    - 'DOMAIN-SUFFIX,archive.org,水牛云'
+    - 'DOMAIN-SUFFIX,armorgames.com,水牛云'
+    - 'DOMAIN-SUFFIX,aspnetcdn.com,水牛云'
+    - 'DOMAIN-SUFFIX,att.com,水牛云'
+    - 'DOMAIN-SUFFIX,awsstatic.com,水牛云'
+    - 'DOMAIN-SUFFIX,azureedge.net,水牛云'
+    - 'DOMAIN-SUFFIX,azurewebsites.net,水牛云'
+    - 'DOMAIN-SUFFIX,bing.com,水牛云'
+    - 'DOMAIN-SUFFIX,bintray.com,水牛云'
+    - 'DOMAIN-SUFFIX,bit.com,水牛云'
+    - 'DOMAIN-SUFFIX,bit.ly,水牛云'
+    - 'DOMAIN-SUFFIX,bitbucket.org,水牛云'
+    - 'DOMAIN-SUFFIX,bjango.com,水牛云'
+    - 'DOMAIN-SUFFIX,bkrtx.com,水牛云'
+    - 'DOMAIN-SUFFIX,blog.com,水牛云'
+    - 'DOMAIN-SUFFIX,blogcdn.com,水牛云'
+    - 'DOMAIN-SUFFIX,blogger.com,水牛云'
+    - 'DOMAIN-SUFFIX,blogsmithmedia.com,水牛云'
+    - 'DOMAIN-SUFFIX,blogspot.com,水牛云'
+    - 'DOMAIN-SUFFIX,blogspot.hk,水牛云'
+    - 'DOMAIN-SUFFIX,bloomberg.com,水牛云'
+    - 'DOMAIN-SUFFIX,box.com,水牛云'
+    - 'DOMAIN-SUFFIX,box.net,水牛云'
+    - 'DOMAIN-SUFFIX,cachefly.net,水牛云'
+    - 'DOMAIN-SUFFIX,chromium.org,水牛云'
+    - 'DOMAIN-SUFFIX,cl.ly,水牛云'
+    - 'DOMAIN-SUFFIX,cloudflare.com,水牛云'
+    - 'DOMAIN-SUFFIX,cloudfront.net,水牛云'
+    - 'DOMAIN-SUFFIX,cloudmagic.com,水牛云'
+    - 'DOMAIN-SUFFIX,cmail19.com,水牛云'
+    - 'DOMAIN-SUFFIX,cnet.com,水牛云'
+    - 'DOMAIN-SUFFIX,cocoapods.org,水牛云'
+    - 'DOMAIN-SUFFIX,comodoca.com,水牛云'
+    - 'DOMAIN-SUFFIX,crashlytics.com,水牛云'
+    - 'DOMAIN-SUFFIX,culturedcode.com,水牛云'
+    - 'DOMAIN-SUFFIX,d.pr,水牛云'
+    - 'DOMAIN-SUFFIX,danilo.to,水牛云'
+    - 'DOMAIN-SUFFIX,dayone.me,水牛云'
+    - 'DOMAIN-SUFFIX,db.tt,水牛云'
+    - 'DOMAIN-SUFFIX,deskconnect.com,水牛云'
+    - 'DOMAIN-SUFFIX,disq.us,水牛云'
+    - 'DOMAIN-SUFFIX,disqus.com,水牛云'
+    - 'DOMAIN-SUFFIX,disquscdn.com,水牛云'
+    - 'DOMAIN-SUFFIX,dnsimple.com,水牛云'
+    - 'DOMAIN-SUFFIX,docker.com,水牛云'
+    - 'DOMAIN-SUFFIX,dribbble.com,水牛云'
+    - 'DOMAIN-SUFFIX,droplr.com,水牛云'
+    - 'DOMAIN-SUFFIX,duckduckgo.com,水牛云'
+    - 'DOMAIN-SUFFIX,dueapp.com,水牛云'
+    - 'DOMAIN-SUFFIX,dytt8.net,水牛云'
+    - 'DOMAIN-SUFFIX,edgecastcdn.net,水牛云'
+    - 'DOMAIN-SUFFIX,edgekey.net,水牛云'
+    - 'DOMAIN-SUFFIX,edgesuite.net,水牛云'
+    - 'DOMAIN-SUFFIX,engadget.com,水牛云'
+    - 'DOMAIN-SUFFIX,entrust.net,水牛云'
+    - 'DOMAIN-SUFFIX,eurekavpt.com,水牛云'
+    - 'DOMAIN-SUFFIX,evernote.com,水牛云'
+    - 'DOMAIN-SUFFIX,fabric.io,水牛云'
+    - 'DOMAIN-SUFFIX,fast.com,水牛云'
+    - 'DOMAIN-SUFFIX,fastly.net,水牛云'
+    - 'DOMAIN-SUFFIX,fc2.com,水牛云'
+    - 'DOMAIN-SUFFIX,feedburner.com,水牛云'
+    - 'DOMAIN-SUFFIX,feedly.com,水牛云'
+    - 'DOMAIN-SUFFIX,feedsportal.com,水牛云'
+    - 'DOMAIN-SUFFIX,fiftythree.com,水牛云'
+    - 'DOMAIN-SUFFIX,firebaseio.com,水牛云'
+    - 'DOMAIN-SUFFIX,flexibits.com,水牛云'
+    - 'DOMAIN-SUFFIX,flickr.com,水牛云'
+    - 'DOMAIN-SUFFIX,flipboard.com,水牛云'
+    - 'DOMAIN-SUFFIX,g.co,水牛云'
+    - 'DOMAIN-SUFFIX,gabia.net,水牛云'
+    - 'DOMAIN-SUFFIX,geni.us,水牛云'
+    - 'DOMAIN-SUFFIX,gfx.ms,水牛云'
+    - 'DOMAIN-SUFFIX,ggpht.com,水牛云'
+    - 'DOMAIN-SUFFIX,ghostnoteapp.com,水牛云'
+    - 'DOMAIN-SUFFIX,git.io,水牛云'
+    - 'DOMAIN-KEYWORD,github,水牛云'
+    - 'DOMAIN-SUFFIX,globalsign.com,水牛云'
+    - 'DOMAIN-SUFFIX,gmodules.com,水牛云'
+    - 'DOMAIN-SUFFIX,godaddy.com,水牛云'
+    - 'DOMAIN-SUFFIX,golang.org,水牛云'
+    - 'DOMAIN-SUFFIX,gongm.in,水牛云'
+    - 'DOMAIN-SUFFIX,goo.gl,水牛云'
+    - 'DOMAIN-SUFFIX,goodreaders.com,水牛云'
+    - 'DOMAIN-SUFFIX,goodreads.com,水牛云'
+    - 'DOMAIN-SUFFIX,gravatar.com,水牛云'
+    - 'DOMAIN-SUFFIX,gstatic.com,水牛云'
+    - 'DOMAIN-SUFFIX,gvt0.com,水牛云'
+    - 'DOMAIN-SUFFIX,hockeyapp.net,水牛云'
+    - 'DOMAIN-SUFFIX,hotmail.com,水牛云'
+    - 'DOMAIN-SUFFIX,icons8.com,水牛云'
+    - 'DOMAIN-SUFFIX,ifixit.com,水牛云'
+    - 'DOMAIN-SUFFIX,ift.tt,水牛云'
+    - 'DOMAIN-SUFFIX,ifttt.com,水牛云'
+    - 'DOMAIN-SUFFIX,iherb.com,水牛云'
+    - 'DOMAIN-SUFFIX,imageshack.us,水牛云'
+    - 'DOMAIN-SUFFIX,img.ly,水牛云'
+    - 'DOMAIN-SUFFIX,imgur.com,水牛云'
+    - 'DOMAIN-SUFFIX,imore.com,水牛云'
+    - 'DOMAIN-SUFFIX,instapaper.com,水牛云'
+    - 'DOMAIN-SUFFIX,ipn.li,水牛云'
+    - 'DOMAIN-SUFFIX,is.gd,水牛云'
+    - 'DOMAIN-SUFFIX,issuu.com,水牛云'
+    - 'DOMAIN-SUFFIX,itgonglun.com,水牛云'
+    - 'DOMAIN-SUFFIX,itun.es,水牛云'
+    - 'DOMAIN-SUFFIX,ixquick.com,水牛云'
+    - 'DOMAIN-SUFFIX,j.mp,水牛云'
+    - 'DOMAIN-SUFFIX,js.revsci.net,水牛云'
+    - 'DOMAIN-SUFFIX,jshint.com,水牛云'
+    - 'DOMAIN-SUFFIX,jtvnw.net,水牛云'
+    - 'DOMAIN-SUFFIX,justgetflux.com,水牛云'
+    - 'DOMAIN-SUFFIX,kat.cr,水牛云'
+    - 'DOMAIN-SUFFIX,klip.me,水牛云'
+    - 'DOMAIN-SUFFIX,libsyn.com,水牛云'
+    - 'DOMAIN-SUFFIX,linkedin.com,水牛云'
+    - 'DOMAIN-SUFFIX,line-apps.com,水牛云'
+    - 'DOMAIN-SUFFIX,linode.com,水牛云'
+    - 'DOMAIN-SUFFIX,lithium.com,水牛云'
+    - 'DOMAIN-SUFFIX,littlehj.com,水牛云'
+    - 'DOMAIN-SUFFIX,live.com,水牛云'
+    - 'DOMAIN-SUFFIX,live.net,水牛云'
+    - 'DOMAIN-SUFFIX,livefilestore.com,水牛云'
+    - 'DOMAIN-SUFFIX,llnwd.net,水牛云'
+    - 'DOMAIN-SUFFIX,macid.co,水牛云'
+    - 'DOMAIN-SUFFIX,macromedia.com,水牛云'
+    - 'DOMAIN-SUFFIX,macrumors.com,水牛云'
+    - 'DOMAIN-SUFFIX,mashable.com,水牛云'
+    - 'DOMAIN-SUFFIX,mathjax.org,水牛云'
+    - 'DOMAIN-SUFFIX,medium.com,水牛云'
+    - 'DOMAIN-SUFFIX,mega.co.nz,水牛云'
+    - 'DOMAIN-SUFFIX,mega.nz,水牛云'
+    - 'DOMAIN-SUFFIX,megaupload.com,水牛云'
+    - 'DOMAIN-SUFFIX,microsofttranslator.com,水牛云'
+    - 'DOMAIN-SUFFIX,mindnode.com,水牛云'
+    - 'DOMAIN-SUFFIX,mobile01.com,水牛云'
+    - 'DOMAIN-SUFFIX,modmyi.com,水牛云'
+    - 'DOMAIN-SUFFIX,msedge.net,水牛云'
+    - 'DOMAIN-SUFFIX,myfontastic.com,水牛云'
+    - 'DOMAIN-SUFFIX,name.com,水牛云'
+    - 'DOMAIN-SUFFIX,nextmedia.com,水牛云'
+    - 'DOMAIN-SUFFIX,nsstatic.net,水牛云'
+    - 'DOMAIN-SUFFIX,nssurge.com,水牛云'
+    - 'DOMAIN-SUFFIX,nyt.com,水牛云'
+    - 'DOMAIN-SUFFIX,nytimes.com,水牛云'
+    - 'DOMAIN-SUFFIX,omnigroup.com,水牛云'
+    - 'DOMAIN-SUFFIX,onedrive.com,水牛云'
+    - 'DOMAIN-SUFFIX,onenote.com,水牛云'
+    - 'DOMAIN-SUFFIX,ooyala.com,水牛云'
+    - 'DOMAIN-SUFFIX,openvpn.net,水牛云'
+    - 'DOMAIN-SUFFIX,openwrt.org,水牛云'
+    - 'DOMAIN-SUFFIX,orkut.com,水牛云'
+    - 'DOMAIN-SUFFIX,osxdaily.com,水牛云'
+    - 'DOMAIN-SUFFIX,outlook.com,水牛云'
+    - 'DOMAIN-SUFFIX,ow.ly,水牛云'
+    - 'DOMAIN-SUFFIX,paddleapi.com,水牛云'
+    - 'DOMAIN-SUFFIX,parallels.com,水牛云'
+    - 'DOMAIN-SUFFIX,parse.com,水牛云'
+    - 'DOMAIN-SUFFIX,pdfexpert.com,水牛云'
+    - 'DOMAIN-SUFFIX,periscope.tv,水牛云'
+    - 'DOMAIN-SUFFIX,pinboard.in,水牛云'
+    - 'DOMAIN-SUFFIX,pinterest.com,水牛云'
+    - 'DOMAIN-SUFFIX,pixelmator.com,水牛云'
+    - 'DOMAIN-SUFFIX,pixiv.net,水牛云'
+    - 'DOMAIN-SUFFIX,playpcesor.com,水牛云'
+    - 'DOMAIN-SUFFIX,playstation.com,水牛云'
+    - 'DOMAIN-SUFFIX,playstation.com.hk,水牛云'
+    - 'DOMAIN-SUFFIX,playstation.net,水牛云'
+    - 'DOMAIN-SUFFIX,playstationnetwork.com,水牛云'
+    - 'DOMAIN-SUFFIX,pushwoosh.com,水牛云'
+    - 'DOMAIN-SUFFIX,rime.im,水牛云'
+    - 'DOMAIN-SUFFIX,servebom.com,水牛云'
+    - 'DOMAIN-SUFFIX,sfx.ms,水牛云'
+    - 'DOMAIN-SUFFIX,shadowsocks.org,水牛云'
+    - 'DOMAIN-SUFFIX,sharethis.com,水牛云'
+    - 'DOMAIN-SUFFIX,shazam.com,水牛云'
+    - 'DOMAIN-SUFFIX,skype.com,水牛云'
+    - 'DOMAIN-SUFFIX,smartdns水牛云.com,水牛云'
+    - 'DOMAIN-SUFFIX,smartmailcloud.com,水牛云'
+    - 'DOMAIN-SUFFIX,sndcdn.com,水牛云'
+    - 'DOMAIN-SUFFIX,sony.com,水牛云'
+    - 'DOMAIN-SUFFIX,soundcloud.com,水牛云'
+    - 'DOMAIN-SUFFIX,sourceforge.net,水牛云'
+    - 'DOMAIN-SUFFIX,spotify.com,水牛云'
+    - 'DOMAIN-SUFFIX,squarespace.com,水牛云'
+    - 'DOMAIN-SUFFIX,sstatic.net,水牛云'
+    - 'DOMAIN-SUFFIX,st.luluku.pw,水牛云'
+    - 'DOMAIN-SUFFIX,stackoverflow.com,水牛云'
+    - 'DOMAIN-SUFFIX,startpage.com,水牛云'
+    - 'DOMAIN-SUFFIX,staticflickr.com,水牛云'
+    - 'DOMAIN-SUFFIX,steamcommunity.com,水牛云'
+    - 'DOMAIN-SUFFIX,symauth.com,水牛云'
+    - 'DOMAIN-SUFFIX,symcb.com,水牛云'
+    - 'DOMAIN-SUFFIX,symcd.com,水牛云'
+    - 'DOMAIN-SUFFIX,tapbots.com,水牛云'
+    - 'DOMAIN-SUFFIX,tapbots.net,水牛云'
+    - 'DOMAIN-SUFFIX,tdesktop.com,水牛云'
+    - 'DOMAIN-SUFFIX,techcrunch.com,水牛云'
+    - 'DOMAIN-SUFFIX,techsmith.com,水牛云'
+    - 'DOMAIN-SUFFIX,thepiratebay.org,水牛云'
+    - 'DOMAIN-SUFFIX,theverge.com,水牛云'
+    - 'DOMAIN-SUFFIX,time.com,水牛云'
+    - 'DOMAIN-SUFFIX,timeinc.net,水牛云'
+    - 'DOMAIN-SUFFIX,tiny.cc,水牛云'
+    - 'DOMAIN-SUFFIX,tinypic.com,水牛云'
+    - 'DOMAIN-SUFFIX,tmblr.co,水牛云'
+    - 'DOMAIN-SUFFIX,todoist.com,水牛云'
+    - 'DOMAIN-SUFFIX,trello.com,水牛云'
+    - 'DOMAIN-SUFFIX,trustasiassl.com,水牛云'
+    - 'DOMAIN-SUFFIX,tumblr.co,水牛云'
+    - 'DOMAIN-SUFFIX,tumblr.com,水牛云'
+    - 'DOMAIN-SUFFIX,tweetdeck.com,水牛云'
+    - 'DOMAIN-SUFFIX,tweetmarker.net,水牛云'
+    - 'DOMAIN-SUFFIX,twitch.tv,水牛云'
+    - 'DOMAIN-SUFFIX,txmblr.com,水牛云'
+    - 'DOMAIN-SUFFIX,typekit.net,水牛云'
+    - 'DOMAIN-SUFFIX,ubertags.com,水牛云'
+    - 'DOMAIN-SUFFIX,ublock.org,水牛云'
+    - 'DOMAIN-SUFFIX,ubnt.com,水牛云'
+    - 'DOMAIN-SUFFIX,ulyssesapp.com,水牛云'
+    - 'DOMAIN-SUFFIX,urchin.com,水牛云'
+    - 'DOMAIN-SUFFIX,usertrust.com,水牛云'
+    - 'DOMAIN-SUFFIX,v.gd,水牛云'
+    - 'DOMAIN-SUFFIX,v2ex.com,水牛云'
+    - 'DOMAIN-SUFFIX,vimeo.com,水牛云'
+    - 'DOMAIN-SUFFIX,vimeocdn.com,水牛云'
+    - 'DOMAIN-SUFFIX,vine.co,水牛云'
+    - 'DOMAIN-SUFFIX,vivaldi.com,水牛云'
+    - 'DOMAIN-SUFFIX,vox-cdn.com,水牛云'
+    - 'DOMAIN-SUFFIX,vsco.co,水牛云'
+    - 'DOMAIN-SUFFIX,vultr.com,水牛云'
+    - 'DOMAIN-SUFFIX,w.org,水牛云'
+    - 'DOMAIN-SUFFIX,w3schools.com,水牛云'
+    - 'DOMAIN-SUFFIX,webtype.com,水牛云'
+    - 'DOMAIN-SUFFIX,wikiwand.com,水牛云'
+    - 'DOMAIN-SUFFIX,wikileaks.org,水牛云'
+    - 'DOMAIN-SUFFIX,wikimedia.org,水牛云'
+    - 'DOMAIN-SUFFIX,wikipedia.com,水牛云'
+    - 'DOMAIN-SUFFIX,wikipedia.org,水牛云'
+    - 'DOMAIN-SUFFIX,windows.com,水牛云'
+    - 'DOMAIN-SUFFIX,windows.net,水牛云'
+    - 'DOMAIN-SUFFIX,wire.com,水牛云'
+    - 'DOMAIN-SUFFIX,wordpress.com,水牛云'
+    - 'DOMAIN-SUFFIX,workflowy.com,水牛云'
+    - 'DOMAIN-SUFFIX,wp.com,水牛云'
+    - 'DOMAIN-SUFFIX,wsj.com,水牛云'
+    - 'DOMAIN-SUFFIX,wsj.net,水牛云'
+    - 'DOMAIN-SUFFIX,xda-developers.com,水牛云'
+    - 'DOMAIN-SUFFIX,xeeno.com,水牛云'
+    - 'DOMAIN-SUFFIX,xiti.com,水牛云'
+    - 'DOMAIN-SUFFIX,yahoo.com,水牛云'
+    - 'DOMAIN-SUFFIX,yimg.com,水牛云'
+    - 'DOMAIN-SUFFIX,ying.com,水牛云'
+    - 'DOMAIN-SUFFIX,yoyo.org,水牛云'
+    - 'DOMAIN-SUFFIX,ytimg.com,水牛云'
+    - 'DOMAIN-SUFFIX,telegra.ph,水牛云'
+    - 'DOMAIN-SUFFIX,telegram.org,水牛云'
+    - 'IP-CIDR,91.108.4.0/22,水牛云,no-resolve'
+    - 'IP-CIDR,91.108.8.0/21,水牛云,no-resolve'
+    - 'IP-CIDR,91.108.16.0/22,水牛云,no-resolve'
+    - 'IP-CIDR,91.108.56.0/22,水牛云,no-resolve'
+    - 'IP-CIDR,149.154.160.0/20,水牛云,no-resolve'
+    - 'IP-CIDR6,2001:67c:4e8::/48,水牛云,no-resolve'
+    - 'IP-CIDR6,2001:b28:f23d::/48,水牛云,no-resolve'
+    - 'IP-CIDR6,2001:b28:f23f::/48,水牛云,no-resolve'
+    - 'IP-CIDR,120.232.181.162/32,水牛云,no-resolve'
+    - 'IP-CIDR,120.241.147.226/32,水牛云,no-resolve'
+    - 'IP-CIDR,120.253.253.226/32,水牛云,no-resolve'
+    - 'IP-CIDR,120.253.255.162/32,水牛云,no-resolve'
+    - 'IP-CIDR,120.253.255.34/32,水牛云,no-resolve'
+    - 'IP-CIDR,120.253.255.98/32,水牛云,no-resolve'
+    - 'IP-CIDR,180.163.150.162/32,水牛云,no-resolve'
+    - 'IP-CIDR,180.163.150.34/32,水牛云,no-resolve'
+    - 'IP-CIDR,180.163.151.162/32,水牛云,no-resolve'
+    - 'IP-CIDR,180.163.151.34/32,水牛云,no-resolve'
+    - 'IP-CIDR,203.208.39.0/24,水牛云,no-resolve'
+    - 'IP-CIDR,203.208.40.0/24,水牛云,no-resolve'
+    - 'IP-CIDR,203.208.41.0/24,水牛云,no-resolve'
+    - 'IP-CIDR,203.208.43.0/24,水牛云,no-resolve'
+    - 'IP-CIDR,203.208.50.0/24,水牛云,no-resolve'
+    - 'IP-CIDR,220.181.174.162/32,水牛云,no-resolve'
+    - 'IP-CIDR,220.181.174.226/32,水牛云,no-resolve'
+    - 'IP-CIDR,220.181.174.34/32,水牛云,no-resolve'
+    - 'DOMAIN,injections.adguard.org,DIRECT'
+    - 'DOMAIN,local.adguard.org,DIRECT'
+    - 'DOMAIN-SUFFIX,local,DIRECT'
+    - 'IP-CIDR,127.0.0.0/8,DIRECT'
+    - 'IP-CIDR,172.16.0.0/12,DIRECT'
+    - 'IP-CIDR,192.168.0.0/16,DIRECT'
+    - 'IP-CIDR,10.0.0.0/8,DIRECT'
+    - 'IP-CIDR,17.0.0.0/8,DIRECT'
+    - 'IP-CIDR,100.64.0.0/10,DIRECT'
+    - 'IP-CIDR,224.0.0.0/4,DIRECT'
+    - 'IP-CIDR6,fe80::/10,DIRECT'
+    - 'DOMAIN-SUFFIX,cn,DIRECT'
+    - 'DOMAIN-KEYWORD,-cn,DIRECT'
+    - 'GEOIP,CN,DIRECT'
+    - 'MATCH,水牛云'
