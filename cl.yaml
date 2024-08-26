@@ -336,32 +336,7 @@ proxies:
   - {name: NRT🐲™️【请勿测速】 23, server: 121.164.145.102, port: 15151, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}}
   - {name: ICN🐲™️【请勿测速】 23, server: 218.158.87.155, port: 11423, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}}
   - {name: ICN🐲™️【请勿测速】 24, server: 118.131.41.202, port: 16072, type: trojan, password: CMLiu, sni: aliorg.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: aliorg.filegear-sg.me}}}
-  - { name: hy2香港2, server: hk2.jindoucn.life, port: 9988, sni: hk2.jindoucn.life, up: 1000, down: 2000, skip-cert-verify: true, type: hysteria2, password: a26e2bf4-84e8-41d0-8a45-a8db0bd9362d }
-  - { name: hy2香港1, server: hk1.jindoucn.life, port: 9986, sni: hk1.jindoucn.life, up: 3000, down: 3000, skip-cert-verify: true, type: hysteria2, password: a26e2bf4-84e8-41d0-8a45-a8db0bd9362d }
-  - { name: hy2香港5, server: hk5.jindoucn.life, port: 9986, sni: hk5.jindoucn.life, up: 3000, down: 3000, skip-cert-verify: true, type: hysteria2, password: a26e2bf4-84e8-41d0-8a45-a8db0bd9362d }
-  - { name: hy2香港6, server: hk6.jindoucn.life, port: 9988, sni: hk6.jindoucn.life, up: 3000, down: 3000, skip-cert-verify: true, type: hysteria2, password: a26e2bf4-84e8-41d0-8a45-a8db0bd9362d }
-  - { name: hy2美国1, server: mg.jindoucn.life, port: 9988, sni: mg.jindoucn.life, up: 1000, down: 2000, skip-cert-verify: true, type: hysteria2, password: a26e2bf4-84e8-41d0-8a45-a8db0bd9362d }
-  - { name: hy2美国2, server: us1.jindoucn.life, port: 9986, sni: us1.jindoucn.life, up: 1000, down: 2000, skip-cert-verify: true, type: hysteria2, password: a26e2bf4-84e8-41d0-8a45-a8db0bd9362d }
-  - { name: hy2美国3, server: us3.jindoucn.life, port: 9986, sni: us3.jindoucn.life, up: 1000, down: 2000, skip-cert-verify: true, type: hysteria2, password: a26e2bf4-84e8-41d0-8a45-a8db0bd9362d }
-  - { name: hy2美国4, server: us4.jindoucn.life, port: 9986, sni: us4.jindoucn.life, up: 1000, down: 2000, skip-cert-verify: true, type: hysteria2, password: a26e2bf4-84e8-41d0-8a45-a8db0bd9362d }
-  - { name: 免费节点01, type: ss, server: free-relay.t01.themars.top, port: 49900, cipher: chacha20-ietf-poly1305, password: 37c6c24b-40a8-4b4f-bc12-70f3818af7ed, udp: true }
-  - { name: 免费节点02, type: ss, server: free-relay.t01.themars.top, port: 49901, cipher: chacha20-ietf-poly1305, password: 37c6c24b-40a8-4b4f-bc12-70f3818af7ed, udp: true }
-  - { name: 免费节点03, type: ss, server: free-relay.t01.themars.top, port: 49902, cipher: chacha20-ietf-poly1305, password: 37c6c24b-40a8-4b4f-bc12-70f3818af7ed, udp: true }
   
-  - { name: '🇭🇰香港 00', type: vmess, server: 8.217.251.62, port: 2087, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: jbbw.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: jbbw.changding.tech } }, ws-path: /changding, ws-headers: { Host: jbbw.changding.tech } }
-  - { name: '🇭🇰香港 01', type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: hk-hy.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: hk-hy.changding.tech } }, ws-path: /changding, ws-headers: { Host: hk-hy.changding.tech } }
-  - { name: '🇭🇰香港 02', type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: hk-hy02.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: hk-hy02.changding.tech } }, ws-path: /changding, ws-headers: { Host: hk-hy02.changding.tech } }
-  - { name: '🇭🇰香港 03', type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: dci-hk.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: dci-hk.changding.tech } }, ws-path: /changding, ws-headers: { Host: dci-hk.changding.tech } }
-  - { name: '🇭🇰香港 04', type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: hkt.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: hkt.changding.tech } }, ws-path: /changding, ws-headers: { Host: hkt.changding.tech } }
-  - { name: '🇰🇷韩国 01', type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: chunchuan.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: chunchuan.changding.tech } }, ws-path: /changding, ws-headers: { Host: chunchuan.changding.tech } }
-  - { name: '🇰🇷韩国 02', type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: sr2.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: sr2.changding.tech } }, ws-path: /changding, ws-headers: { Host: sr2.changding.tech } }
-  - { name: '🇰🇷韩国 03', type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: sr.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: sr.changding.tech } }, ws-path: /changding, ws-headers: { Host: sr.changding.tech } }
-  - { name: 🇺🇸芝加哥, type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: zjg.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: zjg.changding.tech } }, ws-path: /changding, ws-headers: { Host: zjg.changding.tech } }
-  - { name: 🇦🇺澳大利亚, type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: xn.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: xn.changding.tech } }, ws-path: /changding, ws-headers: { Host: xn.changding.tech } }
-  - { name: 🇦🇪迪拜, type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: db.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: db.changding.tech } }, ws-path: /changding, ws-headers: { Host: db.changding.tech } }
-  - { name: 🇦🇪阿布扎比, type: vmess, server: 156.251.176.112, port: 52032, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: abzb.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: abzb.changding.tech } }, ws-path: /changding, ws-headers: { Host: abzb.changding.tech } }
-  - { name: 🇺🇸V6, type: vmess, server: 8.217.251.62, port: 2087, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: jbbw.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: jbbw.changding.tech } }, ws-path: /changding, ws-headers: { Host: jbbw.changding.tech } }
-
   - {name: 🇭🇰香港 05, server: cn1.cdn.xfltd-cdn.top, port: 12003, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰香港 06, server: cn1.cdn.xfltd-cdn.top, port: 12005, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰香港 07, server: cn1.cdn.xfltd-cdn.top, port: 12002, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
@@ -402,6 +377,30 @@ proxies:
   - { name: '新加坡 | 01', server: sg001.panghu.buzz, port: 5000, udp: true, skip-cert-verify: true, sni: bing.com, type: hysteria2, password: 7f1e0179-3a0c-4b73-8e47-23af361e903e }
   - { name: '德国 | 01', server: de001.panghu.buzz, port: 20000, ports: 20000-40000, mport: 20000-40000, udp: true, skip-cert-verify: true, sni: bing.com, type: hysteria2, password: 7f1e0179-3a0c-4b73-8e47-23af361e903e }
   
+  - { name: 香港01, type: ss, server: cdn-p1-hk.weibo-dns.com, port: 11501, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 香港02, type: ss, server: cdn-p1-hk.weibo-dns.com, port: 11502, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 香港03, type: ss, server: cdn-p1-hk.weibo-dns.com, port: 11503, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 日本01, type: ss, server: cdn-p1-jp.weibo-dns.com, port: 11504, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 日本02, type: ss, server: cdn-p1-jp.weibo-dns.com, port: 11505, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 日本03, type: ss, server: cdn-p1-jp.weibo-dns.com, port: 11506, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 新加坡01, type: ss, server: cdn-p1-sg.weibo-dns.com, port: 11508, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 新加坡02, type: ss, server: cdn-p1-sg.weibo-dns.com, port: 11509, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 新加坡03, type: ss, server: cdn-p1-sg.weibo-dns.com, port: 11510, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 马来西亚, type: ss, server: cdn-p1-lm.youku-dns.com, port: 11525, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 美国01, type: ss, server: cdn-p1-us.youku-dns.com, port: 11511, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 美国02, type: ss, server: cdn-p1-us.youku-dns.com, port: 11512, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 美国03, type: ss, server: cdn-p1-sg.weibo-dns.com, port: 11513, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 美国04, type: ss, server: cdn-p1-sg.weibo-dns.com, port: 11526, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 美国05, type: ss, server: cdn-p1-sg.weibo-dns.com, port: 11527, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 英国01, type: ss, server: cdn-p1-lm.youku-dns.com, port: 11514, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 英国02, type: ss, server: cdn-p1-lm.youku-dns.com, port: 11515, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 英国03, type: ss, server: cdn-p1-lm.youku-dns.com, port: 11516, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 德国, type: ss, server: cdn-p1-lm.youku-dns.com, port: 11518, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 印度, type: ss, server: cdn-p1-lm.youku-dns.com, port: 11519, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 土耳其, type: ss, server: cdn-p1-lm.youku-dns.com, port: 11520, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 加拿大, type: ss, server: cdn-p1-lm.youku-dns.com, port: 11522, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 澳大利亚, type: ss, server: cdn-p1-lm.youku-dns.com, port: 11523, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  - { name: 荷兰, type: ss, server: cdn-p1-lm.youku-dns.com, port: 11524, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -662,26 +661,6 @@ proxy-groups:
       - NRT🐲™️【请勿测速】 23
       - ICN🐲™️【请勿测速】 23
       - ICN🐲™️【请勿测速】 24
-      - hy2香港1
-      - hy2香港2
-      - hy2香港5
-      - hy2香港6
-      - 免费节点01
-      - 免费节点02
-      - 免费节点03
-      - 🇭🇰香港 00
-      - 🇭🇰香港 01
-      - 🇭🇰香港 02
-      - 🇭🇰香港 03
-      - 🇭🇰香港 04
-      - 🇰🇷韩国 01
-      - 🇰🇷韩国 02
-      - 🇰🇷韩国 03
-      - 🇦🇺澳大利亚
-      - 🇺🇸芝加哥
-      - 🇦🇪迪拜
-      - 🇦🇪阿布扎比
-      - 🇺🇸V6
       - 🇭🇰香港 05
       - 🇭🇰香港 06
       - 🇭🇰香港 07
@@ -715,6 +694,30 @@ proxy-groups:
       - 日本| 01
       - 新加坡 | 01
       - 德国 | 01
+      - 香港01
+      - 香港02
+      - 香港03
+      - 日本01
+      - 日本02
+      - 日本03
+      - 新加坡01
+      - 新加坡02
+      - 新加坡03
+      - 马来西亚
+      - 美国01
+      - 美国02
+      - 美国03
+      - 美国04
+      - 美国05
+      - 英国01
+      - 英国02
+      - 英国03
+      - 德国
+      - 印度
+      - 土耳其
+      - 加拿大
+      - 澳大利亚
+      - 荷兰
   - name: 📲 电报消息
     type: select
     proxies:
@@ -947,26 +950,6 @@ proxy-groups:
       - 🇭🇰 HKG🐲™️【请勿测速】 40
       - 🇭🇰 HKG🐲™️【请勿测速】 41
       - 🇭🇰 HKG🐲™️【请勿测速】 42
-      - hy2香港1
-      - hy2香港2
-      - hy2香港5
-      - hy2香港6
-      - 免费节点01
-      - 免费节点02
-      - 免费节点03
-      - 🇭🇰香港 00
-      - 🇭🇰香港 01
-      - 🇭🇰香港 02
-      - 🇭🇰香港 03
-      - 🇭🇰香港 04
-      - 🇰🇷韩国 01
-      - 🇰🇷韩国 02
-      - 🇰🇷韩国 03
-      - 🇦🇺澳大利亚
-      - 🇺🇸芝加哥
-      - 🇦🇪迪拜
-      - 🇦🇪阿布扎比
-      - 🇺🇸V6
       - 🇭🇰香港 05
       - 🇭🇰香港 06
       - 🇭🇰香港 07
@@ -992,14 +975,20 @@ proxy-groups:
       - 香港_T 19
       - 香港_T 20
       - 韩国-01
-      - 美国 | 01
-      - 美国 | 02
-      - 美国 | 03
       - 香港 | 01
       - 香港 | 02
       - 日本| 01
       - 新加坡 | 01
-      - 德国 | 01
+      - 香港01
+      - 香港02
+      - 香港03
+      - 日本01
+      - 日本02
+      - 日本03
+      - 新加坡01
+      - 新加坡02
+      - 新加坡03
+      - 马来西亚
   - name: 🇯🇵 日本节点
     type: select
     proxies:
