@@ -401,6 +401,11 @@ proxies:
   - { name: 加拿大, type: ss, server: cdn-p1-lm.youku-dns.com, port: 11522, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
   - { name: 澳大利亚, type: ss, server: cdn-p1-lm.youku-dns.com, port: 11523, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
   - { name: 荷兰, type: ss, server: cdn-p1-lm.youku-dns.com, port: 11524, cipher: aes-256-gcm, password: 322f6750-45f4-47e0-b24d-31417596000e, udp: true }
+  
+  - {"name":"HKT家宽4","type":"trojan","server":"36.151.195.77","port":446,"udp":true,"password":"pTuMwddQ","skip-cert-verify":true}
+  - {"name":"HKT家宽5","type":"trojan","server":"183.232.139.24","port":444,"udp":true,"password":"pTuMwddQ","skip-cert-verify":true}
+  - {"name":"HKT家宽1","type":"trojan","server":"183.232.139.24","port":20469,"udp":true,"password":"pTuMwddQ","skip-cert-verify":true}
+  - {"name":"HKT家宽2","type":"trojan","server":"223.113.54.185","port":41115,"udp":true,"password":"pTuMwddQ","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -718,6 +723,10 @@ proxy-groups:
       - 加拿大
       - 澳大利亚
       - 荷兰
+      - HKT家宽1
+      - HKT家宽2
+      - HKT家宽4
+      - HKT家宽5
   - name: 📲 电报消息
     type: select
     proxies:
@@ -989,6 +998,10 @@ proxy-groups:
       - 新加坡02
       - 新加坡03
       - 马来西亚
+      - HKT家宽1
+      - HKT家宽2
+      - HKT家宽4
+      - HKT家宽5
   - name: 🇯🇵 日本节点
     type: select
     proxies:
