@@ -340,6 +340,25 @@ proxies:
   - {name: 新加坡_3, server: 54.179.241.46, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 新加坡_281, server: 18.139.110.249, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 
+  - {name: 新会员免费体验, server: uniona.fengwo.site, port: 51811, type: ss, cipher: chacha20-ietf-poly1305, password: ce7d687c-910e-4fae-85e8-e8d65097e008, udp: true}
+  - {name: "[IDC]香港【已解锁流媒体】", server: unionb.fengwo.site, port: 51812, type: ss, cipher: chacha20-ietf-poly1305, password: ce7d687c-910e-4fae-85e8-e8d65097e008, udp: true}
+  - {name: 【IDC】加拿大-多伦多, server: uniona.fengwo.site, port: 11469, type: ss, cipher: chacha20-ietf-poly1305, password: ce7d687c-910e-4fae-85e8-e8d65097e008, udp: true}
+  - {name: 【IDC】加拿大-蒙大拿, server: unionb.fengwo.site, port: 43417, type: ss, cipher: chacha20-ietf-poly1305, password: ce7d687c-910e-4fae-85e8-e8d65097e008, udp: true}
+  - {name: 荷兰-鹿特丹, server: unionb.fengwo.site, port: 49574, type: ss, cipher: chacha20-ietf-poly1305, password: ce7d687c-910e-4fae-85e8-e8d65097e008, udp: true}
+  - {name: 荷兰-阿姆斯特丹, server: uniona.fengwo.site, port: 37155, type: ss, cipher: chacha20-ietf-poly1305, password: ce7d687c-910e-4fae-85e8-e8d65097e008, udp: true}
+  - {name: "[IDC]波兰-华沙", server: uniona.fengwo.site, port: 32278, type: ss, cipher: chacha20-ietf-poly1305, password: ce7d687c-910e-4fae-85e8-e8d65097e008, udp: true}
+  - {name: "[IDC]波兰-克拉科夫", server: unionb.fengwo.site, port: 56268, type: ss, cipher: chacha20-ietf-poly1305, password: ce7d687c-910e-4fae-85e8-e8d65097e008, udp: true}
+  - {name: 【IDC】瑞典-斯德哥尔摩, server: uniona.fengwo.site, port: 44888, type: ss, cipher: chacha20-ietf-poly1305, password: ce7d687c-910e-4fae-85e8-e8d65097e008, udp: true}
+  - {name: 【IDC】瑞典-马尔默, server: unionb.fengwo.site, port: 20909, type: ss, cipher: chacha20-ietf-poly1305, password: ce7d687c-910e-4fae-85e8-e8d65097e008, udp: true}
+  - {name: 【IDC】德国-汉堡, server: uniona.fengwo.site, port: 40148, type: ss, cipher: chacha20-ietf-poly1305, password: ce7d687c-910e-4fae-85e8-e8d65097e008, udp: true}
+  - {name: 【IDC】德国-柏林, server: unionb.fengwo.site, port: 32671, type: ss, cipher: chacha20-ietf-poly1305, password: ce7d687c-910e-4fae-85e8-e8d65097e008, udp: true}
+  - {name: 【IDC】西班牙-马德里, server: uniona.fengwo.site, port: 37183, type: ss, cipher: chacha20-ietf-poly1305, password: ce7d687c-910e-4fae-85e8-e8d65097e008, udp: true}
+  - {name: 【IDC】西班牙-巴塞罗那, server: unionb.fengwo.site, port: 53675, type: ss, cipher: chacha20-ietf-poly1305, password: ce7d687c-910e-4fae-85e8-e8d65097e008, udp: true}
+  - {name: 【IPL】巴西 里约热内卢, server: unionb.fengwo.site, port: 23717, type: ss, cipher: chacha20-ietf-poly1305, password: ce7d687c-910e-4fae-85e8-e8d65097e008, udp: true}
+  - {name: 【IDC】日本专线-500M【已解锁看片网站】, server: unionb.fengwo.site, port: 13166, type: ss, cipher: chacha20-ietf-poly1305, password: ce7d687c-910e-4fae-85e8-e8d65097e008, udp: true}
+  - {name: 【IDC】日本专线-1G【已经解锁看片网站】, server: uniona.fengwo.site, port: 23712, type: ss, cipher: chacha20-ietf-poly1305, password: ce7d687c-910e-4fae-85e8-e8d65097e008, udp: true}
+  - {name: "[LPL]美国1G专线-02【解锁流媒体】", server: unionb.fengwo.site, port: 39400, type: ss, cipher: chacha20-ietf-poly1305, password: ce7d687c-910e-4fae-85e8-e8d65097e008, udp: true}
+  - {name: "[IPL]新加坡-1G专线【已解锁流媒体】", server: unionb.fengwo.site, port: 17430, type: ss, cipher: chacha20-ietf-poly1305, password: ce7d687c-910e-4fae-85e8-e8d65097e008, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -835,7 +854,26 @@ proxy-groups:
       - 🇭🇰 HKG🐲™️【请勿测速】 41
       - 🇭🇰 HKG🐲™️【请勿测速】 42      
       - 新加坡_3
-      - 新加坡_281      
+      - 新加坡_281
+      - 新会员免费体验
+      - "[IDC]香港【已解锁流媒体】"
+      - 【IDC】加拿大-多伦多
+      - 【IDC】加拿大-蒙大拿
+      - 荷兰-鹿特丹
+      - 荷兰-阿姆斯特丹
+      - "[IDC]波兰-华沙"
+      - "[IDC]波兰-克拉科夫"
+      - 【IDC】瑞典-斯德哥尔摩
+      - 【IDC】瑞典-马尔默
+      - 【IDC】德国-汉堡
+      - 【IDC】德国-柏林
+      - 【IDC】西班牙-马德里
+      - 【IDC】西班牙-巴塞罗那
+      - 【IPL】巴西 里约热内卢
+      - 【IDC】日本专线-500M【已解锁看片网站】
+      - 【IDC】日本专线-1G【已经解锁看片网站】
+      - "[LPL]美国1G专线-02【解锁流媒体】"
+      - "[IPL]新加坡-1G专线【已解锁流媒体】"
   - name: 🇯🇵 日本节点
     type: select
     proxies:
