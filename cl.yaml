@@ -877,10 +877,8 @@ proxy-groups:
   - name: 🇯🇵 日本节点
     type: select
     proxies:
-      - 日本| 01
-      - 日本01
-      - 日本02
-      - 日本03
+      - 【IDC】日本专线-500M【已解锁看片网站】
+      - 【IDC】日本专线-1G【已经解锁看片网站】
   - name: 🇺🇲 美国节点
     type: select
     proxies:
