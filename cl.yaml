@@ -359,6 +359,14 @@ proxies:
   - {name: 【IDC】日本专线-1G【已经解锁看片网站】, server: uniona.fengwo.site, port: 23712, type: ss, cipher: chacha20-ietf-poly1305, password: ce7d687c-910e-4fae-85e8-e8d65097e008, udp: true}
   - {name: "[LPL]美国1G专线-02【解锁流媒体】", server: unionb.fengwo.site, port: 39400, type: ss, cipher: chacha20-ietf-poly1305, password: ce7d687c-910e-4fae-85e8-e8d65097e008, udp: true}
   - {name: "[IPL]新加坡-1G专线【已解锁流媒体】", server: unionb.fengwo.site, port: 17430, type: ss, cipher: chacha20-ietf-poly1305, password: ce7d687c-910e-4fae-85e8-e8d65097e008, udp: true}
+  
+  - {"name":"美国+凤凰城+优化","type":"ss","server":"happy.alicenetwork.cloud","port":60105,"password":"4988f84b-9242-408b-b5e2-b1e236c0ac0b","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港+九龙+优化","type":"ss","server":"happy.alicenetwork.cloud","port":60108,"password":"4988f84b-9242-408b-b5e2-b1e236c0ac0b","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"韩国+春川+优化","type":"ss","server":"happy.alicenetwork.cloud","port":60103,"password":"4988f84b-9242-408b-b5e2-b1e236c0ac0b","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"德国+法兰克福+优化","type":"ss","server":"happy.alicenetwork.cloud","port":60116,"password":"4988f84b-9242-408b-b5e2-b1e236c0ac0b","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"新加坡+西区+优化","type":"ss","server":"happy.alicenetwork.cloud","port":60107,"password":"4988f84b-9242-408b-b5e2-b1e236c0ac0b","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"韩国+首尔+优化","type":"ss","server":"happy.alicenetwork.cloud","port":60102,"password":"4988f84b-9242-408b-b5e2-b1e236c0ac0b","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"印度+孟买+优化","type":"ss","server":"happy.alicenetwork.cloud","port":60110,"password":"4988f84b-9242-408b-b5e2-b1e236c0ac0b","cipher":"chacha20-ietf-poly1305"}  
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -874,6 +882,13 @@ proxy-groups:
       - 【IDC】日本专线-1G【已经解锁看片网站】
       - "[LPL]美国1G专线-02【解锁流媒体】"
       - "[IPL]新加坡-1G专线【已解锁流媒体】"
+      - 美国+凤凰城+优化
+      - 香港+九龙+优化
+      - 韩国+春川+优化
+      - 德国+法兰克福+优化
+      - 新加坡+西区+优化
+      - 韩国+首尔+优化
+      - 印度+孟买+优化
   - name: 🇯🇵 日本节点
     type: select
     proxies:
