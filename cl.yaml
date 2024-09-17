@@ -91,7 +91,6 @@ hosts:
   cache.ott.hnbblive.itv.cmvideo.cn: pixman.io.hnbblive.dnsany.com
   
 proxies:
-proxies:
     - { name: '剩余流量：2964.29 GB', type: vmess, server: 38.207.132.173, port: 14648, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: hk-hy.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: hk-hy.changding.tech } }, ws-path: /changding, ws-headers: { Host: hk-hy.changding.tech } }
     - { name: 套餐到期：2026-05-15, type: vmess, server: 38.207.132.173, port: 14648, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: hk-hy.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: hk-hy.changding.tech } }, ws-path: /changding, ws-headers: { Host: hk-hy.changding.tech } }
     - { name: '机场群:https://t.me/changdingyun', type: vmess, server: 38.207.132.173, port: 14648, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: hk-hy.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: hk-hy.changding.tech } }, ws-path: /changding, ws-headers: { Host: hk-hy.changding.tech } }
