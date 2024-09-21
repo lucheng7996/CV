@@ -209,7 +209,12 @@ proxies:
   - { name: 'Japan 02', type: vless, server: jp2.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: TTPcfOT851FXonrhOiySGnu7yNcbRB_8PlH496i8wFY, short-id: ec81680f }, client-fingerprint: ios }
   - { name: 'Japan 03', type: vless, server: jp3.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: lglDb7wrttqBOUTfZilyGbiSwFqBlHtCMciMu9VCxjM, short-id: 778f6556 }, client-fingerprint: firefox }
   - { name: 'Japan 04', type: vless, server: jp4.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: zIw3P1C9fGjbQSXNLjyAshZa9rw33_agfe3AldfKhC4, short-id: dbab5b3d }, client-fingerprint: ios }  
-  
+
+  - { name: 'Singapore 01', type: vless, server: sg1.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: 0898XYGggRCKKuad0O-w5ccMWjxvip-JExGyjdv57xA, short-id: 9a853fa5 }, client-fingerprint: qq }
+  - { name: 'Singapore 02', type: vless, server: sg2.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: ScsFDI4Azo72W_UCF3IhV0_w2FCdvOJfnj2kgr9WZxI, short-id: 0668540b }, client-fingerprint: safari }
+  - { name: 'Singapore 03', type: vless, server: sg3.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: W5725QFzaybXFjQkSX8-FAc6iqabzUHFYgT-AREchVY, short-id: '543759e8' }, client-fingerprint: firefox }
+  - { name: 'Singapore 04', type: vless, server: sg4.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: tru
+
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -342,6 +347,10 @@ proxy-groups:
       - 'Japan 02'
       - 'Japan 03'
       - 'Japan 04'
+      - 'Singapore 01'
+      - 'Singapore 02'
+      - 'Singapore 03'
+      - 'Singapore 04'
   - name: 📲 电报消息
     type: select
     proxies:
@@ -626,6 +635,10 @@ proxy-groups:
       - 🇸🇬 新加坡16
       - 🇸🇬 新加坡17
       - 🇸🇬 新加坡18
+      - 'Singapore 01'
+      - 'Singapore 02'
+      - 'Singapore 03'
+      - 'Singapore 04'
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
