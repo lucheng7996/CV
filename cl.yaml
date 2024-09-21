@@ -213,7 +213,7 @@ proxies:
   - { name: 'Singapore 01', type: vless, server: sg1.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: 0898XYGggRCKKuad0O-w5ccMWjxvip-JExGyjdv57xA, short-id: 9a853fa5 }, client-fingerprint: qq }
   - { name: 'Singapore 02', type: vless, server: sg2.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: ScsFDI4Azo72W_UCF3IhV0_w2FCdvOJfnj2kgr9WZxI, short-id: 0668540b }, client-fingerprint: safari }
   - { name: 'Singapore 03', type: vless, server: sg3.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: W5725QFzaybXFjQkSX8-FAc6iqabzUHFYgT-AREchVY, short-id: '543759e8' }, client-fingerprint: firefox }
-  - { name: 'Singapore 04', type: vless, server: sg4.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: tru
+  - { name: 'Singapore 04', type: vless, server: sg4.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: eUdPnuVKrbjOoM6SDYOGfVVwZcztXQdUoT2Y0z88R1E, short-id: 49b038a4 }, client-fingerprint: firefox }
 
 proxy-groups:
   - name: 🚀 节点选择
