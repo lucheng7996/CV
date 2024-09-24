@@ -137,7 +137,7 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - ♻️ 自动选择
+      - ♻️ 手动选择
       - 🌍 国外媒体
       - 📲 电报信息
       - Ⓜ️ 微软服务
@@ -146,11 +146,8 @@ proxy-groups:
       - 🍃 应用净化
       - 🐟 漏网之鱼
       - DIRECT
-  - name: ♻️ 自动选择
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
+  - name: ♻️ 手动选择
+    type: select
     proxies:
       - 台湾彰化-海豚白嫖
       - 香港电讯-海豚白嫖
@@ -191,7 +188,7 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点选择
-      - ♻️ 自动选择
+      - ♻️ 手动选择
       - 🎯 全球直连
       - 台湾彰化-海豚白嫖
       - 香港电讯-海豚白嫖
@@ -237,7 +234,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - ♻️ 自动选择
+      - ♻️ 手动选择
   - name: 🛑 全球拦截
     type: select
     proxies:
@@ -253,7 +250,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ♻️ 自动选择
+      - ♻️ 手动选择
       - 台湾彰化-海豚白嫖
       - 香港电讯-海豚白嫖
       - 越南-海豚白嫖
