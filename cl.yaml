@@ -374,30 +374,68 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - 🚀 节点选择
+      - 🚀 手动切换      
+      - 'Hong Kong 01'
+      - 'Hong Kong 02'
+      - V1-香港
+      - 香港电讯-海豚白嫖
   - name: 🇯🇵 日本节点
     type: select
     proxies:
       - DIRECT
+      - 🚀 节点选择
+      - 🚀 手动切换      
+      - 'Japan 01'
+      - 'Japan 02'
+      - 'Japan 03'
+      - 'Japan 04'
+      - V1-日本
+      - 日本-海豚白嫖_1
+      - 日本-海豚白嫖_2
   - name: 🇺🇲 美国节点
     type: select
     proxies:
       - DIRECT
+      - 🚀 节点选择
+      - 🚀 手动切换      
+      - 'United States 01'
+      - 'United States 02'
+      - 'United States 03'
+      - 'United States 04'
+      - V1-美国
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
       - DIRECT
+      - 🚀 节点选择
+      - 🚀 手动切换      
+      - 'Singapore 01'
+      - 'Singapore 02'
+      - 'Singapore 03'
+      - 'Singapore 04'
+      - V1-新加坡
+      - 新加坡-海豚白嫖
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
       - DIRECT
+      - 🚀 节点选择
+      - 🚀 手动切换      
+      - 台湾彰化-海豚白嫖
+      - V1-台湾
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
       - DIRECT
+      - 🚀 节点选择
+      - 🚀 手动切换
   - name: 🎥 奈飞节点
     type: select
     proxies:
       - DIRECT
+      - 🚀 节点选择
+      - 🚀 手动切换
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
