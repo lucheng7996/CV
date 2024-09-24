@@ -374,7 +374,6 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🚀 节点选择
       - 🚀 手动切换      
       - 'Hong Kong 01'
       - 'Hong Kong 02'
@@ -384,7 +383,6 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🚀 节点选择
       - 🚀 手动切换      
       - 'Japan 01'
       - 'Japan 02'
@@ -397,7 +395,6 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🚀 节点选择
       - 🚀 手动切换      
       - 'United States 01'
       - 'United States 02'
@@ -408,7 +405,6 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🚀 节点选择
       - 🚀 手动切换      
       - 'Singapore 01'
       - 'Singapore 02'
@@ -420,7 +416,6 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🚀 节点选择
       - 🚀 手动切换      
       - 台湾彰化-海豚白嫖
       - V1-台湾
@@ -428,13 +423,11 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🚀 节点选择
       - 🚀 手动切换
   - name: 🎥 奈飞节点
     type: select
     proxies:
       - DIRECT
-      - 🚀 节点选择
       - 🚀 手动切换
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
