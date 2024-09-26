@@ -128,20 +128,11 @@ proxies:
     
     - {name: 台湾彰化-海豚白嫖, port: 50199, server: scm.zarelayv1.com, type: trojan, udp: true, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
     - {name: 香港电讯-海豚白嫖, port: 52200, server: scm.zarelayv1.com, type: trojan, udp: true, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
+    - {name: 越南-海豚白嫖, port: 57777, server: scm.zarelayv1.com, type: trojan, udp: true, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
     - {name: 日本-海豚白嫖_1, port: 43699, server: ecu.zarelay.com, type: trojan, udp: true, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
     - {name: 新加坡-海豚白嫖, port: 65510, server: scm.zarelayv1.com, type: trojan, udp: true, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
     - {name: 日本-海豚白嫖_2, port: 43699, server: scm.zarelayv1.com, type: trojan, udp: true, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
-    - {name: 日本-海豚白嫖 2, port: 43699, server: ecu.zarelay.com, type: trojan, network: tcp, udp: true, sni: jp-neko.zodport.com, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
-    - {name: 美国-海豚白嫖 2, port: 25954, server: us05needay386akm158165.19492024.xyz, type: hysteria2, udp: true, password: 7a9769ce-8d9a-4003-8fee-dcb307fadd74, skip-cert-verify: true}
-    - {name: haitunfree1_德国, port: 10192, server: l804dgmgtw.vpntz.com, type: ss, udp: true, password: 8e76baf3-c750-4315-9a17-ebfc2086cdaf, cipher: chacha20-ietf-poly1305}
-    - {name: 英国 -海豚白嫖, port: 26369, server: uk01needay146yunyoo24.19492024.xyz, type: hysteria2, udp: true, password: 7a9769ce-8d9a-4003-8fee-dcb307fadd74, skip-cert-verify: true}
-    - {name: 香港电讯2-海豚白嫖, port: 52201, server: scm.zarelayv1.com, type: trojan, network: tcp, udp: true, sni: baidu.com, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
-    - {name: 越南-海豚白嫖, port: 57777, server: scm.zarelayv1.com, type: trojan, network: tcp, udp: true, sni: vn-tot.zodlink.com, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
-    - {name: 美国-海豚白嫖, port: 29657, server: us04needay89213177akm.544797.xyz, type: hysteria2, udp: true, password: 7a9769ce-8d9a-4003-8fee-dcb307fadd74, skip-cert-verify: true}
-    - {name: haitunfree1_新加坡, port: 10198, server: mianfeiyuanfang1.vpntz.com, type: ss, udp: true, password: 8e76baf3-c750-4315-9a17-ebfc2086cdaf, cipher: chacha20-ietf-poly1305}
-    - {name: 香港-海豚白嫖 2, port: 21805, server: hk26needay182yunyoo32.544797.xyz, type: hysteria2, udp: true, password: 7a9769ce-8d9a-4003-8fee-dcb307fadd74, skip-cert-verify: true}
-    - {name: 香港01 | Xiaaa大小姐赞助, port: 30000, server: 45.119.99.148, type: hysteria2, udp: true, password: 70676b9f-faff-4684-80f0-340465b2307a, skip-cert-verify: true}
-    
+
     - { name: 香港01, server: hk1.fastsocks.xyz, port: 34000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
     - { name: 香港02, server: hk2.fastsocks.xyz, port: 34000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
     - { name: 香港03, server: hk3.fastsocks.xyz, port: 34000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
@@ -184,14 +175,6 @@ proxy-groups:
       - 日本-海豚白嫖_1
       - 新加坡-海豚白嫖
       - 日本-海豚白嫖_2
-      - 美国-海豚白嫖 2
-      - haitunfree1_德国
-      - 英国 -海豚白嫖
-      - 香港电讯2-海豚白嫖
-      - 美国-海豚白嫖
-      - haitunfree1_新加坡
-      - 香港-海豚白嫖 2
-      - 香港01 | Xiaaa大小姐赞助
       - '剩余流量：511.94 GB'
       - '距离下次重置剩余：29 天'
       - 套餐到期：2024-10-17
@@ -437,9 +420,6 @@ proxy-groups:
       - 'Hong Kong 02'
       - V1-香港
       - 香港电讯-海豚白嫖
-      - 香港-海豚白嫖 2
-      - 香港电讯2-海豚白嫖
-      - 香港01 | Xiaaa大小姐赞助
       - 香港01
       - 香港02
       - 香港03
@@ -479,8 +459,6 @@ proxy-groups:
       - 美国01
       - 美国02
       - 美国03
-      - 美国-海豚白嫖 2
-      - 美国-海豚白嫖
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
