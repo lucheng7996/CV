@@ -221,6 +221,26 @@ proxy-groups:
       - 'Singapore 04'
       - 'United Kindom 01'
       - 'United Kindom 02'
+      - 香港01
+      - 香港02
+      - 香港03
+      - 香港04
+      - 香港05
+      - 香港06
+      - 香港07
+      - 香港08
+      - 香港09
+      - 新加坡01
+      - 新加坡02
+      - 日本01
+      - 日本02
+      - 日本03
+      - 日本04
+      - 日本05
+      - 俄罗斯
+      - 美国01
+      - 美国02
+      - 美国03
   - name: 📲 电报消息
     type: select
     proxies:
@@ -417,6 +437,18 @@ proxy-groups:
       - 'Hong Kong 02'
       - V1-香港
       - 香港电讯-海豚白嫖
+      - 香港-海豚白嫖 2
+      - 香港电讯2-海豚白嫖
+      - 香港01 | Xiaaa大小姐赞助
+      - 香港01
+      - 香港02
+      - 香港03
+      - 香港04
+      - 香港05
+      - 香港06
+      - 香港07
+      - 香港08
+      - 香港09
   - name: 🇯🇵 日本节点
     type: select
     proxies:
@@ -429,6 +461,11 @@ proxy-groups:
       - V1-日本
       - 日本-海豚白嫖_1
       - 日本-海豚白嫖_2
+      - 日本01
+      - 日本02
+      - 日本03
+      - 日本04
+      - 日本05
   - name: 🇺🇲 美国节点
     type: select
     proxies:
@@ -439,6 +476,11 @@ proxy-groups:
       - 'United States 03'
       - 'United States 04'
       - V1-美国
+      - 美国01
+      - 美国02
+      - 美国03
+      - 美国-海豚白嫖 2
+      - 美国-海豚白嫖
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
@@ -450,6 +492,8 @@ proxy-groups:
       - 'Singapore 04'
       - V1-新加坡
       - 新加坡-海豚白嫖
+      - 新加坡01
+      - 新加坡02
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
