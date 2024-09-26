@@ -175,7 +175,10 @@ proxy-groups:
       - 🚀 手动切换
       - DIRECT
   - name: 🚀 手动切换
-    type: select
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
     proxies:
       - 台湾彰化-海豚白嫖
       - 香港电讯-海豚白嫖
