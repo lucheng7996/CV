@@ -134,6 +134,7 @@ proxies:
     - {name: 日本-海豚白嫖_2, port: 43699, server: scm.zarelayv1.com, type: trojan, udp: true, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
     - {name: 香港-海豚白嫖 2, port: 21805, server: hk26needay182yunyoo32.544797.xyz, type: hysteria2, udp: true, password: 7a9769ce-8d9a-4003-8fee-dcb307fadd74, skip-cert-verify: true}
     - {name: 香港01 | Xiaaa大小姐赞助, port: 30000, server: 45.119.99.148, type: hysteria2, udp: true, password: 70676b9f-faff-4684-80f0-340465b2307a, skip-cert-verify: true}
+    - {name: haitunfree1_新加坡, port: 10198, server: mianfeiyuanfang1.vpntz.com, type: ss, udp: true, password: 8e76baf3-c750-4315-9a17-ebfc2086cdaf, cipher: chacha20-ietf-poly1305}
     
     - { name: 香港01, server: hk1.fastsocks.xyz, port: 34000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
     - { name: 香港02, server: hk2.fastsocks.xyz, port: 34000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
