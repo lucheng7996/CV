@@ -128,7 +128,6 @@ proxies:
     
     - {name: 台湾彰化-海豚白嫖, port: 50199, server: scm.zarelayv1.com, type: trojan, udp: true, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
     - {name: 香港电讯-海豚白嫖, port: 52200, server: scm.zarelayv1.com, type: trojan, udp: true, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
-    - {name: 越南-海豚白嫖, port: 57777, server: scm.zarelayv1.com, type: trojan, udp: true, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
     - {name: 日本-海豚白嫖_1, port: 43699, server: ecu.zarelay.com, type: trojan, udp: true, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
     - {name: 新加坡-海豚白嫖, port: 65510, server: scm.zarelayv1.com, type: trojan, udp: true, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
     - {name: 日本-海豚白嫖_2, port: 43699, server: scm.zarelayv1.com, type: trojan, udp: true, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
