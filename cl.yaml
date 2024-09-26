@@ -136,7 +136,7 @@ proxies:
     - {name: haitunfree1_德国, port: 10192, server: l804dgmgtw.vpntz.com, type: ss, udp: true, password: 8e76baf3-c750-4315-9a17-ebfc2086cdaf, cipher: chacha20-ietf-poly1305}
     - {name: 英国 -海豚白嫖, port: 26369, server: uk01needay146yunyoo24.19492024.xyz, type: hysteria2, udp: true, password: 7a9769ce-8d9a-4003-8fee-dcb307fadd74, skip-cert-verify: true}
     - {name: 香港电讯2-海豚白嫖, port: 52201, server: scm.zarelayv1.com, type: trojan, network: tcp, udp: true, sni: baidu.com, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
-    - {name: 越南-海豚白嫖, port: 57777, server: scm.zarelayv1.com, type: trojan, network: tcp, udp: true, sni: vn-tot.zodlink.com, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true
+    - {name: 越南-海豚白嫖, port: 57777, server: scm.zarelayv1.com, type: trojan, network: tcp, udp: true, sni: vn-tot.zodlink.com, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
     - {name: 美国-海豚白嫖, port: 29657, server: us04needay89213177akm.544797.xyz, type: hysteria2, udp: true, password: 7a9769ce-8d9a-4003-8fee-dcb307fadd74, skip-cert-verify: true}
     - {name: haitunfree1_新加坡, port: 10198, server: mianfeiyuanfang1.vpntz.com, type: ss, udp: true, password: 8e76baf3-c750-4315-9a17-ebfc2086cdaf, cipher: chacha20-ietf-poly1305}
     - {name: 香港-海豚白嫖 2, port: 21805, server: hk26needay182yunyoo32.544797.xyz, type: hysteria2, udp: true, password: 7a9769ce-8d9a-4003-8fee-dcb307fadd74, skip-cert-verify: true}
