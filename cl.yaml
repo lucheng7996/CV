@@ -133,6 +133,27 @@ proxies:
     - {name: 新加坡-海豚白嫖, port: 65510, server: scm.zarelayv1.com, type: trojan, udp: true, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
     - {name: 日本-海豚白嫖_2, port: 43699, server: scm.zarelayv1.com, type: trojan, udp: true, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
 
+    - { name: 香港01, server: hk1.fastsocks.xyz, port: 34000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
+    - { name: 香港02, server: hk2.fastsocks.xyz, port: 34000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
+    - { name: 香港03, server: hk3.fastsocks.xyz, port: 34000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
+    - { name: 香港04, server: hk4.fastsocks.xyz, port: 34000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
+    - { name: 香港05, server: hk5.fastsocks.xyz, port: 34000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
+    - { name: 香港06, server: hk6.fastsocks.xyz, port: 11288, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
+    - { name: 香港07, server: hk7.fastsocks.xyz, port: 34000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
+    - { name: 香港08, server: hk8.fastsocks.xyz, port: 34000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
+    - { name: 香港09, server: hk9.fastsocks.xyz, port: 57000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
+    - { name: 新加坡01, server: 194.36.179.225, port: 57000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
+    - { name: 新加坡02, server: 194.36.179.226, port: 57000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
+    - { name: 日本01, server: jp1.fastsocks.xyz, port: 57000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
+    - { name: 日本02, server: jp2.fastsocks.xyz, port: 57000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
+    - { name: 日本03, server: jp3.fastsocks.xyz, port: 57000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
+    - { name: 日本04, server: jp4.fastsocks.xyz, port: 57000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
+    - { name: 日本05, server: jp5.fastsocks.xyz, port: 57000, udp: true, skip-cert-verify: true, sni: hk5.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
+    - { name: 俄罗斯, server: ru.fastsocks.xyz, port: 57000, udp: true, skip-cert-verify: true, sni: hk5.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
+    - { name: 美国01, server: us1.fastsocks.xyz, port: 57000, udp: true, skip-cert-verify: true, sni: hk5.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
+    - { name: 美国02, server: us2.fastsocks.xyz, port: 57000, udp: true, skip-cert-verify: true, sni: hk5.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
+    - { name: 美国03, server: us3.fastsocks.xyz, port: 57000, udp: true, skip-cert-verify: true, sni: hk5.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
+
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -183,6 +204,26 @@ proxy-groups:
       - 'Singapore 04'
       - 'United Kindom 01'
       - 'United Kindom 02'
+      - 香港01
+      - 香港02
+      - 香港03
+      - 香港04
+      - 香港05
+      - 香港06
+      - 香港07
+      - 香港08
+      - 香港09
+      - 新加坡01
+      - 新加坡02
+      - 日本01
+      - 日本02
+      - 日本03
+      - 日本04
+      - 日本05
+      - 俄罗斯
+      - 美国01
+      - 美国02
+      - 美国03
   - name: 📲 电报消息
     type: select
     proxies:
@@ -379,6 +420,15 @@ proxy-groups:
       - 'Hong Kong 02'
       - V1-香港
       - 香港电讯-海豚白嫖
+      - 香港01
+      - 香港02
+      - 香港03
+      - 香港04
+      - 香港05
+      - 香港06
+      - 香港07
+      - 香港08
+      - 香港09
   - name: 🇯🇵 日本节点
     type: select
     proxies:
@@ -391,6 +441,11 @@ proxy-groups:
       - V1-日本
       - 日本-海豚白嫖_1
       - 日本-海豚白嫖_2
+      - 日本01
+      - 日本02
+      - 日本03
+      - 日本04
+      - 日本05
   - name: 🇺🇲 美国节点
     type: select
     proxies:
@@ -401,6 +456,9 @@ proxy-groups:
       - 'United States 03'
       - 'United States 04'
       - V1-美国
+      - 美国01
+      - 美国02
+      - 美国03
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
@@ -412,6 +470,8 @@ proxy-groups:
       - 'Singapore 04'
       - V1-新加坡
       - 新加坡-海豚白嫖
+      - 新加坡01
+      - 新加坡02
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
