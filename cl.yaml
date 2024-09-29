@@ -206,7 +206,18 @@ proxy-groups:
       - DIRECT
   - name: 🚀 手动切换
     type: select
-    proxies:     
+    proxies:
+      - HK1
+      - HK2
+      - HK3
+      - HK4
+      - HK5
+      - HK6
+      - 美国-01
+      - 美国-02
+      - 美国-03
+      - 美国-04
+      - 美国-05
       - 台湾彰化-海豚白嫖
       - 香港电讯-海豚白嫖
       - 越南-海豚白嫖
