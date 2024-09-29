@@ -207,6 +207,25 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - TW1
+      - TW2
+      - JP1
+      - JP2
+      - JP3
+      - JP4
+      - JP5
+      - JP6
+      - JP7
+      - KR1
+      - KR2
+      - KR3
+      - SG1
+      - SG2
+      - SG3
+      - SG4
+      - SG5
+      - SG6
+      - SG7
       - HK1
       - HK2
       - HK3
