@@ -162,6 +162,37 @@ proxies:
     - { name: 美国02, server: us2.fastsocks.xyz, port: 57000, udp: true, skip-cert-verify: true, sni: hk5.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
     - { name: 美国03, server: us3.fastsocks.xyz, port: 57000, udp: true, skip-cert-verify: true, sni: hk5.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
     
+
+  - {name:  TW1, server: taiwan.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  TW2, server: taiwan-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  JP1, server: japan.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  JP2, server: japan-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  JP3, server: japan-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  JP4, server: japan-4.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  JP5, server: japan-5.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  JP6, server: japan-6.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  JP7, server: japan-7.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  KR1, server: south-korea.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  KR2, server: south-korea-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  KR3, server: south-korea-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  SG1, server: singapore.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  SG2, server: singapore-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  SG3, server: singapore-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  SG4, server: singapore-4.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  SG5, server: singapore-5.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  SG6, server: singapore-6.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  SG7, server: singapore-7.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  HK1, server: hong-kong.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  HK2, server: hong-kong-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  HK3, server: hong-kong-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  HK4, server: hong-kong-4.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  HK5, server: hong-kong-5.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  HK6, server: hong-kong-6.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  美国-01, server: us-boardman-oregon-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  美国-02, server: us-ashburn-virginia-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  美国-03, server: us-ashburn-virginia-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  美国-04, server: us-ashburn-virginia.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+  - {name:  美国-05, server: us-boardman-oregon.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -177,6 +208,36 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - TW1
+      - TW2
+      - JP1
+      - JP2
+      - JP3
+      - JP4
+      - JP5
+      - JP6
+      - JP7
+      - KR1
+      - KR2
+      - KR3
+      - SG1
+      - SG2
+      - SG3
+      - SG4
+      - SG5
+      - SG6
+      - SG7
+      - HK1
+      - HK2
+      - HK3
+      - HK4
+      - HK5
+      - HK6
+      - 美国-01
+      - 美国-02
+      - 美国-03
+      - 美国-04
+      - 美国-05
       - 台湾彰化-海豚白嫖
       - 香港电讯-海豚白嫖
       - 越南-海豚白嫖
