@@ -206,6 +206,7 @@ proxy-groups:
       - DIRECT
   - name: 🚀 手动切换
     type: select
+    url: http://www.gstatic.com/generate_204
     proxies:
       - TW1
       - TW2
