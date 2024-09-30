@@ -192,6 +192,23 @@ proxies:
     - {name:  美国-03, server: us-ashburn-virginia-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
     - {name:  美国-04, server: us-ashburn-virginia.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
     - {name:  美国-05, server: us-boardman-oregon.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+    
+    - { name: '香港 01｜广东联通优化', type: vmess, server: 54.251.167.101, port: 443, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: hk-hy.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: hk-hy.changding.tech } }, ws-path: /changding, ws-headers: { Host: hk-hy.changding.tech } }
+    - { name: '香港 02｜广东联通优化', type: vmess, server: 54.251.167.101, port: 443, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: hk-hy.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: hk-hy.changding.tech } }, ws-path: /changding, ws-headers: { Host: hk-hy.changding.tech } }
+    - { name: '香港 03｜广东联通优化', type: vmess, server: 54.251.167.101, port: 443, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: hk-hy.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: hk-hy.changding.tech } }, ws-path: /changding, ws-headers: { Host: hk-hy.changding.tech } }
+    - { name: '香港 04｜广东联通优化', type: vmess, server: 54.251.167.101, port: 443, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: hk-hy.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: hk-hy.changding.tech } }, ws-path: /changding, ws-headers: { Host: hk-hy.changding.tech } }
+    - { name: '香港 05｜广东联通优化', type: vmess, server: 54.251.167.101, port: 443, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: hk-hy02.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: hk-hy02.changding.tech } }, ws-path: /changding, ws-headers: { Host: hk-hy02.changding.tech } }
+    - { name: '香港 06｜广东联通优化', type: vmess, server: 54.251.167.101, port: 443, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: hk-hy02.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: hk-hy02.changding.tech } }, ws-path: /changding, ws-headers: { Host: hk-hy02.changding.tech } }
+    - { name: '香港 07｜广东联通优化', type: vmess, server: 54.251.167.101, port: 443, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: hk-hy02.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: hk-hy02.changding.tech } }, ws-path: /changding, ws-headers: { Host: hk-hy02.changding.tech } }
+    - { name: '香港 08｜广东联通优化', type: vmess, server: 54.251.167.101, port: 443, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: hk-hy02.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: hk-hy02.changding.tech } }, ws-path: /changding, ws-headers: { Host: hk-hy02.changding.tech } }
+    - { name: '香港 13｜广东联通优化', type: vmess, server: 54.251.167.101, port: 443, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: hkt.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: hkt.changding.tech } }, ws-path: /changding, ws-headers: { Host: hkt.changding.tech } }
+    - { name: '香港 14｜广东联通优化', type: vmess, server: 54.251.167.101, port: 443, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: hkt.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: hkt.changding.tech } }, ws-path: /changding, ws-headers: { Host: hkt.changding.tech } }
+    - { name: '香港 15｜广东联通优化', type: vmess, server: 54.251.167.101, port: 443, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: hkt.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: hkt.changding.tech } }, ws-path: /changding, ws-headers: { Host: hkt.changding.tech } }
+    - { name: '香港 16｜广东联通优化', type: vmess, server: 54.251.167.101, port: 443, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: hkt.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: hkt.changding.tech } }, ws-path: /changding, ws-headers: { Host: hkt.changding.tech } }
+    - { name: 新加坡01｜x0.1｜广东联通优化, type: vmess, server: 54.251.167.101, port: 443, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: dci-do-sg.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: dci-do-sg.changding.tech } }, ws-path: /changding, ws-headers: { Host: dci-do-sg.changding.tech } }
+    - { name: 新加坡02｜x0.1｜广东联通优化, type: vmess, server: 54.251.167.101, port: 443, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: dci-do-sg.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: dci-do-sg.changding.tech } }, ws-path: /changding, ws-headers: { Host: dci-do-sg.changding.tech } }
+    - { name: 新加坡03｜x0.1｜广东联通优化, type: vmess, server: 54.251.167.101, port: 443, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: dci-do-sg.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: dci-do-sg.changding.tech } }, ws-path: /changding, ws-headers: { Host: dci-do-sg.changding.tech } }
+    - { name: 新加坡04｜x0.1｜广东联通优化, type: vmess, server: 54.251.167.101, port: 443, uuid: 774a8a6c-6581-4671-8282-fe89719f58fc, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: dci-do-sg.changding.tech, network: ws, ws-opts: { path: /changding, headers: { Host: dci-do-sg.changding.tech } }, ws-path: /changding, ws-headers: { Host: dci-do-sg.changding.tech } }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -207,6 +224,18 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - 香港 01｜广东联通优化
+      - 香港 02｜广东联通优化
+      - 香港 03｜广东联通优化
+      - 香港 04｜广东联通优化
+      - 香港 05｜广东联通优化
+      - 香港 06｜广东联通优化
+      - 香港 07｜广东联通优化
+      - 香港 08｜广东联通优化
+      - 香港 13｜广东联通优化
+      - 香港 14｜广东联通优化
+      - 香港 15｜广东联通优化
+      - 香港 16｜广东联通优化
       - TW1
       - TW2
       - JP1
