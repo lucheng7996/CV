@@ -192,22 +192,6 @@ proxies:
     - {name:  美国-03, server: us-ashburn-virginia-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
     - {name:  美国-04, server: us-ashburn-virginia.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
     - {name:  美国-05, server: us-boardman-oregon.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-
-    - { name: 香港家宽01HKT, server: hk1.xunlian.site, port: 34080, sni: hk2.xunlian.site, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: 4e2cb571-060e-4415-9424-8b5aa9e58932 }
-    - { name: 香港家宽02HKT, server: hk2.xunlian.site, port: 6608, sni: hk2.xunlian.site, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: 4e2cb571-060e-4415-9424-8b5aa9e58932 }
-    - { name: 香港家宽03HKT, server: hk3.xunlian.site, port: 57000, sni: hk2.xunlian.site, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: 4e2cb571-060e-4415-9424-8b5aa9e58932 }
-    - { name: 日本01解锁, server: jp01.xunlian.site, port: 6608, sni: hk2.xunlian.site, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: 4e2cb571-060e-4415-9424-8b5aa9e58932 }
-    - { name: 日本02解锁, server: jp02.xunlian.site, port: 6608, sni: hk2.xunlian.site, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: 4e2cb571-060e-4415-9424-8b5aa9e58932 }
-    - { name: 日本03解锁, server: jp3.xunlian.site, port: 6608, sni: hk2.xunlian.site, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: 4e2cb571-060e-4415-9424-8b5aa9e58932 }
-    - { name: 日本04解锁, server: jp4.xunlian.site, port: 6608, sni: hk2.xunlian.site, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: 4e2cb571-060e-4415-9424-8b5aa9e58932 }
-    - { name: 日本05解锁, server: jp5.xunlian.site, port: 6608, sni: hk2.xunlian.site, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: 4e2cb571-060e-4415-9424-8b5aa9e58932 }
-    - { name: 新加坡01解锁, server: sg1.xunlian.site, port: 6608, sni: hk2.xunlian.site, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: 4e2cb571-060e-4415-9424-8b5aa9e58932 }
-    - { name: 新加坡02解锁, server: sg2.xunlian.site, port: 6608, sni: hk2.xunlian.site, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: 4e2cb571-060e-4415-9424-8b5aa9e58932 }
-    - { name: 新加坡03解锁, server: sg3.xunlian.site, port: 6608, sni: hk2.xunlian.site, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: 4e2cb571-060e-4415-9424-8b5aa9e58932 }
-    - { name: 新加坡04解锁, server: sg4.xunlian.site, port: 6608, sni: hk2.xunlian.site, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: 4e2cb571-060e-4415-9424-8b5aa9e58932 }
-    - { name: 美国01解锁, server: us1.xunlian.site, port: 6608, sni: hk2.xunlian.site, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: 4e2cb571-060e-4415-9424-8b5aa9e58932 }
-    - { name: 美国02解锁, server: us2.xunlian.site, port: 6608, sni: hk2.xunlian.site, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: 4e2cb571-060e-4415-9424-8b5aa9e58932 }
-    - { name: 美国03解锁, server: us3.xunlian.site, port: 6608, sni: hk2.xunlian.site, up: 300, down: 300, skip-cert-verify: true, type: hysteria2, password: 4e2cb571-060e-4415-9424-8b5aa9e58932 }    
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -223,21 +207,6 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 香港家宽01HKT
-      - 香港家宽02HKT
-      - 香港家宽03HKT
-      - 日本01解锁
-      - 日本02解锁
-      - 日本03解锁
-      - 日本04解锁
-      - 日本05解锁
-      - 新加坡01解锁
-      - 新加坡02解锁
-      - 新加坡03解锁
-      - 新加坡04解锁
-      - 美国01解锁
-      - 美国02解锁
-      - 美国03解锁
       - TW1
       - TW2
       - JP1
