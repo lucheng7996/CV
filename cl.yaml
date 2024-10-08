@@ -203,12 +203,6 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - 新加坡-1x
-      - 日本1-1x
-      - 日本2-1x
-      - 香港1-1x
-      - 香港2-1x
-      - 加拿大-1x
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
       - 🇸🇬 狮城节点
@@ -220,6 +214,12 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - 新加坡-1x
+      - 日本1-1x
+      - 日本2-1x
+      - 香港1-1x
+      - 香港2-1x
+      - 加拿大-1x
       - TW1
       - TW2
       - JP1
