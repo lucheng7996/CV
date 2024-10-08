@@ -192,10 +192,23 @@ proxies:
     - {name:  美国-03, server: us-ashburn-virginia-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
     - {name:  美国-04, server: us-ashburn-virginia.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
     - {name:  美国-05, server: us-boardman-oregon.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+    
+    - { name: 新加坡-1x, type: ss, server: cs2.ni8.me, port: 42729, cipher: chacha20-ietf-poly1305, password: ed1eb6c7-1615-476a-8fd3-d6a488a9adde, udp: true }
+    - { name: 日本1-1x, type: ss, server: cs2.ni8.me, port: 53185, cipher: chacha20-ietf-poly1305, password: ed1eb6c7-1615-476a-8fd3-d6a488a9adde, udp: true }
+    - { name: 日本2-1x, type: ss, server: cs2.ni8.me, port: 22225, cipher: chacha20-ietf-poly1305, password: ed1eb6c7-1615-476a-8fd3-d6a488a9adde, udp: true }
+    - { name: 香港1-1x, type: ss, server: cs2.ni8.me, port: 39210, cipher: chacha20-ietf-poly1305, password: ed1eb6c7-1615-476a-8fd3-d6a488a9adde, udp: true }
+    - { name: 香港2-1x, type: ss, server: cs2.ni8.me, port: 38896, cipher: chacha20-ietf-poly1305, password: ed1eb6c7-1615-476a-8fd3-d6a488a9adde, udp: true }
+    - { name: 加拿大-1x, type: ss, server: cs2.ni8.me, port: 16943, cipher: chacha20-ietf-poly1305, password: ed1eb6c7-1615-476a-8fd3-d6a488a9adde, udp: true }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
+      - 新加坡-1x
+      - 日本1-1x
+      - 日本2-1x
+      - 香港1-1x
+      - 香港2-1x
+      - 加拿大-1x
       - 🇭🇰 香港节点
       - 🇨🇳 台湾节点
       - 🇸🇬 狮城节点
