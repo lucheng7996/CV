@@ -199,6 +199,12 @@ proxies:
     - { name: 香港1-1x, type: ss, server: cs2.ni8.me, port: 39210, cipher: chacha20-ietf-poly1305, password: ed1eb6c7-1615-476a-8fd3-d6a488a9adde, udp: true }
     - { name: 香港2-1x, type: ss, server: cs2.ni8.me, port: 38896, cipher: chacha20-ietf-poly1305, password: ed1eb6c7-1615-476a-8fd3-d6a488a9adde, udp: true }
     - { name: 加拿大-1x, type: ss, server: cs2.ni8.me, port: 16943, cipher: chacha20-ietf-poly1305, password: ed1eb6c7-1615-476a-8fd3-d6a488a9adde, udp: true }
+   
+    - {name: 香港1, server: hkre1-cdn-route.couldflare-cdn.com, port: 443, type: http, tls: true, skip-cert-verify: false, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==}
+    - {name: 香港2, server: hkcera3-cdn-route.couldflare-cdn.com, port: 443, type: http, tls: true, skip-cert-verify: false, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==}
+    - {name: 日本1, server: jpgmo101-cdn-route.couldflare-cdn.com, port: 443, type: http, tls: true, skip-cert-verify: false, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==}
+    - {name: 日本2, server: jpgmo102-cdn-route.couldflare-cdn.com, port: 443, type: http, tls: true, skip-cert-verify: false, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==}
+    - {name: 日本3, type: http, server: jp104-cdn-route.couldflare-cdn.com, port: 443, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -214,6 +220,11 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - 香港1
+      - 香港2
+      - 日本1
+      - 日本2
+      - 日本3
       - 新加坡-1x
       - 日本1-1x
       - 日本2-1x
