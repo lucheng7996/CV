@@ -206,8 +206,8 @@ proxies:
     - {name: 日本2, server: jpgmo102-cdn-route.couldflare-cdn.com, port: 443, type: http, tls: true, skip-cert-verify: false, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==}
     - {name: 日本3, type: http, server: jp104-cdn-route.couldflare-cdn.com, port: 443, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, skip-cert-verify: false}
     
-    - { name: 'MF-1｜United States', type: trojan, server: 12372.96110.one, port: 23872, password: 1f2ad491-3c99-4f62-a197-09fb0dd007cb, udp: true, sni: www.icloud.com, skip-cert-verify: true }
-    - { name: 'MF-1｜Singapore', type: trojan, server: 23489.96110.one, port: 53296, password: 1f2ad491-3c99-4f62-a197-09fb0dd007cb, udp: true, sni: www.icloud.com, skip-cert-verify: true }
+    - { name: 'MF-1｜United States', type: trojan, server: 12372.96110.one, port: 23872, password: 9923bfe0-0fc7-436f-a8ee-89f98025939d, udp: true, sni: www.icloud.com, skip-cert-verify: true }
+    - { name: 'MF-1｜Singapore', type: trojan, server: 23489.96110.one, port: 53296, password: 9923bfe0-0fc7-436f-a8ee-89f98025939d, udp: true, sni: www.icloud.com, skip-cert-verify: true }
     
     - { name: sg01, server: gd1.hysteria2.xyz, port: 10585, udp: true, skip-cert-verify: false, sni: sg1.hysteria2.xyz, type: hysteria2, password: 2643a2d8-27b1-448f-8773-58220a2b5498 }
     - { name: sg02, server: gd1.hysteria2.xyz, port: 10586, udp: true, skip-cert-verify: false, sni: sg2.hysteria2.xyz, type: hysteria2, password: 2643a2d8-27b1-448f-8773-58220a2b5498 }
