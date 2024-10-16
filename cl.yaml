@@ -213,6 +213,30 @@ proxies:
     - { name: sg02, server: gd1.hysteria2.xyz, port: 10586, udp: true, skip-cert-verify: false, sni: sg2.hysteria2.xyz, type: hysteria2, password: 2643a2d8-27b1-448f-8773-58220a2b5498 }
     - { name: sg03, server: gd1.hysteria2.xyz, port: 10587, udp: true, skip-cert-verify: false, sni: sg3.hysteria2.xyz, type: hysteria2, password: 2643a2d8-27b1-448f-8773-58220a2b5498 }
     - { name: sg04, server: gd1.hysteria2.xyz, port: 10588, udp: true, skip-cert-verify: false, sni: sg4.hysteria2.xyz, type: hysteria2, password: 2643a2d8-27b1-448f-8773-58220a2b5498 }
+    
+    - {"type":"vless","name":"GCP-HK-IPV4","server":"35.215.134.135","port":48968,"uuid":"cfbf289d-2e04-4639-a428-cec6e044b490","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+    - {"type":"vless","name":"GCP-TW-IPV4","server":"35.236.172.130","port":57751,"uuid":"e7e182eb-7b8c-47e1-9ece-1a84dfa6e931","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+    - {"type":"vless","name":"GCP-US-TW","server":"35.236.172.130","port":2333,"uuid":"6a42486d-6f56-4cea-ab7a-19156b11de85","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+    - {"type":"vless","name":"GCP-JP-TW","server":"35.236.172.130","port":41797,"uuid":"90fc2dc7-18d7-405d-a119-6e3aa09b238d","skip-cert-verify":true,"network":"tcp","tls":false,"udp":true}
+    - {"type":"vless","name":"SGP2","server":"sharon.devus.co","port":443,"uuid":"e8796f15-36ae-49c3-c1c6-416321dd1a01","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dosga.devus.co","ws-opts":{"path":"/bing","headers":{"host":"dosga.devus.co"}}}
+    - {"type":"vless","name":"SGP","server":"sharon.devus.co","port":443,"uuid":"e8796f15-36ae-49c3-c1c6-416321dd1a01","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"dosga.devus.co","ws-opts":{"path":"/bing","headers":{"host":"dosga.devus.co"}}}
+    - {"type":"vless","name":"SGP1","server":"sga.devus.co","port":443,"uuid":"e8796f15-36ae-49c3-c1c6-416321dd1a01","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"sga.devus.co","ws-opts":{"path":"/bing","headers":{"host":"sga.devus.co"}}}
+    - {"type":"vless","name":"aliyun-hk","server":"hk.wzzoo.me","port":443,"uuid":"bf7aa127-2300-45d8-8197-de411397cc50","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"hk.wzzoo.me","ws-opts":{"path":"/bing","headers":{"host":"hk.wzzoo.me"}}}
+    
+    - { name: '香港1 ipv6', server: hk-01.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
+    - { name: '香港2 ipv6', server: hk-02.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
+    - { name: '香港3 ipv6', server: hk-03.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
+    - { name: '香港4 ipv6', server: hk-04.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
+    - { name: '台湾 ipv6', server: tw-01.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
+    - { name: '日本1 ipv6', server: jp-01.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
+    - { name: '日本2 ipv6', server: jp-02.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
+    - { name: '新加坡1 ipv6', server: sg-01.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
+    - { name: '新加坡2 ipv6', server: sg-02.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
+    - { name: '美国1 ipv6', server: us-01.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
+    - { name: '俄罗斯1 ipv6', server: ru-01.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
+    - { name: '土耳其1 ipv6', server: tr-01.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
+    - { name: '澳洲1 ipv6', server: au-01.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
+    
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -228,6 +252,29 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - '香港1 ipv6'
+      - '香港2 ipv6'
+      - '香港3 ipv6'
+      - '香港4 ipv6'
+      - '台湾 ipv6'
+      - '日本1 ipv6'
+      - '日本2 ipv6'
+      - '新加坡1 ipv6'
+      - '新加坡2 ipv6'
+      - '美国1 ipv6'
+      - '俄罗斯1 ipv6'
+      - '土耳其1 ipv6'
+      - '澳洲1 ipv6'
+      
+      - "GCP-HK-IPV4"
+      - "GCP-TW-IPV4"
+      - "GCP-US-TW"
+      - "GCP-JP-TW"
+      - "SGP2"
+      - "SGP1"
+      - "SGP"
+      - "aliyun-hk"
+      
       - sg01
       - sg02
       - sg03
