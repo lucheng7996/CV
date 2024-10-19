@@ -238,116 +238,7 @@ proxies:
     - { name: '澳洲1 ipv6', server: au-01.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
     
     - { name: '台湾 | 01', type: vmess, server: hinet.huafei888.site, port: 12347, uuid: 90ac1101-aa5b-4920-92b2-33edf9f29a47, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /wada12222, headers: { Host: tms.dingtalk.com } }, ws-path: /wada12222, ws-headers: { Host: tms.dingtalk.com } }
-    
-    - {name: wx-TW01, server: cn00.mynode.me, port: 8801, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-JP01, server: cn00.mynode.me, port: 8802, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-US01, server: cn00.mynode.me, port: 8803, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港01, server: cn01.mynode.me, port: 8101, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港02, server: cn01.mynode.me, port: 8102, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港03, server: cn01.mynode.me, port: 8103, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港04, server: cn02.mynode.me, port: 8104, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港05, server: cn02.mynode.me, port: 8105, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港06, server: cn02.mynode.me, port: 8106, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港07, server: cn02.mynode.me, port: 8107, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港08, server: cn02.mynode.me, port: 8108, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港09, server: cn02.mynode.me, port: 8109, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港10, server: cn02.mynode.me, port: 8110, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港11, server: cn03.mynode.me, port: 8111, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港12, server: cn03.mynode.me, port: 8112, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港13, server: cn03.mynode.me, port: 8113, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港14, server: cn03.mynode.me, port: 8114, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港15, server: cn03.mynode.me, port: 8115, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港16, server: cn04.mynode.me, port: 8116, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港17, server: cn04.mynode.me, port: 8117, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港18, server: cn04.mynode.me, port: 8118, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港19, server: cn04.mynode.me, port: 8119, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港20, server: cn04.mynode.me, port: 8120, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港21, server: cn05.mynode.me, port: 8121, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港22, server: cn05.mynode.me, port: 8122, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港23, server: cn05.mynode.me, port: 8123, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港24, server: cn05.mynode.me, port: 8124, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港25, server: cn05.mynode.me, port: 8125, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-香港26, server: cn05.mynode.me, port: 8126, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-菲律宾01, server: cn06.mynode.me, port: 8231, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-菲律宾02, server: cn06.mynode.me, port: 8232, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-菲律宾03, server: cn06.mynode.me, port: 8233, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-新加坡01, server: cn06.mynode.me, port: 8201, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-新加坡02, server: cn06.mynode.me, port: 8202, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-新加坡03, server: cn06.mynode.me, port: 8203, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-新加坡04, server: cn06.mynode.me, port: 8204, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-新加坡05, server: cn06.mynode.me, port: 8205, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-新加坡06, server: cn07.mynode.me, port: 8206, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-新加坡07, server: cn07.mynode.me, port: 8207, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-新加坡08, server: cn07.mynode.me, port: 8208, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-新加坡09, server: cn08.mynode.me, port: 8209, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-新加坡10, server: cn08.mynode.me, port: 8210, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-新加坡11, server: cn08.mynode.me, port: 8211, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-新加坡12, server: cn08.mynode.me, port: 8212, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-新加坡13, server: cn08.mynode.me, port: 8213, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-新加坡14, server: cn09.mynode.me, port: 8214, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-新加坡15, server: cn09.mynode.me, port: 8215, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-新加坡16, server: cn09.mynode.me, port: 8216, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-新加坡17, server: cn09.mynode.me, port: 8217, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-新加坡18, server: cn09.mynode.me, port: 8218, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-台湾省01, server: cn10.mynode.me, port: 8301, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-台湾省02, server: cn10.mynode.me, port: 8302, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-台湾省03, server: cn10.mynode.me, port: 8303, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-台湾省04, server: cn10.mynode.me, port: 8304, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-台湾省05, server: cn10.mynode.me, port: 8305, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-台湾省06, server: cn10.mynode.me, port: 8306, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-日本01, server: cn11.mynode.me, port: 8401, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-日本02, server: cn11.mynode.me, port: 8402, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-日本03, server: cn11.mynode.me, port: 8403, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-日本04, server: cn12.mynode.me, port: 8404, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-日本05, server: cn12.mynode.me, port: 8405, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-日本06, server: cn12.mynode.me, port: 8406, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-日本07, server: cn12.mynode.me, port: 8407, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-日本08, server: cn13.mynode.me, port: 8408, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-日本09, server: cn13.mynode.me, port: 8409, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-日本10, server: cn14.mynode.me, port: 8410, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-日本11, server: cn14.mynode.me, port: 8411, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-日本12, server: cn14.mynode.me, port: 8412, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-日本13, server: cn14.mynode.me, port: 8413, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-美国01, server: cn15.mynode.me, port: 8501, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-美国02, server: cn15.mynode.me, port: 8502, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-美国03, server: cn15.mynode.me, port: 8503, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-美国04, server: cn15.mynode.me, port: 8504, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-美国05, server: cn15.mynode.me, port: 8505, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-美国06, server: cn15.mynode.me, port: 8506, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-美国07, server: cn16.mynode.me, port: 8507, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-美国08, server: cn16.mynode.me, port: 8508, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-美国09, server: cn16.mynode.me, port: 8509, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-美国10, server: cn16.mynode.me, port: 8510, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-美国11, server: cn16.mynode.me, port: 8511, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-美国12, server: cn16.mynode.me, port: 8512, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-美国13, server: cn16.mynode.me, port: 8513, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-美国14, server: cn16.mynode.me, port: 8514, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-美国15, server: cn16.mynode.me, port: 8515, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-美国16, server: cn16.mynode.me, port: 8516, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-美国17, server: cn16.mynode.me, port: 8517, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-美国18, server: cn16.mynode.me, port: 8518, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-英国01, server: cn17.mynode.me, port: 8601, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-韩国, server: cn17.mynode.me, port: 8602, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-澳洲, server: cn17.mynode.me, port: 8603, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-荷兰, server: cn17.mynode.me, port: 8604, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-德国, server: cn17.mynode.me, port: 8605, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-印度, server: cn17.mynode.me, port: 8606, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-巴西, server: cn17.mynode.me, port: 8607, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-法国, server: cn17.mynode.me, port: 8610, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-越南, server: cn17.mynode.me, port: 8622, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-埃及, server: cn17.mynode.me, port: 8623, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-泰国, server: cn17.mynode.me, port: 8616, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-土耳其, server: cn17.mynode.me, port: 8608, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-阿根廷, server: cn17.mynode.me, port: 8609, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-加拿大, server: cn17.mynode.me, port: 8612, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-俄罗斯, server: cn17.mynode.me, port: 8613, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-以色列, server: cn17.mynode.me, port: 8615, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-意大利, server: cn17.mynode.me, port: 8624, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-马来西亚, server: cn17.mynode.me, port: 8618, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-澳大利亚, server: cn17.mynode.me, port: 8625, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-巴基斯坦, server: cn17.mynode.me, port: 8614, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    - {name: wx-哥伦比亚, server: cn17.mynode.me, port: 8619, type: ss, cipher: chacha20-ietf, password: passwd, plugin: obfs, plugin-opts: {mode: http, host: 31875-kx6JTMKU.download.microsoft.com}, udp: true}
-    
+       
     - { name: a-香港01, server: hk1.tjsd.site, port: 34421, udp: true, skip-cert-verify: true, sni: hk1.tjsd.site, type: hysteria2, password: 5a6e828c-3878-4f59-b4d5-36538e37cbdc }
     - { name: a-香港02, server: hk1.tjsd.site, port: 34422, udp: true, skip-cert-verify: true, sni: hk1.tjsd.site, type: hysteria2, password: 5a6e828c-3878-4f59-b4d5-36538e37cbdc }
     - { name: a-香港03, server: hk1.tjsd.site, port: 34423, udp: true, skip-cert-verify: true, sni: hk1.tjsd.site, type: hysteria2, password: 5a6e828c-3878-4f59-b4d5-36538e37cbdc }
@@ -362,6 +253,24 @@ proxies:
     - { name: a-新加坡01, server: 194.36.179.225, port: 34428, udp: true, skip-cert-verify: true, sni: hk1.tjsd.site, type: hysteria2, password: 5a6e828c-3878-4f59-b4d5-36538e37cbdc }
     - { name: a-新加坡02, server: 194.36.179.226, port: 34428, udp: true, skip-cert-verify: true, sni: hk1.tjsd.site, type: hysteria2, password: 5a6e828c-3878-4f59-b4d5-36538e37cbdc }
     - { name: a-新加坡03, server: 194.36.178.126, port: 34428, udp: true, skip-cert-verify: true, sni: hk1.tjsd.site, type: hysteria2, password: 5a6e828c-3878-4f59-b4d5-36538e37cbdc }    
+    
+    - { name: '香港1 HKT家宽', server: hk.cloudlion.me, port: 50451, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: c2616c9f-dca4-4bce-a95c-baf9741c92c3, ports: 50000-60000 }
+    - { name: '香港2 HKT家宽', server: hk.cloudlion.me, port: 50526, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: c2616c9f-dca4-4bce-a95c-baf9741c92c3, ports: 50000-60000 }
+    - { name: '香港3 HKT家宽', server: hk.cloudlion.me, port: 59998, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: c2616c9f-dca4-4bce-a95c-baf9741c92c3, ports: 50000-60000 }
+    - { name: '香港4 HKT家宽', server: hk.cloudlion.me, port: 56368, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: c2616c9f-dca4-4bce-a95c-baf9741c92c3, ports: 50000-60000 }
+    
+    - { name: 香港-hy2-01, server: pianyi.interld123456789.com, port: 12701, ports: 12701-12900, mport: 12701-12900, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
+    - { name: 台湾-hy2-01, server: pianyi.interld123456789.com, port: 12501, ports: 12501-12700, mport: 12501-12700, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
+    - { name: 日本-hy2-01, server: pianyi.interld123456789.com, port: 12901, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
+    - { name: 美国-hy2-01, server: pianyi.interld123456789.com, port: 12300, ports: 12300-12500, mport: 12300-12500, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
+    - { name: 美国-hy2-02, server: pianyi.interld123456789.com, port: 12300, ports: 12300-12500, mport: 12300-12500, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
+    - { name: 新加坡-hy2-02, server: pianyi.interld123456789.com, port: 13101, ports: 13101-13300, mport: 13101-13300, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
+    - { name: 美国-hy2-03, server: pianyi.interld123456789.com, port: 12300, ports: 12300-12500, mport: 12300-12500, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
+    - { name: 美国-hy2-04, server: pianyi.interld123456789.com, port: 12300, ports: 12300-12500, mport: 12300-12500, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
+    - { name: 美国-hy2-05, server: pianyi.interld123456789.com, port: 12300, ports: 12300-12500, mport: 12300-12500, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
+    - { name: 新加坡-hy2-03, server: pianyi.interld123456789.com, port: 13101, ports: 13101-13300, mport: 13101-13300, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
+    - { name: 新加坡-hy2-04, server: pianyi.interld123456789.com, port: 13101, ports: 13101-13300, mport: 13101-13300, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
+    - { name: 新加坡-hy2-05, server: pianyi.interld123456789.com, port: 13101, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -377,6 +286,24 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - 香港-hy2-01
+      - 台湾-hy2-01
+      - 日本-hy2-01
+      - 美国-hy2-01
+      - 美国-hy2-02
+      - 新加坡-hy2-02
+      - 美国-hy2-03
+      - 美国-hy2-04
+      - 美国-hy2-05
+      - 新加坡-hy2-03
+      - 新加坡-hy2-04
+      - 新加坡-hy2-05
+      
+      - '香港1 HKT家宽'
+      - '香港2 HKT家宽'
+      - '香港3 HKT家宽'
+      - '香港4 HKT家宽'
+      
       - a-香港01
       - a-香港02
       - a-香港03
@@ -390,115 +317,6 @@ proxy-groups:
       - a-新加坡01
       - a-新加坡02
       - a-新加坡03
-      
-      - wx-TW01
-      - wx-JP01
-      - wx-US01
-      - wx-香港01
-      - wx-香港02
-      - wx-香港03
-      - wx-香港04
-      - wx-香港05
-      - wx-香港06
-      - wx-香港07
-      - wx-香港08
-      - wx-香港09
-      - wx-香港10
-      - wx-香港11
-      - wx-香港12
-      - wx-香港13
-      - wx-香港14
-      - wx-香港15
-      - wx-香港16
-      - wx-香港17
-      - wx-香港18
-      - wx-香港19
-      - wx-香港20
-      - wx-香港21
-      - wx-香港22
-      - wx-香港23
-      - wx-香港24
-      - wx-香港25
-      - wx-香港26
-      - wx-菲律宾01
-      - wx-菲律宾02
-      - wx-菲律宾03
-      - wx-新加坡01
-      - wx-新加坡02
-      - wx-新加坡03
-      - wx-新加坡04
-      - wx-新加坡05
-      - wx-新加坡06
-      - wx-新加坡07
-      - wx-新加坡08
-      - wx-新加坡09
-      - wx-新加坡10
-      - wx-新加坡11
-      - wx-新加坡12
-      - wx-新加坡13
-      - wx-新加坡14
-      - wx-新加坡15
-      - wx-新加坡16
-      - wx-新加坡17
-      - wx-新加坡18
-      - wx-台湾省01
-      - wx-台湾省02
-      - wx-台湾省03
-      - wx-台湾省04
-      - wx-台湾省05
-      - wx-台湾省06
-      - wx-日本01
-      - wx-日本02
-      - wx-日本03
-      - wx-日本04
-      - wx-日本05
-      - wx-日本06
-      - wx-日本07
-      - wx-日本08
-      - wx-日本09
-      - wx-日本10
-      - wx-日本11
-      - wx-日本12
-      - wx-日本13
-      - wx-美国01
-      - wx-美国02
-      - wx-美国03
-      - wx-美国04
-      - wx-美国05
-      - wx-美国06
-      - wx-美国07
-      - wx-美国08
-      - wx-美国09
-      - wx-美国10
-      - wx-美国11
-      - wx-美国12
-      - wx-美国13
-      - wx-美国14
-      - wx-美国15
-      - wx-美国16
-      - wx-美国17
-      - wx-美国18
-      - wx-英国01
-      - wx-韩国
-      - wx-澳洲
-      - wx-荷兰
-      - wx-德国
-      - wx-印度
-      - wx-巴西
-      - wx-法国
-      - wx-越南
-      - wx-埃及
-      - wx-泰国
-      - wx-土耳其
-      - wx-阿根廷
-      - wx-加拿大
-      - wx-俄罗斯
-      - wx-以色列
-      - wx-意大利
-      - wx-马来西亚
-      - wx-澳大利亚
-      - wx-巴基斯坦
-      - wx-哥伦比亚
       
       - '台湾 | 01'
       
