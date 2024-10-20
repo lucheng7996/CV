@@ -258,6 +258,10 @@ proxies:
     - { name: '香港2 HKT家宽', server: hk.cloudlion.me, port: 50526, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: c2616c9f-dca4-4bce-a95c-baf9741c92c3, ports: 50000-60000 }
     - { name: '香港3 HKT家宽', server: hk.cloudlion.me, port: 59998, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: c2616c9f-dca4-4bce-a95c-baf9741c92c3, ports: 50000-60000 }
     - { name: '香港4 HKT家宽', server: hk.cloudlion.me, port: 56368, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: c2616c9f-dca4-4bce-a95c-baf9741c92c3, ports: 50000-60000 }
+    - { name: '台湾1 Hinet家宽', server: tw.cloudlion.me, port: 56538, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 0241c47e-0569-4a1c-8e6e-e2b65fc8db58, ports: 50000-60000 }
+    - { name: '台湾2 Hinet家宽', server: tw.cloudlion.me, port: 52603, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 0241c47e-0569-4a1c-8e6e-e2b65fc8db58, ports: 50000-60000 }
+    - { name: '台湾3 Hinet家宽', server: tw.cloudlion.me, port: 59012, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 0241c47e-0569-4a1c-8e6e-e2b65fc8db58, ports: 50000-60000 }
+    - { name: '台湾4 Hinet家宽', server: tw.cloudlion.me, port: 53991, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 0241c47e-0569-4a1c-8e6e-e2b65fc8db58, ports: 50000-60000 }
     
     - { name: 香港-hy2-01, server: pianyi.interld123456789.com, port: 12701, ports: 12701-12900, mport: 12701-12900, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
     - { name: 台湾-hy2-01, server: pianyi.interld123456789.com, port: 12501, ports: 12501-12700, mport: 12501-12700, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
@@ -303,6 +307,10 @@ proxy-groups:
       - '香港2 HKT家宽'
       - '香港3 HKT家宽'
       - '香港4 HKT家宽'
+      - '台湾1 Hinet家宽'
+      - '台湾2 Hinet家宽'
+      - '台湾3 Hinet家宽'
+      - '台湾4 Hinet家宽'
       
       - a-香港01
       - a-香港02
