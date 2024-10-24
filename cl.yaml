@@ -238,21 +238,6 @@ proxies:
     - { name: '澳洲1 ipv6', server: au-01.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
     
     - { name: '台湾 | 01', type: vmess, server: hinet.huafei888.site, port: 12347, uuid: 90ac1101-aa5b-4920-92b2-33edf9f29a47, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /wada12222, headers: { Host: tms.dingtalk.com } }, ws-path: /wada12222, ws-headers: { Host: tms.dingtalk.com } }
-       
-    - { name: a-香港01, server: hk1.tjsd.site, port: 34421, udp: true, skip-cert-verify: true, sni: hk1.tjsd.site, type: hysteria2, password: 5a6e828c-3878-4f59-b4d5-36538e37cbdc }
-    - { name: a-香港02, server: hk1.tjsd.site, port: 34422, udp: true, skip-cert-verify: true, sni: hk1.tjsd.site, type: hysteria2, password: 5a6e828c-3878-4f59-b4d5-36538e37cbdc }
-    - { name: a-香港03, server: hk1.tjsd.site, port: 34423, udp: true, skip-cert-verify: true, sni: hk1.tjsd.site, type: hysteria2, password: 5a6e828c-3878-4f59-b4d5-36538e37cbdc }
-    - { name: a-香港04, server: hk1.tjsd.site, port: 34424, udp: true, skip-cert-verify: true, sni: hk1.tjsd.site, type: hysteria2, password: 5a6e828c-3878-4f59-b4d5-36538e37cbdc }
-    - { name: a-香港05, server: hk1.tjsd.site, port: 34425, udp: true, skip-cert-verify: true, sni: hk1.tjsd.site, type: hysteria2, password: 5a6e828c-3878-4f59-b4d5-36538e37cbdc }
-    - { name: a-香港06, server: hk1.tjsd.site, port: 34426, udp: true, skip-cert-verify: true, sni: hk1.tjsd.site, type: hysteria2, password: 5a6e828c-3878-4f59-b4d5-36538e37cbdc }
-    - { name: a-香港07, server: hk1.tjsd.site, port: 34430, udp: true, skip-cert-verify: true, sni: hk1.tjsd.site, type: hysteria2, password: 5a6e828c-3878-4f59-b4d5-36538e37cbdc }
-    - { name: a-日本01, server: hk1.tjsd.site, port: 34427, udp: true, skip-cert-verify: true, sni: hk1.tjsd.site, type: hysteria2, password: 5a6e828c-3878-4f59-b4d5-36538e37cbdc }
-    - { name: a-日本02, server: hk1.tjsd.site, port: 34428, udp: true, skip-cert-verify: true, sni: hk1.tjsd.site, type: hysteria2, password: 5a6e828c-3878-4f59-b4d5-36538e37cbdc }
-    - { name: a-日本03, server: 160.251.235.72, port: 34428, udp: true, skip-cert-verify: true, sni: hk1.tjsd.site, type: hysteria2, password: 5a6e828c-3878-4f59-b4d5-36538e37cbdc }
-    - { name: a-日本04, server: 160.251.200.108, port: 34428, udp: true, skip-cert-verify: true, sni: hk1.tjsd.site, type: hysteria2, password: 5a6e828c-3878-4f59-b4d5-36538e37cbdc }
-    - { name: a-新加坡01, server: 194.36.179.225, port: 34428, udp: true, skip-cert-verify: true, sni: hk1.tjsd.site, type: hysteria2, password: 5a6e828c-3878-4f59-b4d5-36538e37cbdc }
-    - { name: a-新加坡02, server: 194.36.179.226, port: 34428, udp: true, skip-cert-verify: true, sni: hk1.tjsd.site, type: hysteria2, password: 5a6e828c-3878-4f59-b4d5-36538e37cbdc }
-    - { name: a-新加坡03, server: 194.36.178.126, port: 34428, udp: true, skip-cert-verify: true, sni: hk1.tjsd.site, type: hysteria2, password: 5a6e828c-3878-4f59-b4d5-36538e37cbdc }    
     
     - { name: '香港1 HKT家宽', server: hk.cloudlion.me, port: 50451, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: c2616c9f-dca4-4bce-a95c-baf9741c92c3, ports: 50000-60000 }
     - { name: '香港2 HKT家宽', server: hk.cloudlion.me, port: 50526, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: c2616c9f-dca4-4bce-a95c-baf9741c92c3, ports: 50000-60000 }
@@ -263,18 +248,9 @@ proxies:
     - { name: '台湾3 Hinet家宽', server: tw.cloudlion.me, port: 59012, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 0241c47e-0569-4a1c-8e6e-e2b65fc8db58, ports: 50000-60000 }
     - { name: '台湾4 Hinet家宽', server: tw.cloudlion.me, port: 53991, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 0241c47e-0569-4a1c-8e6e-e2b65fc8db58, ports: 50000-60000 }
     
-    - { name: 香港-hy2-01, server: pianyi.interld123456789.com, port: 12701, ports: 12701-12900, mport: 12701-12900, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
-    - { name: 台湾-hy2-01, server: pianyi.interld123456789.com, port: 12501, ports: 12501-12700, mport: 12501-12700, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
-    - { name: 日本-hy2-01, server: pianyi.interld123456789.com, port: 12901, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
-    - { name: 美国-hy2-01, server: pianyi.interld123456789.com, port: 12300, ports: 12300-12500, mport: 12300-12500, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
-    - { name: 美国-hy2-02, server: pianyi.interld123456789.com, port: 12300, ports: 12300-12500, mport: 12300-12500, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
-    - { name: 新加坡-hy2-02, server: pianyi.interld123456789.com, port: 13101, ports: 13101-13300, mport: 13101-13300, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
-    - { name: 美国-hy2-03, server: pianyi.interld123456789.com, port: 12300, ports: 12300-12500, mport: 12300-12500, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
-    - { name: 美国-hy2-04, server: pianyi.interld123456789.com, port: 12300, ports: 12300-12500, mport: 12300-12500, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
-    - { name: 美国-hy2-05, server: pianyi.interld123456789.com, port: 12300, ports: 12300-12500, mport: 12300-12500, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
-    - { name: 新加坡-hy2-03, server: pianyi.interld123456789.com, port: 13101, ports: 13101-13300, mport: 13101-13300, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
-    - { name: 新加坡-hy2-04, server: pianyi.interld123456789.com, port: 13101, ports: 13101-13300, mport: 13101-13300, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
-    - { name: 新加坡-hy2-05, server: pianyi.interld123456789.com, port: 13101, udp: true, skip-cert-verify: true, sni: 1231231.1234567890spcloud.com, type: hysteria2, password: 49e6e455-7a84-4da1-a6c8-71e77d7f9e6a }
+    - { name: 新加坡01-1Gbps, type: ss, server: dz01.guguyun.pw, port: 48609, cipher: chacha20-ietf-poly1305, password: 978c216f-384e-40e9-8d54-a86c65efa9d5, udp: true }
+    - { name: 香港01-1Gbps, type: ss, server: dz01.guguyun.pw, port: 24131, cipher: chacha20-ietf-poly1305, password: 978c216f-384e-40e9-8d54-a86c65efa9d5, udp: true }
+    - { name: 香港02-1Gbps, type: ss, server: dz01.guguyun.pw, port: 24132, cipher: chacha20-ietf-poly1305, password: 978c216f-384e-40e9-8d54-a86c65efa9d5, udp: true }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -290,18 +266,9 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 香港-hy2-01
-      - 台湾-hy2-01
-      - 日本-hy2-01
-      - 美国-hy2-01
-      - 美国-hy2-02
-      - 新加坡-hy2-02
-      - 美国-hy2-03
-      - 美国-hy2-04
-      - 美国-hy2-05
-      - 新加坡-hy2-03
-      - 新加坡-hy2-04
-      - 新加坡-hy2-05
+      - 新加坡01-1Gbps
+      - 香港01-1Gbps
+      - 香港02-1Gbps
       
       - '香港1 HKT家宽'
       - '香港2 HKT家宽'
@@ -311,20 +278,6 @@ proxy-groups:
       - '台湾2 Hinet家宽'
       - '台湾3 Hinet家宽'
       - '台湾4 Hinet家宽'
-      
-      - a-香港01
-      - a-香港02
-      - a-香港03
-      - a-香港04
-      - a-香港05
-      - a-香港06
-      - a-香港07
-      - a-日本01
-      - a-日本02
-      - a-日本03
-      - a-新加坡01
-      - a-新加坡02
-      - a-新加坡03
       
       - '台湾 | 01'
       
