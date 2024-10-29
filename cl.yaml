@@ -230,19 +230,35 @@ proxies:
     
     - { name: '台湾 | 01', type: vmess, server: hinet.huafei888.site, port: 12347, uuid: 90ac1101-aa5b-4920-92b2-33edf9f29a47, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /wada12222, headers: { Host: tms.dingtalk.com } }, ws-path: /wada12222, ws-headers: { Host: tms.dingtalk.com } }
     
-    - { name: '香港1 HKT家宽', server: hk.cloudlion.me, port: 51669, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 58314651-a9cd-4514-a2b7-4634683fe7f2, ports: 50000-60000 }
-    - { name: '香港2 HKT家宽', server: hk.cloudlion.me, port: 51426, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 58314651-a9cd-4514-a2b7-4634683fe7f2, ports: 50000-60000 }
-    - { name: '香港3 HKT家宽', server: hk.cloudlion.me, port: 54008, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 58314651-a9cd-4514-a2b7-4634683fe7f2, ports: 50000-60000 }
-    - { name: '香港4 HKT家宽', server: hk.cloudlion.me, port: 54907, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 58314651-a9cd-4514-a2b7-4634683fe7f2, ports: 50000-60000 }
-    - { name: '台湾1 Hinet家宽', server: tw.cloudlion.me, port: 56538, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 0241c47e-0569-4a1c-8e6e-e2b65fc8db58, ports: 50000-60000 }
-    - { name: '台湾2 Hinet家宽', server: tw.cloudlion.me, port: 52603, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 0241c47e-0569-4a1c-8e6e-e2b65fc8db58, ports: 50000-60000 }
-    - { name: '台湾3 Hinet家宽', server: tw.cloudlion.me, port: 59012, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 0241c47e-0569-4a1c-8e6e-e2b65fc8db58, ports: 50000-60000 }
-    - { name: '台湾4 Hinet家宽', server: tw.cloudlion.me, port: 53991, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 0241c47e-0569-4a1c-8e6e-e2b65fc8db58, ports: 50000-60000 }
+    - { name: '香港 HKT家宽', server: hk.cloudlion.me, port: 52532, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9bb35cda-7ca9-40cf-a53e-f2fa28eafaa2, ports: 50000-60000 }
+    - { name: '香港0 HKT家宽', server: hk.cloudlion.me, port: 55466, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9bb35cda-7ca9-40cf-a53e-f2fa28eafaa2, ports: 50000-60000 }
+    - { name: '香港1 HKT家宽', server: hk.cloudlion.me, port: 56980, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9bb35cda-7ca9-40cf-a53e-f2fa28eafaa2, ports: 50000-60000 }
+    - { name: '香港2 HKT家宽', server: hk.cloudlion.me, port: 52668, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9bb35cda-7ca9-40cf-a53e-f2fa28eafaa2, ports: 50000-60000 }
+    - { name: '香港3 HKT家宽', server: hk.cloudlion.me, port: 51679, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9bb35cda-7ca9-40cf-a53e-f2fa28eafaa2, ports: 50000-60000 }
+    - { name: '香港4 HKT家宽', server: hk.cloudlion.me, port: 57956, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9bb35cda-7ca9-40cf-a53e-f2fa28eafaa2, ports: 50000-60000 }
+    - { name: '台湾1 Hinet家宽', server: tw.cloudlion.me, port: 52895, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9bb35cda-7ca9-40cf-a53e-f2fa28eafaa2, ports: 50000-60000 }
+    - { name: '台湾2 Hinet家宽', server: tw.cloudlion.me, port: 55182, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9bb35cda-7ca9-40cf-a53e-f2fa28eafaa2, ports: 50000-60000 }
+    - { name: '台湾3 Hinet家宽', server: tw.cloudlion.me, port: 50206, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9bb35cda-7ca9-40cf-a53e-f2fa28eafaa2, ports: 50000-60000 }
+    - { name: '台湾4 Hinet家宽', server: tw.cloudlion.me, port: 56169, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9bb35cda-7ca9-40cf-a53e-f2fa28eafaa2, ports: 50000-60000 }
     
     - { name: 新加坡01-1Gbps, type: ss, server: dz01.guguyun.pw, port: 48609, cipher: chacha20-ietf-poly1305, password: 978c216f-384e-40e9-8d54-a86c65efa9d5, udp: true }
     - { name: 香港01-1Gbps, type: ss, server: dz01.guguyun.pw, port: 24131, cipher: chacha20-ietf-poly1305, password: 978c216f-384e-40e9-8d54-a86c65efa9d5, udp: true }
     - { name: 香港02-1Gbps, type: ss, server: dz01.guguyun.pw, port: 24132, cipher: chacha20-ietf-poly1305, password: 978c216f-384e-40e9-8d54-a86c65efa9d5, udp: true }
     
+    - {name: US_105, server: 47.129.170.82, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+    - {name: SG_2, server: 13.250.25.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+    - {name: JP_12, server: 52.69.236.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+    - {name: JP_2, server: 54.249.197.65, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+
+    - {name: KR_Incheon, port: 443, server: 13.229.212.209, type: ss, udp: true, password: amazonskr05, cipher: aes-256-cfb}
+    - {name: JP_Tokyo2, port: 443, server: 13.250.3.43, type: ss, udp: true, password: amazonskr05, cipher: aes-256-cfb}
+    - {name: HK_Kowloon, port: 443, server: 52.77.209.61, type: ss, udp: true, password: amazonskr05, cipher: aes-256-cfb}
+    - {name: HK_LosAngeles, port: 443, server: 54.200.54.11, type: ss, udp: true, password: amazonskr05, cipher: aes-256-cfb}
+    - {name: US_Houston, port: 443, server: 34.209.103.254, type: ss, udp: true, password: amazonskr05, cipher: aes-256-cfb}
+    - {name: JP_Tokyo, port: 443, server: 54.169.139.18, type: ss, udp: true, password: amazonskr05,  cipher: aes-256-cfb}
+    - {name: SG_Singapore, port: 443, server: 54.255.237.249, type: ss, udp: true, password: amazonskr05, cipher: aes-256-cfb}
+    - {name: US_Dallas, port: 443, server: 52.10.33.211, type: ss, udp: true, password: amazonskr05, cipher: aes-256-cfb}
+    - {name: CA_Vancouver, port: 443, server: 35.87.185.248, type: ss, udp: true, password: amazonskr05, cipher: aes-256-cfb}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -258,10 +274,27 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - KR_Incheon
+      - JP_Tokyo2
+      - HK_Kowloon
+      - HK_LosAngeles
+      - US_Houston
+      - JP_Tokyo
+      - SG_Singapore
+      - US_Dallas
+      - CA_Vancouver
+      
+      - US_105
+      - SG_2
+      - JP_12
+      - JP_2
+      
       - 新加坡01-1Gbps
       - 香港01-1Gbps
       - 香港02-1Gbps
       
+      - '香港 HKT家宽'
+      - '香港0 HKT家宽'
       - '香港1 HKT家宽'
       - '香港2 HKT家宽'
       - '香港3 HKT家宽'
