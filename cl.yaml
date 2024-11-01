@@ -259,6 +259,36 @@ proxies:
     - {name: SG_Singapore, port: 443, server: 54.255.237.249, type: ss, udp: true, password: amazonskr05, cipher: aes-256-cfb}
     - {name: US_Dallas, port: 443, server: 52.10.33.211, type: ss, udp: true, password: amazonskr05, cipher: aes-256-cfb}
     - {name: CA_Vancouver, port: 443, server: 35.87.185.248, type: ss, udp: true, password: amazonskr05, cipher: aes-256-cfb}
+    
+    - { name: '新加坡 1x', type: ss, server: cs2.ni8.me, port: 42729, cipher: chacha20-ietf-poly1305, password: e146182a-efaa-4744-abf5-9da459eed59e, udp: true }
+    - { name: '日本 1x', type: ss, server: gy.ni8.world, port: 22225, cipher: chacha20-ietf-poly1305, password: e146182a-efaa-4744-abf5-9da459eed59e, udp: true }
+    - { name: '香港 1x', type: ss, server: gy.ni8.world, port: 39210, cipher: chacha20-ietf-poly1305, password: e146182a-efaa-4744-abf5-9da459eed59e, udp: true }
+    - { name: '香港2-原生 1x', type: ss, server: cs2.ni8.me, port: 38896, cipher: chacha20-ietf-poly1305, password: e146182a-efaa-4744-abf5-9da459eed59e, udp: true } 
+
+    - {name: 日本01【vip1】, server: f10002.flyflylflyflysbs.sbs, port: 29496, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10002.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 印度01【vip1】, server: f10002.flyflylflyflysbs.sbs, port: 47497, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10002.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 香港 07【vip2】, server: f10011.flyflylflyflysbs.sbs, port: 27969, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10011.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 香港 07【vip1】, server: f10003.flyflylflyflysbs.sbs, port: 27969, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10003.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 日本06【vip1】, server: f10003.flyflylflyflysbs.sbs, port: 39520, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10003.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 香港04【vip1】, server: f10003.flyflylflyflysbs.sbs, port: 25106, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10003.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 香港12【vip1】, server: f10002.flyflylflyflysbs.sbs, port: 10187, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10002.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 香港10【vip1】, server: f10003.flyflylflyflysbs.sbs, port: 10187, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10003.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 韩国 01【vip2】, server: f10002.flyflylflyflysbs.sbs, port: 42751, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10002.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 韩国 03【vip2】, server: f10003.flyflylflyflysbs.sbs, port: 42751, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10003.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 香港 08【vip1】, server: f10002.flyflylflyflysbs.sbs, port: 27969, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10002.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 英国02【vip1】, server: f10001.flyflylflyflysbs.sbs, port: 30273, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10001.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 台湾 04【vip1】, server: f10002.flyflylflyflysbs.sbs, port: 49148, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10002.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 日本02【vip2】, server: f10011.flyflylflyflysbs.sbs, port: 39520, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10011.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 台湾 01【vip1】, server: f10001.flyflylflyflysbs.sbs, port: 19949, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10001.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 越南02_pro【vip1】, server: f10011.flyflylflyflysbs.sbs, port: 55474, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10011.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 台湾 05【vip1】, server: f10001.flyflylflyflysbs.sbs, port: 49148, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10001.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 越南01_pro【vip1】, server: f10021.flyflylflyflysbs.sbs, port: 55474, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10021.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 台湾 02【vip1】, server: f10003.flyflylflyflysbs.sbs, port: 19949, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10003.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 印度02【vip1】, server: f10001.flyflylflyflysbs.sbs, port: 47497, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10001.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 新加坡 04【vip1】, server: f10001.flyflylflyflysbs.sbs, port: 19013, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10001.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 新加坡 05【vip1】, server: f10002.flyflylflyflysbs.sbs, port: 19013, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10002.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 日本02【vip1】, server: f10001.flyflylflyflysbs.sbs, port: 29496, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10001.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
+    - {name: 香港05【vip1】, server: f10001.flyflylflyflysbs.sbs, port: 25106, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10001.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}    
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -274,6 +304,36 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - 日本01【vip1】
+      - 印度01【vip1】
+      - 香港 07【vip2】
+      - 香港 07【vip1】
+      - 日本06【vip1】
+      - 香港04【vip1】
+      - 香港12【vip1】
+      - 香港10【vip1】
+      - 韩国 01【vip2】
+      - 韩国 03【vip2】
+      - 香港 08【vip1】
+      - 英国02【vip1】
+      - 台湾 04【vip1】
+      - 日本02【vip2】
+      - 台湾 01【vip1】
+      - 越南02_pro【vip1】
+      - 台湾 05【vip1】
+      - 越南01_pro【vip1】
+      - 台湾 02【vip1】
+      - 印度02【vip1】
+      - 新加坡 04【vip1】
+      - 新加坡 05【vip1】
+      - 日本02【vip1】
+      - 香港05【vip1】
+    
+      - '新加坡 1x'
+      - '日本 1x'
+      - '香港 1x'
+      - '香港2-原生 1x'
+      
       - KR_Incheon
       - JP_Tokyo2
       - HK_Kowloon
