@@ -230,16 +230,35 @@ proxies:
     
     - { name: '台湾 | 01', type: vmess, server: hinet.huafei888.site, port: 12347, uuid: 90ac1101-aa5b-4920-92b2-33edf9f29a47, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /wada12222, headers: { Host: tms.dingtalk.com } }, ws-path: /wada12222, ws-headers: { Host: tms.dingtalk.com } }
     
-    - { name: '香港 HKT家宽', server: hk.cloudlion.me, port: 52532, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9bb35cda-7ca9-40cf-a53e-f2fa28eafaa2, ports: 50000-60000 }
-    - { name: '香港0 HKT家宽', server: hk.cloudlion.me, port: 55466, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9bb35cda-7ca9-40cf-a53e-f2fa28eafaa2, ports: 50000-60000 }
-    - { name: '香港1 HKT家宽', server: hk.cloudlion.me, port: 56980, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9bb35cda-7ca9-40cf-a53e-f2fa28eafaa2, ports: 50000-60000 }
-    - { name: '香港2 HKT家宽', server: hk.cloudlion.me, port: 52668, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9bb35cda-7ca9-40cf-a53e-f2fa28eafaa2, ports: 50000-60000 }
-    - { name: '香港3 HKT家宽', server: hk.cloudlion.me, port: 51679, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9bb35cda-7ca9-40cf-a53e-f2fa28eafaa2, ports: 50000-60000 }
-    - { name: '香港4 HKT家宽', server: hk.cloudlion.me, port: 57956, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9bb35cda-7ca9-40cf-a53e-f2fa28eafaa2, ports: 50000-60000 }
-    - { name: '台湾1 Hinet家宽', server: tw.cloudlion.me, port: 52895, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9bb35cda-7ca9-40cf-a53e-f2fa28eafaa2, ports: 50000-60000 }
-    - { name: '台湾2 Hinet家宽', server: tw.cloudlion.me, port: 55182, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9bb35cda-7ca9-40cf-a53e-f2fa28eafaa2, ports: 50000-60000 }
-    - { name: '台湾3 Hinet家宽', server: tw.cloudlion.me, port: 50206, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9bb35cda-7ca9-40cf-a53e-f2fa28eafaa2, ports: 50000-60000 }
-    - { name: '台湾4 Hinet家宽', server: tw.cloudlion.me, port: 56169, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9bb35cda-7ca9-40cf-a53e-f2fa28eafaa2, ports: 50000-60000 }
+    - { name: '香港1 HKT家宽', server: surfboard-hk.cloudlion.online, port: 55061, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '香港2 HKT家宽', server: surfboard-hk.cloudlion.online, port: 52451, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '香港3 HKT家宽', server: surfboard-hk.cloudlion.online, port: 52635, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '香港4 HKT家宽', server: surfboard-hk.cloudlion.online, port: 50243, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '台湾1 Hinet家宽', server: surfboard-tw.cloudlion.online, port: 59371, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '台湾2 Hinet家宽', server: surfboard-tw.cloudlion.online, port: 54433, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '台湾3 Hinet家宽', server: surfboard-tw.cloudlion.online, port: 52087, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '台湾4 Hinet家宽', server: surfboard-tw.cloudlion.online, port: 58713, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    
+    - { name: '2008-日本1', server: surfboard-jp.cloudlion.online, port: 55538, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '2008-日本2', server: surfboard-jp.cloudlion.online, port: 50711, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '2008-新加坡1', server: surfboard-sg.cloudlion.online, port: 51092, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '2008-新加坡2', server: surfboard-sg.cloudlion.online, port: 51044, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '2008-美国1', server: surfboard-us.cloudlion.online, port: 52120, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '2008-美国2', server: surfboard-us.cloudlion.online, port: 56323, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '2008-美国3', server: surfboard-us.cloudlion.online, port: 53977, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '2008-美国4', server: surfboard-us.cloudlion.online, port: 53902, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '2008-加拿大1', server: surfboard-ca.cloudlion.online, port: 58978, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '2008-加拿大2', server: surfboard-ca.cloudlion.online, port: 53007, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '2008-卢森堡1', server: surfboard-lu.cloudlion.online, port: 50235, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '2008-卢森堡2', server: surfboard-lu.cloudlion.online, port: 58310, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '2008-英国1', server: surfboard-uk.cloudlion.online, port: 54328, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '2008-英国2', server: surfboard-uk.cloudlion.online, port: 55969, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '2008-英国3', server: surfboard-uk.cloudlion.online, port: 58039, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '2008-英国4', server: surfboard-uk.cloudlion.online, port: 55588, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '2008-法国1', server: surfboard-fr.cloudlion.online, port: 53234, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '2008-法国2', server: surfboard-fr.cloudlion.online, port: 58071, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '2008-法国3', server: surfboard-fr.cloudlion.online, port: 51251, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
+    - { name: '2008-法国4', server: surfboard-fr.cloudlion.online, port: 58795, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
     
     - { name: 新加坡01-1Gbps, type: ss, server: dz01.guguyun.pw, port: 48609, cipher: chacha20-ietf-poly1305, password: 978c216f-384e-40e9-8d54-a86c65efa9d5, udp: true }
     - { name: 香港01-1Gbps, type: ss, server: dz01.guguyun.pw, port: 24131, cipher: chacha20-ietf-poly1305, password: 978c216f-384e-40e9-8d54-a86c65efa9d5, udp: true }
@@ -265,30 +284,6 @@ proxies:
     - { name: '香港 1x', type: ss, server: gy.ni8.world, port: 39210, cipher: chacha20-ietf-poly1305, password: e146182a-efaa-4744-abf5-9da459eed59e, udp: true }
     - { name: '香港2-原生 1x', type: ss, server: cs2.ni8.me, port: 38896, cipher: chacha20-ietf-poly1305, password: e146182a-efaa-4744-abf5-9da459eed59e, udp: true } 
 
-    - {name: 日本01【vip1】, server: f10002.flyflylflyflysbs.sbs, port: 29496, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10002.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 印度01【vip1】, server: f10002.flyflylflyflysbs.sbs, port: 47497, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10002.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 香港 07【vip2】, server: f10011.flyflylflyflysbs.sbs, port: 27969, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10011.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 香港 07【vip1】, server: f10003.flyflylflyflysbs.sbs, port: 27969, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10003.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 日本06【vip1】, server: f10003.flyflylflyflysbs.sbs, port: 39520, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10003.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 香港04【vip1】, server: f10003.flyflylflyflysbs.sbs, port: 25106, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10003.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 香港12【vip1】, server: f10002.flyflylflyflysbs.sbs, port: 10187, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10002.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 香港10【vip1】, server: f10003.flyflylflyflysbs.sbs, port: 10187, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10003.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 韩国 01【vip2】, server: f10002.flyflylflyflysbs.sbs, port: 42751, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10002.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 韩国 03【vip2】, server: f10003.flyflylflyflysbs.sbs, port: 42751, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10003.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 香港 08【vip1】, server: f10002.flyflylflyflysbs.sbs, port: 27969, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10002.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 英国02【vip1】, server: f10001.flyflylflyflysbs.sbs, port: 30273, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10001.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 台湾 04【vip1】, server: f10002.flyflylflyflysbs.sbs, port: 49148, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10002.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 日本02【vip2】, server: f10011.flyflylflyflysbs.sbs, port: 39520, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10011.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 台湾 01【vip1】, server: f10001.flyflylflyflysbs.sbs, port: 19949, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10001.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 越南02_pro【vip1】, server: f10011.flyflylflyflysbs.sbs, port: 55474, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10011.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 台湾 05【vip1】, server: f10001.flyflylflyflysbs.sbs, port: 49148, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10001.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 越南01_pro【vip1】, server: f10021.flyflylflyflysbs.sbs, port: 55474, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10021.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 台湾 02【vip1】, server: f10003.flyflylflyflysbs.sbs, port: 19949, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10003.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 印度02【vip1】, server: f10001.flyflylflyflysbs.sbs, port: 47497, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10001.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 新加坡 04【vip1】, server: f10001.flyflylflyflysbs.sbs, port: 19013, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10001.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 新加坡 05【vip1】, server: f10002.flyflylflyflysbs.sbs, port: 19013, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10002.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 日本02【vip1】, server: f10001.flyflylflyflysbs.sbs, port: 29496, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10001.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}
-    - {name: 香港05【vip1】, server: f10001.flyflylflyflysbs.sbs, port: 25106, type: trojan, password: 7a325d42-d0e6-477f-8b34-4f15444185f0, sni: f10001.flyflylflyflysbs.sbs, skip-cert-verify: true, udp: true}    
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -304,31 +299,15 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 日本01【vip1】
-      - 印度01【vip1】
-      - 香港 07【vip2】
-      - 香港 07【vip1】
-      - 日本06【vip1】
-      - 香港04【vip1】
-      - 香港12【vip1】
-      - 香港10【vip1】
-      - 韩国 01【vip2】
-      - 韩国 03【vip2】
-      - 香港 08【vip1】
-      - 英国02【vip1】
-      - 台湾 04【vip1】
-      - 日本02【vip2】
-      - 台湾 01【vip1】
-      - 越南02_pro【vip1】
-      - 台湾 05【vip1】
-      - 越南01_pro【vip1】
-      - 台湾 02【vip1】
-      - 印度02【vip1】
-      - 新加坡 04【vip1】
-      - 新加坡 05【vip1】
-      - 日本02【vip1】
-      - 香港05【vip1】
-    
+      - '2008-日本1'
+      - '2008-日本2'
+      - '2008-新加坡1'
+      - '2008-新加坡2'
+      - '2008-美国1'
+      - '2008-美国2'
+      - '2008-美国3'
+      - '2008-美国4'      
+      
       - '新加坡 1x'
       - '日本 1x'
       - '香港 1x'
@@ -353,8 +332,6 @@ proxy-groups:
       - 香港01-1Gbps
       - 香港02-1Gbps
       
-      - '香港 HKT家宽'
-      - '香港0 HKT家宽'
       - '香港1 HKT家宽'
       - '香港2 HKT家宽'
       - '香港3 HKT家宽'
