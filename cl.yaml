@@ -260,9 +260,9 @@ proxies:
     - { name: '2008-法国3', server: surfboard-fr.cloudlion.online, port: 51251, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
     - { name: '2008-法国4', server: surfboard-fr.cloudlion.online, port: 58795, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
     
-    - { name: 新加坡01-1Gbps, type: ss, server: dz01.guguyun.pw, port: 48609, cipher: chacha20-ietf-poly1305, password: 978c216f-384e-40e9-8d54-a86c65efa9d5, udp: true }
-    - { name: 香港01-1Gbps, type: ss, server: dz01.guguyun.pw, port: 24131, cipher: chacha20-ietf-poly1305, password: 978c216f-384e-40e9-8d54-a86c65efa9d5, udp: true }
-    - { name: 香港02-1Gbps, type: ss, server: dz01.guguyun.pw, port: 24132, cipher: chacha20-ietf-poly1305, password: 978c216f-384e-40e9-8d54-a86c65efa9d5, udp: true }
+    - { name: 新加坡01-1Gbps, type: ss, server: 183.232.249.247, port: 48609, cipher: chacha20-ietf-poly1305, password: 63c25c04-58f1-4473-aadb-96403641133f, udp: true }
+    - { name: 香港01-1Gbps, type: ss, server: 183.232.249.247, port: 24131, cipher: chacha20-ietf-poly1305, password: 63c25c04-58f1-4473-aadb-96403641133f, udp: true }
+    - { name: 香港02-1Gbps, type: ss, server: 183.232.249.247, port: 24132, cipher: chacha20-ietf-poly1305, password: 63c25c04-58f1-4473-aadb-96403641133f, udp: true }
     
     - {name: US_105, server: 47.129.170.82, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
     - {name: SG_2, server: 13.250.25.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -283,7 +283,22 @@ proxies:
     - { name: '日本 1x', type: ss, server: gy.ni8.world, port: 22225, cipher: chacha20-ietf-poly1305, password: e146182a-efaa-4744-abf5-9da459eed59e, udp: true }
     - { name: '香港 1x', type: ss, server: gy.ni8.world, port: 39210, cipher: chacha20-ietf-poly1305, password: e146182a-efaa-4744-abf5-9da459eed59e, udp: true }
     - { name: '香港2-原生 1x', type: ss, server: cs2.ni8.me, port: 38896, cipher: chacha20-ietf-poly1305, password: e146182a-efaa-4744-abf5-9da459eed59e, udp: true } 
+    
+    - {name: 白嫖专用节点1, port: 36040, server: bp.jisovpn.site, type: hysteria2, udp: true, password: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, skip-cert-verify: true}
+    - {name: 白嫖专用节点2, port: 34797, server: bp.jisovpn.site, type: hysteria2, udp: true, password: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, skip-cert-verify: true}
+    - {name: 白嫖专用节点3, port: 35806, server: bp.jisovpn.site, type: hysteria2, udp: true, password: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, skip-cert-verify: true}
+    - {name: 白嫖专用节点4, port: 38093, server: bp.jisovpn.site, type: hysteria2, udp: true, password: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, skip-cert-verify: true}
 
+    - { name: ss香港1, server: hk-01.snangua.com, port: 22949, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: a7d5b820-ea76-47bf-8816-9f7f0f8af620, ports: 22000-22999 }
+    - { name: ss香港2, server: hk-01.snangua.com, port: 22724, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: a7d5b820-ea76-47bf-8816-9f7f0f8af620, ports: 22000-22999 }
+    - { name: ss日本1, server: jp-01.snangua.com, port: 22981, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: a7d5b820-ea76-47bf-8816-9f7f0f8af620, ports: 22000-22999 }
+    - { name: ss日本2, server: jp-01.snangua.com, port: 22688, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: a7d5b820-ea76-47bf-8816-9f7f0f8af620, ports: 22000-22999 }
+    - { name: ss韩国1, server: kr-01.snangua.com, port: 22646, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: a7d5b820-ea76-47bf-8816-9f7f0f8af620, ports: 22000-22999 }
+    - { name: ss韩国2, server: kr-01.snangua.com, port: 22851, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: a7d5b820-ea76-47bf-8816-9f7f0f8af620, ports: 22000-22999 }
+    - { name: ss美国1, server: us-01.snangua.com, port: 22631, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: a7d5b820-ea76-47bf-8816-9f7f0f8af620, ports: 22000-22999 }
+    - { name: ss美国2, server: us-01.snangua.com, port: 22089, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: a7d5b820-ea76-47bf-8816-9f7f0f8af620, ports: 22000-22999 }
+    - { name: ss英国1, server: uk-01.snangua.com, port: 22070, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: a7d5b820-ea76-47bf-8816-9f7f0f8af620, ports: 22000-22999 }
+    - { name: ss英国2, server: uk-01.snangua.com, port: 22497, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: a7d5b820-ea76-47bf-8816-9f7f0f8af620, ports: 22000-22999 }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -299,6 +314,22 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - ss香港1
+      - ss香港2
+      - ss日本1
+      - ss日本2
+      - ss韩国1
+      - ss韩国2
+      - ss美国1
+      - ss美国2
+      - ss英国1
+      - ss英国2
+      
+      - 白嫖专用节点1
+      - 白嫖专用节点2
+      - 白嫖专用节点3
+      - 白嫖专用节点4
+      
       - '2008-日本1'
       - '2008-日本2'
       - '2008-新加坡1'
