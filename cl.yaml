@@ -238,28 +238,7 @@ proxies:
     - { name: '台湾2 Hinet家宽', server: surfboard-tw.cloudlion.online, port: 54433, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
     - { name: '台湾3 Hinet家宽', server: surfboard-tw.cloudlion.online, port: 52087, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
     - { name: '台湾4 Hinet家宽', server: surfboard-tw.cloudlion.online, port: 58713, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    
-    - { name: '2008-日本1', server: surfboard-jp.cloudlion.online, port: 55538, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '2008-日本2', server: surfboard-jp.cloudlion.online, port: 50711, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '2008-新加坡1', server: surfboard-sg.cloudlion.online, port: 51092, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '2008-新加坡2', server: surfboard-sg.cloudlion.online, port: 51044, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '2008-美国1', server: surfboard-us.cloudlion.online, port: 52120, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '2008-美国2', server: surfboard-us.cloudlion.online, port: 56323, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '2008-美国3', server: surfboard-us.cloudlion.online, port: 53977, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '2008-美国4', server: surfboard-us.cloudlion.online, port: 53902, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '2008-加拿大1', server: surfboard-ca.cloudlion.online, port: 58978, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '2008-加拿大2', server: surfboard-ca.cloudlion.online, port: 53007, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '2008-卢森堡1', server: surfboard-lu.cloudlion.online, port: 50235, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '2008-卢森堡2', server: surfboard-lu.cloudlion.online, port: 58310, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '2008-英国1', server: surfboard-uk.cloudlion.online, port: 54328, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '2008-英国2', server: surfboard-uk.cloudlion.online, port: 55969, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '2008-英国3', server: surfboard-uk.cloudlion.online, port: 58039, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '2008-英国4', server: surfboard-uk.cloudlion.online, port: 55588, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '2008-法国1', server: surfboard-fr.cloudlion.online, port: 53234, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '2008-法国2', server: surfboard-fr.cloudlion.online, port: 58071, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '2008-法国3', server: surfboard-fr.cloudlion.online, port: 51251, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '2008-法国4', server: surfboard-fr.cloudlion.online, port: 58795, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    
+     
     - { name: 新加坡01-1Gbps, type: ss, server: 183.232.249.247, port: 48609, cipher: chacha20-ietf-poly1305, password: 63c25c04-58f1-4473-aadb-96403641133f, udp: true }
     - { name: 香港01-1Gbps, type: ss, server: 183.232.249.247, port: 24131, cipher: chacha20-ietf-poly1305, password: 63c25c04-58f1-4473-aadb-96403641133f, udp: true }
     - { name: 香港02-1Gbps, type: ss, server: 183.232.249.247, port: 24132, cipher: chacha20-ietf-poly1305, password: 63c25c04-58f1-4473-aadb-96403641133f, udp: true }
@@ -284,21 +263,17 @@ proxies:
     - { name: '香港 1x', type: ss, server: gy.ni8.world, port: 39210, cipher: chacha20-ietf-poly1305, password: e146182a-efaa-4744-abf5-9da459eed59e, udp: true }
     - { name: '香港2-原生 1x', type: ss, server: cs2.ni8.me, port: 38896, cipher: chacha20-ietf-poly1305, password: e146182a-efaa-4744-abf5-9da459eed59e, udp: true } 
     
-    - {name: 白嫖专用节点1, port: 36040, server: bp.jisovpn.site, type: hysteria2, udp: true, password: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, skip-cert-verify: true}
-    - {name: 白嫖专用节点2, port: 34797, server: bp.jisovpn.site, type: hysteria2, udp: true, password: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, skip-cert-verify: true}
-    - {name: 白嫖专用节点3, port: 35806, server: bp.jisovpn.site, type: hysteria2, udp: true, password: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, skip-cert-verify: true}
-    - {name: 白嫖专用节点4, port: 38093, server: bp.jisovpn.site, type: hysteria2, udp: true, password: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, skip-cert-verify: true}
-
-    - { name: ss香港1, server: hk-01.snangua.com, port: 22949, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: a7d5b820-ea76-47bf-8816-9f7f0f8af620, ports: 22000-22999 }
-    - { name: ss香港2, server: hk-01.snangua.com, port: 22724, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: a7d5b820-ea76-47bf-8816-9f7f0f8af620, ports: 22000-22999 }
-    - { name: ss日本1, server: jp-01.snangua.com, port: 22981, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: a7d5b820-ea76-47bf-8816-9f7f0f8af620, ports: 22000-22999 }
-    - { name: ss日本2, server: jp-01.snangua.com, port: 22688, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: a7d5b820-ea76-47bf-8816-9f7f0f8af620, ports: 22000-22999 }
-    - { name: ss韩国1, server: kr-01.snangua.com, port: 22646, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: a7d5b820-ea76-47bf-8816-9f7f0f8af620, ports: 22000-22999 }
-    - { name: ss韩国2, server: kr-01.snangua.com, port: 22851, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: a7d5b820-ea76-47bf-8816-9f7f0f8af620, ports: 22000-22999 }
-    - { name: ss美国1, server: us-01.snangua.com, port: 22631, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: a7d5b820-ea76-47bf-8816-9f7f0f8af620, ports: 22000-22999 }
-    - { name: ss美国2, server: us-01.snangua.com, port: 22089, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: a7d5b820-ea76-47bf-8816-9f7f0f8af620, ports: 22000-22999 }
-    - { name: ss英国1, server: uk-01.snangua.com, port: 22070, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: a7d5b820-ea76-47bf-8816-9f7f0f8af620, ports: 22000-22999 }
-    - { name: ss英国2, server: uk-01.snangua.com, port: 22497, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: a7d5b820-ea76-47bf-8816-9f7f0f8af620, ports: 22000-22999 }
+    - {name: 白嫖专用节点1, server: bp.jisovpn.site, port: 36040, client-fingerprint: chrome, type: hysteria2, password: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, auth: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, skip-cert-verify: false}
+    - {name: 白嫖专用节点2, server: bp.jisovpn.site, port: 34797, client-fingerprint: chrome, type: hysteria2, password: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, auth: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, skip-cert-verify: false}
+    - {name: 白嫖专用节点3, server: bp.jisovpn.site, port: 35806, client-fingerprint: chrome, type: hysteria2, password: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, auth: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, skip-cert-verify: false}
+    - {name: 白嫖专用节点4, server: bp.jisovpn.site, port: 38093, client-fingerprint: chrome, type: hysteria2, password: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, auth: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, skip-cert-verify: false}
+    
+    - { name: 官网：jisovpn.site, server: bp.jisovpn.site, port: 30203, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 4dc8df7b-86f4-49fc-8eeb-64cff6034b3b, ports: 30000-40000 }
+    - { name: 群组：@jisoyun_chat, server: bp.jisovpn.site, port: 30622, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 4dc8df7b-86f4-49fc-8eeb-64cff6034b3b, ports: 30000-40000 }
+    - { name: ss白嫖专用节点1, server: bp.jisovpn.site, port: 34959, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 4dc8df7b-86f4-49fc-8eeb-64cff6034b3b, ports: 30000-40000 }
+    - { name: ss白嫖专用节点2, server: bp.jisovpn.site, port: 36150, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 4dc8df7b-86f4-49fc-8eeb-64cff6034b3b, ports: 30000-40000 }
+    - { name: ss白嫖专用节点3, server: bp.jisovpn.site, port: 39484, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 4dc8df7b-86f4-49fc-8eeb-64cff6034b3b, ports: 30000-40000 }
+    - { name: ss白嫖专用节点4, server: bp.jisovpn.site, port: 37029, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 4dc8df7b-86f4-49fc-8eeb-64cff6034b3b, ports: 30000-40000 }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -313,31 +288,18 @@ proxy-groups:
       - DIRECT
   - name: 🚀 手动切换
     type: select
-    proxies:
-      - ss香港1
-      - ss香港2
-      - ss日本1
-      - ss日本2
-      - ss韩国1
-      - ss韩国2
-      - ss美国1
-      - ss美国2
-      - ss英国1
-      - ss英国2
+    proxies:   
+      - 官网：jisovpn.site
+      - 群组：@jisoyun_chat
+      - ss白嫖专用节点1
+      - ss白嫖专用节点2
+      - ss白嫖专用节点3
+      - ss白嫖专用节点4
       
       - 白嫖专用节点1
       - 白嫖专用节点2
       - 白嫖专用节点3
-      - 白嫖专用节点4
-      
-      - '2008-日本1'
-      - '2008-日本2'
-      - '2008-新加坡1'
-      - '2008-新加坡2'
-      - '2008-美国1'
-      - '2008-美国2'
-      - '2008-美国3'
-      - '2008-美国4'      
+      - 白嫖专用节点4     
       
       - '新加坡 1x'
       - '日本 1x'
