@@ -263,17 +263,31 @@ proxies:
     - { name: '香港 1x', type: ss, server: gy.ni8.world, port: 39210, cipher: chacha20-ietf-poly1305, password: e146182a-efaa-4744-abf5-9da459eed59e, udp: true }
     - { name: '香港2-原生 1x', type: ss, server: cs2.ni8.me, port: 38896, cipher: chacha20-ietf-poly1305, password: e146182a-efaa-4744-abf5-9da459eed59e, udp: true } 
     
-    - {name: 白嫖专用节点1, server: bp.jisovpn.site, port: 36040, client-fingerprint: chrome, type: hysteria2, password: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, auth: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, skip-cert-verify: false}
-    - {name: 白嫖专用节点2, server: bp.jisovpn.site, port: 34797, client-fingerprint: chrome, type: hysteria2, password: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, auth: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, skip-cert-verify: false}
-    - {name: 白嫖专用节点3, server: bp.jisovpn.site, port: 35806, client-fingerprint: chrome, type: hysteria2, password: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, auth: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, skip-cert-verify: false}
-    - {name: 白嫖专用节点4, server: bp.jisovpn.site, port: 38093, client-fingerprint: chrome, type: hysteria2, password: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, auth: 8b5cf2e4-05f9-4169-9eec-a6681fda6134, skip-cert-verify: false}
+    - {name: 江苏省-移动, server: 36.151.192.239, port: 17806, type: trojan, password: QwwHvrnN, skip-cert-verify: true}
+    - {name:  HK--6, server: pipi.myddns.me, port: 28811, type: socks5, username: myszy, password: myszy28811, udp: true}
+    - {name:  美--06, server: 119.237.241.12 , port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
     
-    - { name: 官网：jisovpn.site, server: bp.jisovpn.site, port: 30203, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 4dc8df7b-86f4-49fc-8eeb-64cff6034b3b, ports: 30000-40000 }
-    - { name: 群组：@jisoyun_chat, server: bp.jisovpn.site, port: 30622, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 4dc8df7b-86f4-49fc-8eeb-64cff6034b3b, ports: 30000-40000 }
-    - { name: ss白嫖专用节点1, server: bp.jisovpn.site, port: 34959, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 4dc8df7b-86f4-49fc-8eeb-64cff6034b3b, ports: 30000-40000 }
-    - { name: ss白嫖专用节点2, server: bp.jisovpn.site, port: 36150, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 4dc8df7b-86f4-49fc-8eeb-64cff6034b3b, ports: 30000-40000 }
-    - { name: ss白嫖专用节点3, server: bp.jisovpn.site, port: 39484, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 4dc8df7b-86f4-49fc-8eeb-64cff6034b3b, ports: 30000-40000 }
-    - { name: ss白嫖专用节点4, server: bp.jisovpn.site, port: 37029, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 4dc8df7b-86f4-49fc-8eeb-64cff6034b3b, ports: 30000-40000 }
+    - { name: 22_香港1, server: hk.pianyi.info, port: 15179, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: b819209b-08ef-440e-9170-3aaaa70bc064, ports: 10001-19999 }
+    - { name: 22_香港2, server: hk.pianyi.info, port: 18587, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: b819209b-08ef-440e-9170-3aaaa70bc064, ports: 10001-19999 }
+    - { name: 22_香港3, server: hk.pianyi.info, port: 17179, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: b819209b-08ef-440e-9170-3aaaa70bc064, ports: 10001-19999 }
+    - { name: 22_香港4, server: hk.pianyi.info, port: 13277, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: b819209b-08ef-440e-9170-3aaaa70bc064, ports: 10001-19999 }
+    
+    - { name: '新加坡 01 移动推荐', type: vless, server: sgv2test.566678.xyz, port: 18443, uuid: 5a9d116c-885c-4ce2-991c-0463cea9bebe, alterId: 0, cipher: auto, udp: true, tls: true, servername: www.tesla.com, reality-opts: { public-key: dTE8QcX1B_9HRG5Uae47q0HtjhVvePvfPMxvfLyVUUA, short-id: 32ff656d }, client-fingerprint: qq }
+    - { name: '美国 01 电信推荐', type: vless, server: phx-plus-1ddns.faforex.eu.org, port: 18443, uuid: 5a9d116c-885c-4ce2-991c-0463cea9bebe, alterId: 0, cipher: auto, udp: true, tls: true, servername: www.tesla.com, reality-opts: { public-key: 8233FxCRw1a_aCJ8d1HwHBMD_fABUNNW7rsrFe3vK0s, short-id: e6658462 }, client-fingerprint: chrome }
+    - { name: '法国 01 联通推荐', type: vless, server: frankfurt.faforex.eu.org, port: 18443, uuid: 5a9d116c-885c-4ce2-991c-0463cea9bebe, alterId: 0, cipher: auto, udp: true, tls: true, servername: www.tesla.com, reality-opts: { public-key: bRUCz8KaceEKnBFT5V7czJj1t0OAu_nbKnMyVfyeK1I, short-id: e6658462 }, client-fingerprint: safari }
+    - { name: '[hy] 日本', server: 23.26.34.209, port: 8080, sni: www.bing.com, up: 50, down: 50, skip-cert-verify: true, type: hysteria2, password: 5a9d116c-885c-4ce2-991c-0463cea9bebe }
+    - { name: '[hy] 香港', server: 141.11.217.113, port: 8080, sni: www.bing.com, up: 50, down: 50, skip-cert-verify: true, type: hysteria2, password: 5a9d116c-885c-4ce2-991c-0463cea9bebe }
+    - { name: '[hy] 俄罗斯', server: 45.140.169.231, port: 8080, sni: www.bing.com, up: 50, down: 50, skip-cert-verify: true, type: hysteria2, password: 5a9d116c-885c-4ce2-991c-0463cea9bebe }
+    
+    - { name: 2022_香港1, server: hk.legeth.cc, port: 20116, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: 0f6bd15c-aa04-4fc7-87c9-4b5181447208, ports: 20101-20199 }
+    - { name: 2022_香港2, server: hk.legeth.cc, port: 20140, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: 0f6bd15c-aa04-4fc7-87c9-4b5181447208, ports: 20101-20199 }
+    - { name: 2022_香港3, server: hk.legeth.cc, port: 20106, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: 0f6bd15c-aa04-4fc7-87c9-4b5181447208, ports: 20101-20199 }
+    - { name: 2022_香港4, server: hk.legeth.cc, port: 20138, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: 0f6bd15c-aa04-4fc7-87c9-4b5181447208, ports: 20101-20199 }
+    
+    - { name: 2022_香港11, server: hk.legeth.cc, port: 20135, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: d8cd7d69-395d-4637-a0ad-59e70fdd07df, ports: 20101-20199 }
+    - { name: 2022_香港12, server: hk.legeth.cc, port: 20112, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: d8cd7d69-395d-4637-a0ad-59e70fdd07df, ports: 20101-20199 }
+    - { name: 2022_香港13, server: hk.legeth.cc, port: 20190, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: d8cd7d69-395d-4637-a0ad-59e70fdd07df, ports: 20101-20199 }
+    - { name: 2022_香港14, server: hk.legeth.cc, port: 20125, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: d8cd7d69-395d-4637-a0ad-59e70fdd07df, ports: 20101-20199 }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -288,18 +302,32 @@ proxy-groups:
       - DIRECT
   - name: 🚀 手动切换
     type: select
-    proxies:   
-      - 官网：jisovpn.site
-      - 群组：@jisoyun_chat
-      - ss白嫖专用节点1
-      - ss白嫖专用节点2
-      - ss白嫖专用节点3
-      - ss白嫖专用节点4
+    proxies:
+      - 2022_香港11
+      - 2022_香港12
+      - 2022_香港13
+      - 2022_香港14
       
-      - 白嫖专用节点1
-      - 白嫖专用节点2
-      - 白嫖专用节点3
-      - 白嫖专用节点4     
+      - 2022_香港1
+      - 2022_香港2
+      - 2022_香港3
+      - 2022_香港4
+      
+      - '新加坡 01 移动推荐'
+      - '美国 01 电信推荐'
+      - '法国 01 联通推荐'
+      - '[hy] 日本'
+      - '[hy] 香港'
+      - '[hy] 俄罗斯'
+      
+      - 22_香港1
+      - 22_香港2
+      - 22_香港3
+      - 22_香港4
+      
+      - 江苏省-移动
+      - HK--6
+      - 美--06
       
       - '新加坡 1x'
       - '日本 1x'
