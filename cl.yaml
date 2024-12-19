@@ -90,90 +90,7 @@ hosts:
   cache.ott.fifalive.itv.cmvideo.cn: pixman.io.fifalive.dnsany.com
   cache.ott.hnbblive.itv.cmvideo.cn: pixman.io.hnbblive.dnsany.com
   
-proxies:
-    - { name: '剩余流量：511.94 GB', type: vless, server: us1.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: CkwGujpqGz4G_TnKCHjiHe0UJYNvKLWhu7rrX8F4nSk, short-id: 3fe79125 }, client-fingerprint: firefox }
-    - { name: '距离下次重置剩余：29 天', type: vless, server: us1.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: CkwGujpqGz4G_TnKCHjiHe0UJYNvKLWhu7rrX8F4nSk, short-id: 3fe79125 }, client-fingerprint: chrome }
-    - { name: 套餐到期：2024-10-17, type: vless, server: us1.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: CkwGujpqGz4G_TnKCHjiHe0UJYNvKLWhu7rrX8F4nSk, short-id: 3fe79125 }, client-fingerprint: ios }
-    - { name: 'United States 01', type: vless, server: us1.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: CkwGujpqGz4G_TnKCHjiHe0UJYNvKLWhu7rrX8F4nSk, short-id: 3fe79125 }, client-fingerprint: ios }
-    - { name: 'United States 02', type: vless, server: us2.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: '-WQmR7lInqReSq3L2XYmlwdHtDw4Kc2QKyUrJ7mAD2E', short-id: c78d86f6 }, client-fingerprint: chrome }
-    - { name: 'United States 03', type: vless, server: us3.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: F4WZyJFY8r6ybwyGamdKk3B2n5zUHGQVeBDYIHNg2hw, short-id: 287293b5 }, client-fingerprint: qq }
-    - { name: 'United States 04', type: vless, server: us4.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: Bq-dwsQCsmE7Jr0e4Y8TXmIrG6lorOafC7p0wFIBDnE, short-id: 84081bdd }, client-fingerprint: edge }
-    - { name: 'Japan 01', type: vless, server: jp1.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: NOWa7YT3JKzIEa3jYxsPFpC0xe_PZprlDapoExtWJTU, short-id: bbbdbb1d }, client-fingerprint: firefox }
-    - { name: 'Japan 02', type: vless, server: jp2.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: TTPcfOT851FXonrhOiySGnu7yNcbRB_8PlH496i8wFY, short-id: ec81680f }, client-fingerprint: ios }
-    - { name: 'Japan 03', type: vless, server: jp3.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: lglDb7wrttqBOUTfZilyGbiSwFqBlHtCMciMu9VCxjM, short-id: 778f6556 }, client-fingerprint: firefox }
-    - { name: 'Japan 04', type: vless, server: jp4.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: zIw3P1C9fGjbQSXNLjyAshZa9rw33_agfe3AldfKhC4, short-id: dbab5b3d }, client-fingerprint: ios }
-    - { name: 'Korea 01', type: vless, server: kr1.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: mY3Ib3fhsFEa_eEJUL3mgpR3fMQY0-VIBdwkzzHNhl0, short-id: 9ad42353 }, client-fingerprint: ios }
-    - { name: 'Korea 02', type: vless, server: kr2.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: 5RaKmNvxnhqVJhldc9hTsyJDd47ZlzaauhlKE1xfBno, short-id: 272a4add }, client-fingerprint: edge }
-    - { name: 'Hong Kong 01', type: vless, server: hk1.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: flp7rKECkPilQSij-7UbFxNORz412kQFnaTvM_dBZjQ, short-id: 1871d8f5 }, client-fingerprint: edge }
-    - { name: 'Hong Kong 02', type: vless, server: hk2.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: Kyrdn7OhtL66JwSRScElBxoFSZLr5beafP4njt_Y_G0, short-id: a3ffb25d }, client-fingerprint: chrome }
-    - { name: 'Singapore 01', type: vless, server: sg1.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: 0898XYGggRCKKuad0O-w5ccMWjxvip-JExGyjdv57xA, short-id: 9a853fa5 }, client-fingerprint: qq }
-    - { name: 'Singapore 02', type: vless, server: sg2.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: ScsFDI4Azo72W_UCF3IhV0_w2FCdvOJfnj2kgr9WZxI, short-id: 0668540b }, client-fingerprint: safari }
-    - { name: 'Singapore 03', type: vless, server: sg3.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: W5725QFzaybXFjQkSX8-FAc6iqabzUHFYgT-AREchVY, short-id: '543759e8' }, client-fingerprint: firefox }
-    - { name: 'Singapore 04', type: vless, server: sg4.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: eUdPnuVKrbjOoM6SDYOGfVVwZcztXQdUoT2Y0z88R1E, short-id: 49b038a4 }, client-fingerprint: firefox }
-    - { name: 'United Kindom 01', type: vless, server: uk1.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: MmJDxtm58fi4SjUfr1K8nHT1UPlnvrAd_QnaQ6FZ41Y, short-id: 55238cc0 }, client-fingerprint: qq }
-    - { name: 'United Kindom 02', type: vless, server: uk2.helloco.xyz, port: 60001, uuid: a2438565-aef3-4377-8442-be1b53d088b2, alterId: 0, cipher: auto, udp: true, flow: xtls-rprx-vision, tls: true, servername: python.org, reality-opts: { public-key: ekMvKnIDsNHkvshZ3bK7D5qZpSwW0Iyaop9nMfZ2flU, short-id: 2500628e }, client-fingerprint: safari }
-    
-    - {"name":"Other 4K","type":"ss","server":"p239.panda004.net","port":37403,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
-    - {"name":"JP Google","type":"ss","server":"43.207.213.253","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-    
-    - { name: '剩余流量：167.66 GB', type: trojan, server: a0f3eb4602df429d12cf2a466d3f8c1c.v1.cac.node-is.green, port: 45067, password: c095e9b0-a892-4ba0-9c20-db1a8ba983b8, udp: true, sni: hk1.speedtest.net, skip-cert-verify: true }
-    - { name: '距离下次重置剩余：26 天', type: trojan, server: c1c79e91c880dc8031212f77a3df0a8e.v1.cac.node-is.green, port: 45067, password: c095e9b0-a892-4ba0-9c20-db1a8ba983b8, udp: true, sni: hk1.speedtest.net, skip-cert-verify: true }
-    - { name: 套餐到期：2024-10-20, type: trojan, server: 178c847d641cee5982e9eab65f922d68.v1.cac.node-is.green, port: 45067, password: c095e9b0-a892-4ba0-9c20-db1a8ba983b8, udp: true, sni: hk1.speedtest.net, skip-cert-verify: true }
-    - { name: V1-香港, type: trojan, server: 12ca033ea70761f25ad187f9868316c0.v1.cac.node-is.green, port: 45067, password: c095e9b0-a892-4ba0-9c20-db1a8ba983b8, udp: true, sni: hk1.speedtest.net, skip-cert-verify: true }
-    - { name: V1-美国, type: trojan, server: b854a684f912bb862c4d61123b2fec31.v1.cac.node-is.green, port: 45481, password: c095e9b0-a892-4ba0-9c20-db1a8ba983b8, udp: true, sni: us1.speedtest.net, skip-cert-verify: true }
-    - { name: V1-日本, type: trojan, server: fe0a5414fe85348a4acf36b994b2331a.v1.cac.node-is.green, port: 47987, password: c095e9b0-a892-4ba0-9c20-db1a8ba983b8, udp: true, sni: jp1.speedtest.net, skip-cert-verify: true }
-    - { name: V1-新加坡, type: trojan, server: aa2ce5a9349d723f5a014adb5bfdbade.v1.cac.node-is.green, port: 45777, password: c095e9b0-a892-4ba0-9c20-db1a8ba983b8, udp: true, sni: sg1.speedtest.net, skip-cert-verify: true }
-    - { name: V1-台湾, type: trojan, server: a6da718e22c156de670237a354b1ae10.v1.cac.node-is.green, port: 47180, password: c095e9b0-a892-4ba0-9c20-db1a8ba983b8, udp: true, sni: tw1.speedtest.net, skip-cert-verify: true }
-    - { name: V1-加拿大, type: trojan, server: 9c38848b245da1fcca2732a4fa64e8b2.v1.cac.node-is.green, port: 47386, password: c095e9b0-a892-4ba0-9c20-db1a8ba983b8, udp: true, sni: ca1.speedtest.net, skip-cert-verify: true }    
-    
-    - {name: 台湾彰化-海豚白嫖, port: 50199, server: scm.zarelayv1.com, type: trojan, udp: true, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
-    - {name: 香港电讯-海豚白嫖, port: 52200, server: scm.zarelayv1.com, type: trojan, udp: true, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
-    - {name: 日本-海豚白嫖_1, port: 43699, server: ecu.zarelay.com, type: trojan, udp: true, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
-    - {name: 新加坡-海豚白嫖, port: 65510, server: scm.zarelayv1.com, type: trojan, udp: true, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
-    - {name: 日本-海豚白嫖_2, port: 43699, server: scm.zarelayv1.com, type: trojan, udp: true, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
-    - {name: 香港-海豚白嫖 2, port: 21805, server: hk26needay182yunyoo32.544797.xyz, type: hysteria2, udp: true, password: 7a9769ce-8d9a-4003-8fee-dcb307fadd74, skip-cert-verify: true}
-    - {name: 香港01 | Xiaaa大小姐赞助, port: 30000, server: 45.119.99.148, type: hysteria2, udp: true, password: 70676b9f-faff-4684-80f0-340465b2307a, skip-cert-verify: true}
-    - {name: haitunfree1_新加坡, port: 10198, server: mianfeiyuanfang1.vpntz.com, type: ss, udp: true, password: 8e76baf3-c750-4315-9a17-ebfc2086cdaf, cipher: chacha20-ietf-poly1305}
-    - {name: 美国-海豚白嫖 2, port: 25954, server: us05needay386akm158165.19492024.xyz, type: hysteria2, udp: true, password: 7a9769ce-8d9a-4003-8fee-dcb307fadd74, skip-cert-verify: true}
-    - {name: haitunfree1_德国, port: 10192, server: l804dgmgtw.vpntz.com, type: ss, udp: true, password: 8e76baf3-c750-4315-9a17-ebfc2086cdaf, cipher: chacha20-ietf-poly1305}
-    - {name: 英国 -海豚白嫖, port: 26369, server: uk01needay146yunyoo24.19492024.xyz, type: hysteria2, udp: true, password: 7a9769ce-8d9a-4003-8fee-dcb307fadd74, skip-cert-verify: true}
-    - {name: 香港电讯2-海豚白嫖, port: 52201, server: scm.zarelayv1.com, type: trojan, network: tcp, udp: true, sni: baidu.com, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
-    - {name: 越南-海豚白嫖, port: 57777, server: scm.zarelayv1.com, type: trojan, network: tcp, udp: true, sni: vn-tot.zodlink.com, password: 233e69a4-34f5-379f-9012-fa191392f468, skip-cert-verify: true}
-    - {name: 美国-海豚白嫖, port: 29657, server: us04needay89213177akm.544797.xyz, type: hysteria2, udp: true, password: 7a9769ce-8d9a-4003-8fee-dcb307fadd74, skip-cert-verify: true}
-    
-    - { name: 香港01, server: hk1.fastsocks.xyz, port: 34000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
-    - { name: 香港02, server: hk2.fastsocks.xyz, port: 34000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
-    - { name: 香港03, server: hk3.fastsocks.xyz, port: 34000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
-    - { name: 香港04, server: hk4.fastsocks.xyz, port: 34000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
-    - { name: 香港05, server: hk5.fastsocks.xyz, port: 34000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
-    - { name: 香港06, server: hk6.fastsocks.xyz, port: 11288, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
-    - { name: 香港07, server: hk7.fastsocks.xyz, port: 34000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
-    - { name: 香港08, server: hk8.fastsocks.xyz, port: 34000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
-    - { name: 香港09, server: hk9.fastsocks.xyz, port: 57000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
-    - { name: 新加坡01, server: 194.36.179.225, port: 57000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
-    - { name: 新加坡02, server: 194.36.179.226, port: 57000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
-    - { name: 日本01, server: jp1.fastsocks.xyz, port: 57000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
-    - { name: 日本02, server: jp2.fastsocks.xyz, port: 57000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
-    - { name: 日本03, server: jp3.fastsocks.xyz, port: 57000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
-    - { name: 日本04, server: jp4.fastsocks.xyz, port: 57000, udp: true, skip-cert-verify: true, sni: hk1.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
-    - { name: 日本05, server: jp5.fastsocks.xyz, port: 57000, udp: true, skip-cert-verify: true, sni: hk5.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
-    - { name: 俄罗斯, server: ru.fastsocks.xyz, port: 57000, udp: true, skip-cert-verify: true, sni: hk5.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
-    - { name: 美国01, server: us1.fastsocks.xyz, port: 57000, udp: true, skip-cert-verify: true, sni: hk5.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
-    - { name: 美国02, server: us2.fastsocks.xyz, port: 57000, udp: true, skip-cert-verify: true, sni: hk5.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
-    - { name: 美国03, server: us3.fastsocks.xyz, port: 57000, udp: true, skip-cert-verify: true, sni: hk5.fastsocks.xyz, type: hysteria2, password: e9f273dd-467b-485a-8ff6-9f8ae9566df5 }
-    
-    - {name:  TW1, server: taiwan.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    - {name:  TW2, server: taiwan-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    - {name:  JP1, server: japan.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    - {name:  JP2, server: japan-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    - {name:  JP3, server: japan-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    - {name:  JP4, server: japan-4.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    - {name:  JP5, server: japan-5.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    - {name:  JP6, server: japan-6.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    - {name:  JP7, server: japan-7.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    - {name:  KR1, server: south-korea.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    - {name:  KR2, server: south-korea-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    - {name:  KR3, server: south-korea-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
+proxies:    
     - {name:  SG1, server: singapore.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
     - {name:  SG2, server: singapore-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
     - {name:  SG3, server: singapore-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
@@ -181,104 +98,12 @@ proxies:
     - {name:  SG5, server: singapore-5.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
     - {name:  SG6, server: singapore-6.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
     - {name:  SG7, server: singapore-7.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    - {name:  HK1, server: hong-kong.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    - {name:  HK2, server: hong-kong-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    - {name:  HK3, server: hong-kong-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    - {name:  HK4, server: hong-kong-4.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    - {name:  HK5, server: hong-kong-5.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    - {name:  HK6, server: hong-kong-6.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    - {name:  美国-01, server: us-boardman-oregon-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    - {name:  美国-02, server: us-ashburn-virginia-3.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    - {name:  美国-03, server: us-ashburn-virginia-2.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    - {name:  美国-04, server: us-ashburn-virginia.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    - {name:  美国-05, server: us-boardman-oregon.keenvpn.me, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2afbc97400ca71c8f3306f9843a6e1c2, udp: true}
-    
-    - { name: 新加坡-1x, type: ss, server: cs2.ni8.me, port: 42729, cipher: chacha20-ietf-poly1305, password: ed1eb6c7-1615-476a-8fd3-d6a488a9adde, udp: true }
-    - { name: 日本1-1x, type: ss, server: cs2.ni8.me, port: 53185, cipher: chacha20-ietf-poly1305, password: ed1eb6c7-1615-476a-8fd3-d6a488a9adde, udp: true }
-    - { name: 日本2-1x, type: ss, server: cs2.ni8.me, port: 22225, cipher: chacha20-ietf-poly1305, password: ed1eb6c7-1615-476a-8fd3-d6a488a9adde, udp: true }
-    - { name: 香港1-1x, type: ss, server: cs2.ni8.me, port: 39210, cipher: chacha20-ietf-poly1305, password: ed1eb6c7-1615-476a-8fd3-d6a488a9adde, udp: true }
-    - { name: 香港2-1x, type: ss, server: cs2.ni8.me, port: 38896, cipher: chacha20-ietf-poly1305, password: ed1eb6c7-1615-476a-8fd3-d6a488a9adde, udp: true }
-    - { name: 加拿大-1x, type: ss, server: cs2.ni8.me, port: 16943, cipher: chacha20-ietf-poly1305, password: ed1eb6c7-1615-476a-8fd3-d6a488a9adde, udp: true }
-   
-    - {name: 香港1, server: hkre1-cdn-route.couldflare-cdn.com, port: 443, type: http, tls: true, skip-cert-verify: false, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==}
-    - {name: 香港2, server: hkcera3-cdn-route.couldflare-cdn.com, port: 443, type: http, tls: true, skip-cert-verify: false, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==}
-    - {name: 日本1, server: jpgmo101-cdn-route.couldflare-cdn.com, port: 443, type: http, tls: true, skip-cert-verify: false, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==}
-    - {name: 日本2, server: jpgmo102-cdn-route.couldflare-cdn.com, port: 443, type: http, tls: true, skip-cert-verify: false, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==}
-    - {name: 日本3, type: http, server: jp104-cdn-route.couldflare-cdn.com, port: 443, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, skip-cert-verify: false}
-    
-    - { name: 'MF-1｜United States', type: trojan, server: 12372.96110.one, port: 23872, password: 9923bfe0-0fc7-436f-a8ee-89f98025939d, udp: true, sni: www.icloud.com, skip-cert-verify: true }
-    - { name: 'MF-1｜Singapore', type: trojan, server: 23489.96110.one, port: 53296, password: 9923bfe0-0fc7-436f-a8ee-89f98025939d, udp: true, sni: www.icloud.com, skip-cert-verify: true }
     
     - { name: sg01, server: gd1.hysteria2.xyz, port: 10585, udp: true, skip-cert-verify: false, sni: sg1.hysteria2.xyz, type: hysteria2, password: 2643a2d8-27b1-448f-8773-58220a2b5498 }
     - { name: sg02, server: gd1.hysteria2.xyz, port: 10586, udp: true, skip-cert-verify: false, sni: sg2.hysteria2.xyz, type: hysteria2, password: 2643a2d8-27b1-448f-8773-58220a2b5498 }
     - { name: sg03, server: gd1.hysteria2.xyz, port: 10587, udp: true, skip-cert-verify: false, sni: sg3.hysteria2.xyz, type: hysteria2, password: 2643a2d8-27b1-448f-8773-58220a2b5498 }
     - { name: sg04, server: gd1.hysteria2.xyz, port: 10588, udp: true, skip-cert-verify: false, sni: sg4.hysteria2.xyz, type: hysteria2, password: 2643a2d8-27b1-448f-8773-58220a2b5498 }
-      
-    - { name: '香港1 ipv6', server: hk-01.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
-    - { name: '香港2 ipv6', server: hk-02.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
-    - { name: '香港3 ipv6', server: hk-03.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
-    - { name: '香港4 ipv6', server: hk-04.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
-    - { name: '台湾 ipv6', server: tw-01.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
-    - { name: '日本1 ipv6', server: jp-01.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
-    - { name: '日本2 ipv6', server: jp-02.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
-    - { name: '新加坡1 ipv6', server: sg-01.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
-    - { name: '新加坡2 ipv6', server: sg-02.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
-    - { name: '美国1 ipv6', server: us-01.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
-    - { name: '俄罗斯1 ipv6', server: ru-01.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
-    - { name: '土耳其1 ipv6', server: tr-01.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
-    - { name: '澳洲1 ipv6', server: au-01.cloudlion.me, port: 8005, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 9a601d59-4941-45e3-a863-c040737f2b25 }
-    
-    - { name: '台湾 | 01', type: vmess, server: hinet.huafei888.site, port: 12347, uuid: 90ac1101-aa5b-4920-92b2-33edf9f29a47, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: /wada12222, headers: { Host: tms.dingtalk.com } }, ws-path: /wada12222, ws-headers: { Host: tms.dingtalk.com } }
-    
-    - { name: '香港1 HKT家宽', server: surfboard-hk.cloudlion.online, port: 55061, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '香港2 HKT家宽', server: surfboard-hk.cloudlion.online, port: 52451, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '香港3 HKT家宽', server: surfboard-hk.cloudlion.online, port: 52635, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '香港4 HKT家宽', server: surfboard-hk.cloudlion.online, port: 50243, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '台湾1 Hinet家宽', server: surfboard-tw.cloudlion.online, port: 59371, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '台湾2 Hinet家宽', server: surfboard-tw.cloudlion.online, port: 54433, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '台湾3 Hinet家宽', server: surfboard-tw.cloudlion.online, port: 52087, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-    - { name: '台湾4 Hinet家宽', server: surfboard-tw.cloudlion.online, port: 58713, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 2a9cf294-8e5b-4f1c-975f-7104b897e6d2, ports: 50000-60000 }
-     
-    - { name: 新加坡01-1Gbps, type: ss, server: 183.232.249.247, port: 48609, cipher: chacha20-ietf-poly1305, password: 63c25c04-58f1-4473-aadb-96403641133f, udp: true }
-    - { name: 香港01-1Gbps, type: ss, server: 183.232.249.247, port: 24131, cipher: chacha20-ietf-poly1305, password: 63c25c04-58f1-4473-aadb-96403641133f, udp: true }
-    - { name: 香港02-1Gbps, type: ss, server: 183.232.249.247, port: 24132, cipher: chacha20-ietf-poly1305, password: 63c25c04-58f1-4473-aadb-96403641133f, udp: true }
-    
-    - {name: US_105, server: 47.129.170.82, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-    - {name: SG_2, server: 13.250.25.159, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-    - {name: JP_12, server: 52.69.236.102, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-    - {name: JP_2, server: 54.249.197.65, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-
-    - {name: KR_Incheon, port: 443, server: 13.229.212.209, type: ss, udp: true, password: amazonskr05, cipher: aes-256-cfb}
-    - {name: JP_Tokyo2, port: 443, server: 13.250.3.43, type: ss, udp: true, password: amazonskr05, cipher: aes-256-cfb}
-    - {name: HK_Kowloon, port: 443, server: 52.77.209.61, type: ss, udp: true, password: amazonskr05, cipher: aes-256-cfb}
-    - {name: HK_LosAngeles, port: 443, server: 54.200.54.11, type: ss, udp: true, password: amazonskr05, cipher: aes-256-cfb}
-    - {name: US_Houston, port: 443, server: 34.209.103.254, type: ss, udp: true, password: amazonskr05, cipher: aes-256-cfb}
-    - {name: JP_Tokyo, port: 443, server: 54.169.139.18, type: ss, udp: true, password: amazonskr05,  cipher: aes-256-cfb}
-    - {name: SG_Singapore, port: 443, server: 54.255.237.249, type: ss, udp: true, password: amazonskr05, cipher: aes-256-cfb}
-    - {name: US_Dallas, port: 443, server: 52.10.33.211, type: ss, udp: true, password: amazonskr05, cipher: aes-256-cfb}
-    - {name: CA_Vancouver, port: 443, server: 35.87.185.248, type: ss, udp: true, password: amazonskr05, cipher: aes-256-cfb}
-    
-    - { name: '新加坡 1x', type: ss, server: cs2.ni8.me, port: 42729, cipher: chacha20-ietf-poly1305, password: e146182a-efaa-4744-abf5-9da459eed59e, udp: true }
-    - { name: '日本 1x', type: ss, server: gy.ni8.world, port: 22225, cipher: chacha20-ietf-poly1305, password: e146182a-efaa-4744-abf5-9da459eed59e, udp: true }
-    - { name: '香港 1x', type: ss, server: gy.ni8.world, port: 39210, cipher: chacha20-ietf-poly1305, password: e146182a-efaa-4744-abf5-9da459eed59e, udp: true }
-    - { name: '香港2-原生 1x', type: ss, server: cs2.ni8.me, port: 38896, cipher: chacha20-ietf-poly1305, password: e146182a-efaa-4744-abf5-9da459eed59e, udp: true } 
-    
-    - {name: 江苏省-移动, server: 36.151.192.239, port: 17806, type: trojan, password: QwwHvrnN, skip-cert-verify: true}
-    - {name:  HK--6, server: pipi.myddns.me, port: 28811, type: socks5, username: myszy, password: myszy28811, udp: true}
-    - {name:  美--06, server: 119.237.241.12 , port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-    
-    - { name: 22_香港1, server: hk.pianyi.info, port: 15179, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: b819209b-08ef-440e-9170-3aaaa70bc064, ports: 10001-19999 }
-    - { name: 22_香港2, server: hk.pianyi.info, port: 18587, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: b819209b-08ef-440e-9170-3aaaa70bc064, ports: 10001-19999 }
-    - { name: 22_香港3, server: hk.pianyi.info, port: 17179, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: b819209b-08ef-440e-9170-3aaaa70bc064, ports: 10001-19999 }
-    - { name: 22_香港4, server: hk.pianyi.info, port: 13277, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: b819209b-08ef-440e-9170-3aaaa70bc064, ports: 10001-19999 }
-    
-    - { name: '新加坡 01 移动推荐', type: vless, server: sgv2test.566678.xyz, port: 18443, uuid: 5a9d116c-885c-4ce2-991c-0463cea9bebe, alterId: 0, cipher: auto, udp: true, tls: true, servername: www.tesla.com, reality-opts: { public-key: dTE8QcX1B_9HRG5Uae47q0HtjhVvePvfPMxvfLyVUUA, short-id: 32ff656d }, client-fingerprint: qq }
-    - { name: '美国 01 电信推荐', type: vless, server: phx-plus-1ddns.faforex.eu.org, port: 18443, uuid: 5a9d116c-885c-4ce2-991c-0463cea9bebe, alterId: 0, cipher: auto, udp: true, tls: true, servername: www.tesla.com, reality-opts: { public-key: 8233FxCRw1a_aCJ8d1HwHBMD_fABUNNW7rsrFe3vK0s, short-id: e6658462 }, client-fingerprint: chrome }
-    - { name: '法国 01 联通推荐', type: vless, server: frankfurt.faforex.eu.org, port: 18443, uuid: 5a9d116c-885c-4ce2-991c-0463cea9bebe, alterId: 0, cipher: auto, udp: true, tls: true, servername: www.tesla.com, reality-opts: { public-key: bRUCz8KaceEKnBFT5V7czJj1t0OAu_nbKnMyVfyeK1I, short-id: e6658462 }, client-fingerprint: safari }
-    - { name: '[hy] 日本', server: 23.26.34.209, port: 8080, sni: www.bing.com, up: 50, down: 50, skip-cert-verify: true, type: hysteria2, password: 5a9d116c-885c-4ce2-991c-0463cea9bebe }
-    - { name: '[hy] 香港', server: 141.11.217.113, port: 8080, sni: www.bing.com, up: 50, down: 50, skip-cert-verify: true, type: hysteria2, password: 5a9d116c-885c-4ce2-991c-0463cea9bebe }
-    - { name: '[hy] 俄罗斯', server: 45.140.169.231, port: 8080, sni: www.bing.com, up: 50, down: 50, skip-cert-verify: true, type: hysteria2, password: 5a9d116c-885c-4ce2-991c-0463cea9bebe }
-    
+        
     - { name: 2022_香港1, server: hk.legeth.cc, port: 20116, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: 0f6bd15c-aa04-4fc7-87c9-4b5181447208, ports: 20101-20199 }
     - { name: 2022_香港2, server: hk.legeth.cc, port: 20140, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: 0f6bd15c-aa04-4fc7-87c9-4b5181447208, ports: 20101-20199 }
     - { name: 2022_香港3, server: hk.legeth.cc, port: 20106, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: 0f6bd15c-aa04-4fc7-87c9-4b5181447208, ports: 20101-20199 }
@@ -288,6 +113,45 @@ proxies:
     - { name: 2022_香港12, server: hk.legeth.cc, port: 20112, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: d8cd7d69-395d-4637-a0ad-59e70fdd07df, ports: 20101-20199 }
     - { name: 2022_香港13, server: hk.legeth.cc, port: 20190, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: d8cd7d69-395d-4637-a0ad-59e70fdd07df, ports: 20101-20199 }
     - { name: 2022_香港14, server: hk.legeth.cc, port: 20125, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: d8cd7d69-395d-4637-a0ad-59e70fdd07df, ports: 20101-20199 }
+    
+    - { name: 万里行机场_香港1, server: hk.legeth.cc, port: 20195, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: fc417287-9b40-4957-a321-8355bea354da, ports: 20101-20199 }
+    - { name: 万里行机场_香港2, server: hk.legeth.cc, port: 20159, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: fc417287-9b40-4957-a321-8355bea354da, ports: 20101-20199 }
+    - { name: 万里行机场_香港3, server: hk.legeth.cc, port: 20154, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: fc417287-9b40-4957-a321-8355bea354da, ports: 20101-20199 }
+    - { name: 万里行机场_香港4, server: hk.legeth.cc, port: 20102, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: fc417287-9b40-4957-a321-8355bea354da, ports: 20101-20199 }
+    - { name: 万里行机场_美国1, server: us.legeth.cc, port: 20117, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: fc417287-9b40-4957-a321-8355bea354da, ports: 20101-20199 }
+    - { name: 万里行机场_美国2, server: us.legeth.cc, port: 20147, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: fc417287-9b40-4957-a321-8355bea354da, ports: 20101-20199 }
+    - { name: 万里行机场_美国3, server: us.legeth.cc, port: 20111, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: fc417287-9b40-4957-a321-8355bea354da, ports: 20101-20199 }
+    - { name: 万里行机场_美国4, server: us.legeth.cc, port: 20138, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: fc417287-9b40-4957-a321-8355bea354da, ports: 20101-20199 }
+    - { name: 万里行机场_日本1, server: jp.legeth.cc, port: 20108, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: fc417287-9b40-4957-a321-8355bea354da, ports: 20101-20199 }
+    - { name: 万里行机场_日本2, server: jp.legeth.cc, port: 20192, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: fc417287-9b40-4957-a321-8355bea354da, ports: 20101-20199 }
+    - { name: 万里行机场_日本3, server: jp.legeth.cc, port: 20172, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: fc417287-9b40-4957-a321-8355bea354da, ports: 20101-20199 }
+    - { name: 万里行机场_日本4, server: jp.legeth.cc, port: 20199, up: 200, down: 200, skip-cert-verify: false, type: hysteria2, password: fc417287-9b40-4957-a321-8355bea354da, ports: 20101-20199 }
+    
+    - { name: 2088_香港1, server: hk.bailian.site, port: 20428, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 7be3eb27-655f-441b-bab8-b7d8cc12b9fd, ports: 20401-20499 }
+    - { name: 2088_香港2, server: hk.bailian.site, port: 20411, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 7be3eb27-655f-441b-bab8-b7d8cc12b9fd, ports: 20401-20499 }
+    - { name: 2088_香港3, server: hk.bailian.site, port: 20438, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 7be3eb27-655f-441b-bab8-b7d8cc12b9fd, ports: 20401-20499 }
+    - { name: 2088_香港4, server: hk.bailian.site, port: 20485, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 7be3eb27-655f-441b-bab8-b7d8cc12b9fd, ports: 20401-20499 }
+    
+    - { name: 2022-美国1, server: us.pianyi.info, port: 16882, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 475f7c76-1e90-42ec-93fb-f11bef6f0bc6, ports: 10001-19999 }
+    - { name: 2022-美国2, server: us.pianyi.info, port: 15703, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 475f7c76-1e90-42ec-93fb-f11bef6f0bc6, ports: 10001-19999 }
+    - { name: 2022-美国3, server: us.pianyi.info, port: 12849, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 475f7c76-1e90-42ec-93fb-f11bef6f0bc6, ports: 10001-19999 }
+    - { name: 2022-美国4, server: us.pianyi.info, port: 17517, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 475f7c76-1e90-42ec-93fb-f11bef6f0bc6, ports: 10001-19999 }
+    - { name: 2022-香港1, server: hk.pianyi.info, port: 16080, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 475f7c76-1e90-42ec-93fb-f11bef6f0bc6, ports: 10001-19999 }
+    - { name: 2022-香港2, server: hk.pianyi.info, port: 12167, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 475f7c76-1e90-42ec-93fb-f11bef6f0bc6, ports: 10001-19999 }
+    - { name: 2022-香港3, server: hk.pianyi.info, port: 16458, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 475f7c76-1e90-42ec-93fb-f11bef6f0bc6, ports: 10001-19999 }
+    - { name: 2022-香港4, server: hk.pianyi.info, port: 17219, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 475f7c76-1e90-42ec-93fb-f11bef6f0bc6, ports: 10001-19999 }
+    - { name: 2022-日本1, server: jp.pianyi.info, port: 18816, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 475f7c76-1e90-42ec-93fb-f11bef6f0bc6, ports: 10001-19999 }
+    - { name: 2022-日本2, server: jp.pianyi.info, port: 17141, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 475f7c76-1e90-42ec-93fb-f11bef6f0bc6, ports: 10001-19999 }
+    - { name: 2022-日本3, server: jp.pianyi.info, port: 13133, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 475f7c76-1e90-42ec-93fb-f11bef6f0bc6, ports: 10001-19999 }
+    - { name: 2022-日本4, server: jp.pianyi.info, port: 13238, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 475f7c76-1e90-42ec-93fb-f11bef6f0bc6, ports: 10001-19999 }
+    - { name: 2022-新加坡1, server: sg.pianyi.info, port: 14308, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 475f7c76-1e90-42ec-93fb-f11bef6f0bc6, ports: 10001-19999 }
+    - { name: 2022-新加坡2, server: sg.pianyi.info, port: 18475, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 475f7c76-1e90-42ec-93fb-f11bef6f0bc6, ports: 10001-19999 }
+    - { name: 2022-新加坡3, server: sg.pianyi.info, port: 19002, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 475f7c76-1e90-42ec-93fb-f11bef6f0bc6, ports: 10001-19999 }
+    - { name: 2022-新加坡4, server: sg.pianyi.info, port: 16696, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 475f7c76-1e90-42ec-93fb-f11bef6f0bc6, ports: 10001-19999 }
+    - { name: 2022-德国1, server: de.pianyi.info, port: 16369, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 475f7c76-1e90-42ec-93fb-f11bef6f0bc6, ports: 10001-19999 }
+    - { name: 2022-德国2, server: de.pianyi.info, port: 16623, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 475f7c76-1e90-42ec-93fb-f11bef6f0bc6, ports: 10001-19999 }
+    - { name: 2022-德国3, server: de.pianyi.info, port: 14736, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 475f7c76-1e90-42ec-93fb-f11bef6f0bc6, ports: 10001-19999 }
+    - { name: 2022-德国4, server: de.pianyi.info, port: 13244, up: 1000, down: 1000, skip-cert-verify: false, type: hysteria2, password: 475f7c76-1e90-42ec-93fb-f11bef6f0bc6, ports: 10001-19999 }
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -303,6 +167,45 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
+      - 2022-美国1
+      - 2022-美国2
+      - 2022-美国3
+      - 2022-美国4
+      - 2022-香港1
+      - 2022-香港2
+      - 2022-香港3
+      - 2022-香港4
+      - 2022-日本1
+      - 2022-日本2
+      - 2022-日本3
+      - 2022-日本4
+      - 2022-新加坡1
+      - 2022-新加坡2
+      - 2022-新加坡3
+      - 2022-新加坡4
+      - 2022-德国1
+      - 2022-德国2
+      - 2022-德国3
+      - 2022-德国4
+      
+      - 2088_香港1
+      - 2088_香港2
+      - 2088_香港3
+      - 2088_香港4
+      
+      - 万里行机场_香港1
+      - 万里行机场_香港2
+      - 万里行机场_香港3
+      - 万里行机场_香港4
+      - 万里行机场_美国1
+      - 万里行机场_美国2
+      - 万里行机场_美国3
+      - 万里行机场_美国4
+      - 万里行机场_日本1
+      - 万里行机场_日本2
+      - 万里行机场_日本3
+      - 万里行机场_日本4      
+      
       - 2022_香港11
       - 2022_香港12
       - 2022_香港13
@@ -313,104 +216,11 @@ proxy-groups:
       - 2022_香港3
       - 2022_香港4
       
-      - '新加坡 01 移动推荐'
-      - '美国 01 电信推荐'
-      - '法国 01 联通推荐'
-      - '[hy] 日本'
-      - '[hy] 香港'
-      - '[hy] 俄罗斯'
-      
-      - 22_香港1
-      - 22_香港2
-      - 22_香港3
-      - 22_香港4
-      
-      - 江苏省-移动
-      - HK--6
-      - 美--06
-      
-      - '新加坡 1x'
-      - '日本 1x'
-      - '香港 1x'
-      - '香港2-原生 1x'
-      
-      - KR_Incheon
-      - JP_Tokyo2
-      - HK_Kowloon
-      - HK_LosAngeles
-      - US_Houston
-      - JP_Tokyo
-      - SG_Singapore
-      - US_Dallas
-      - CA_Vancouver
-      
-      - US_105
-      - SG_2
-      - JP_12
-      - JP_2
-      
-      - 新加坡01-1Gbps
-      - 香港01-1Gbps
-      - 香港02-1Gbps
-      
-      - '香港1 HKT家宽'
-      - '香港2 HKT家宽'
-      - '香港3 HKT家宽'
-      - '香港4 HKT家宽'
-      - '台湾1 Hinet家宽'
-      - '台湾2 Hinet家宽'
-      - '台湾3 Hinet家宽'
-      - '台湾4 Hinet家宽'
-      
-      - '台湾 | 01'
-      
-      - '香港1 ipv6'
-      - '香港2 ipv6'
-      - '香港3 ipv6'
-      - '香港4 ipv6'
-      - '台湾 ipv6'
-      - '日本1 ipv6'
-      - '日本2 ipv6'
-      - '新加坡1 ipv6'
-      - '新加坡2 ipv6'
-      - '美国1 ipv6'
-      - '俄罗斯1 ipv6'
-      - '土耳其1 ipv6'
-      - '澳洲1 ipv6'
-      
       - sg01
       - sg02
       - sg03
       - sg04
       
-      - 'MF-1｜United States'
-      - 'MF-1｜Singapore'
-      
-      - 香港1
-      - 香港2
-      - 日本1
-      - 日本2
-      - 日本3
-      
-      - 新加坡-1x
-      - 日本1-1x
-      - 日本2-1x
-      - 香港1-1x
-      - 香港2-1x
-      - 加拿大-1x
-      
-      - TW1
-      - TW2
-      - JP1
-      - JP2
-      - JP3
-      - JP4
-      - JP5
-      - JP6
-      - JP7
-      - KR1
-      - KR2
-      - KR3
       - SG1
       - SG2
       - SG3
@@ -418,80 +228,6 @@ proxy-groups:
       - SG5
       - SG6
       - SG7
-      - HK1
-      - HK2
-      - HK3
-      - HK4
-      - HK5
-      - HK6
-      - 美国-01
-      - 美国-02
-      - 美国-03
-      - 美国-04
-      - 美国-05
-      - 台湾彰化-海豚白嫖
-      - 香港电讯-海豚白嫖
-      - 越南-海豚白嫖
-      - 日本-海豚白嫖_1
-      - 新加坡-海豚白嫖
-      - 日本-海豚白嫖_2
-      - 美国-海豚白嫖 2
-      - haitunfree1_德国
-      - 英国 -海豚白嫖
-      - 香港电讯2-海豚白嫖
-      - 美国-海豚白嫖
-      - haitunfree1_新加坡
-      - 香港-海豚白嫖 2
-      - 香港01 | Xiaaa大小姐赞助
-      - '剩余流量：511.94 GB'
-      - '距离下次重置剩余：29 天'
-      - 套餐到期：2024-10-17
-      - V1-香港
-      - V1-美国
-      - V1-日本
-      - V1-新加坡
-      - V1-台湾
-      - V1-加拿大
-      - "Other 4K"
-      - "JP Google"
-      - 'United States 01'
-      - 'United States 02'
-      - 'United States 03'
-      - 'United States 04'
-      - 'Japan 01'
-      - 'Japan 02'
-      - 'Japan 03'
-      - 'Japan 04'
-      - 'Korea 01'
-      - 'Korea 02'
-      - 'Hong Kong 01'
-      - 'Hong Kong 02'
-      - 'Singapore 01'
-      - 'Singapore 02'
-      - 'Singapore 03'
-      - 'Singapore 04'
-      - 'United Kindom 01'
-      - 'United Kindom 02'
-      - 香港01
-      - 香港02
-      - 香港03
-      - 香港04
-      - 香港05
-      - 香港06
-      - 香港07
-      - 香港08
-      - 香港09
-      - 新加坡01
-      - 新加坡02
-      - 日本01
-      - 日本02
-      - 日本03
-      - 日本04
-      - 日本05
-      - 俄罗斯
-      - 美国01
-      - 美国02
-      - 美国03
   - name: 📲 电报消息
     type: select
     proxies:
@@ -683,75 +419,27 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🚀 手动切换      
-      - 'Hong Kong 01'
-      - 'Hong Kong 02'
-      - V1-香港
-      - 香港电讯-海豚白嫖
-      - 香港-海豚白嫖 2
-      - 香港电讯2-海豚白嫖
-      - 香港01 | Xiaaa大小姐赞助
-      - 香港01
-      - 香港02
-      - 香港03
-      - 香港04
-      - 香港05
-      - 香港06
-      - 香港07
-      - 香港08
-      - 香港09
+      - 🚀 手动切换
   - name: 🇯🇵 日本节点
     type: select
     proxies:
       - DIRECT
-      - 🚀 手动切换      
-      - 'Japan 01'
-      - 'Japan 02'
-      - 'Japan 03'
-      - 'Japan 04'
-      - V1-日本
-      - 日本-海豚白嫖_1
-      - 日本-海豚白嫖_2
-      - 日本01
-      - 日本02
-      - 日本03
-      - 日本04
-      - 日本05
+      - 🚀 手动切换
   - name: 🇺🇲 美国节点
     type: select
     proxies:
       - DIRECT
-      - 🚀 手动切换      
-      - 'United States 01'
-      - 'United States 02'
-      - 'United States 03'
-      - 'United States 04'
-      - V1-美国
-      - 美国01
-      - 美国02
-      - 美国03
-      - 美国-海豚白嫖 2
-      - 美国-海豚白嫖
+      - 🚀 手动切换
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
       - DIRECT
-      - 🚀 手动切换      
-      - 'Singapore 01'
-      - 'Singapore 02'
-      - 'Singapore 03'
-      - 'Singapore 04'
-      - V1-新加坡
-      - 新加坡-海豚白嫖
-      - 新加坡01
-      - 新加坡02
+      - 🚀 手动切换
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
       - DIRECT
-      - 🚀 手动切换      
-      - 台湾彰化-海豚白嫖
-      - V1-台湾
+      - 🚀 手动切换
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
